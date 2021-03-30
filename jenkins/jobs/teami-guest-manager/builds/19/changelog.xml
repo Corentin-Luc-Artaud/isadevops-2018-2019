@@ -1,0 +1,14 @@
+commit 43127d830796f6ef8e33d67258dc939ef1caa8f7
+tree c63ea5211cb9675f9685a12e93bdc28fd6e80ff0
+parent d1d401e43c80118ccb3944394b428e88c6dbb78a
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:41 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:41 +0200
+
+    #27 clean up code + improve notification
+
+
+
+:100644 100644 19059adaa5193dcbd3a25e60bb54c0b9e0099778 dd2034d2f0cbb119f1c9eb8606563ea157056c5a M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 fb8d5a943f17f00e898a3f40b75b688d9f9ae6bf edcf153542dff120df191ec092bd7bfbbb5352a0 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/utils/StudentAPI.java
+:100644 100644 fb99e9bb809daa6186dc73c438a6c7a063377a54 be8bf0367daa79ca5ea9b8e6e1e0cc1d913dbfa5 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/GuestManagerTest.java
+:100644 100644 4d090d6feff229b0ccab8aee21a6840716239ce5 7b5d95ed226f94d80e316f66d6453902c967895d M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/mock/StudentApiMock.java

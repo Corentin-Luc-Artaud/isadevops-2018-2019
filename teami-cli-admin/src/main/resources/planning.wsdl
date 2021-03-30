@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="www.polydiploma.fr"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  name="PlanningServiceImplService" targetNamespace="www.polydiploma.fr">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="www.polydiploma.fr"
+                   targetNamespace="www.polydiploma.fr" version="1.0">
+            <xs:element name="addStudentEvent" type="tns:addStudentEvent"/>
+            <xs:element name="addStudentEventResponse" type="tns:addStudentEventResponse"/>
+            <xs:element name="deleteEvent" type="tns:deleteEvent"/>
+            <xs:element name="deleteEventResponse" type="tns:deleteEventResponse"/>
+            <xs:element name="displayPlanning" type="tns:displayPlanning"/>
+            <xs:element name="displayPlanningResponse" type="tns:displayPlanningResponse"/>
+            <xs:element name="moveEvent" type="tns:moveEvent"/>
+            <xs:element name="moveEventResponse" type="tns:moveEventResponse"/>
+            <xs:complexType name="deleteEvent">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="startTimeString" type="xs:string"/>
+                    <xs:element minOccurs="0" name="endTimeString" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="deleteEventResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="moveEvent">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="oldStartTimeString" type="xs:string"/>
+                    <xs:element minOccurs="0" name="oldEndTimeString" type="xs:string"/>
+                    <xs:element minOccurs="0" name="startTimeString" type="xs:string"/>
+                    <xs:element minOccurs="0" name="endTimeString" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="moveEventResponse">
+                <xs:sequence>
+                    <xs:element name="moveEventResult" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="displayPlanning">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="displayPlanningResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="getEventsResult" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="addStudentEvent">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="startTimeString" type="xs:string"/>
+                    <xs:element minOccurs="0" name="endTimeString" type="xs:string"/>
+                    <xs:element minOccurs="0" name="specialtyString" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="addStudentEventResponse">
+                <xs:sequence>
+                    <xs:element name="addStudentEventResult" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="deleteEvent">
+        <wsdl:part element="tns:deleteEvent" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="moveEvent">
+        <wsdl:part element="tns:moveEvent" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="deleteEventResponse">
+        <wsdl:part element="tns:deleteEventResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="displayPlanning">
+        <wsdl:part element="tns:displayPlanning" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="addStudentEventResponse">
+        <wsdl:part element="tns:addStudentEventResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="moveEventResponse">
+        <wsdl:part element="tns:moveEventResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="displayPlanningResponse">
+        <wsdl:part element="tns:displayPlanningResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="addStudentEvent">
+        <wsdl:part element="tns:addStudentEvent" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="PlanningSOAP">
+        <wsdl:operation name="deleteEvent">
+            <wsdl:input message="tns:deleteEvent" name="deleteEvent">
+            </wsdl:input>
+            <wsdl:output message="tns:deleteEventResponse" name="deleteEventResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="moveEvent">
+            <wsdl:input message="tns:moveEvent" name="moveEvent">
+            </wsdl:input>
+            <wsdl:output message="tns:moveEventResponse" name="moveEventResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="displayPlanning">
+            <wsdl:input message="tns:displayPlanning" name="displayPlanning">
+            </wsdl:input>
+            <wsdl:output message="tns:displayPlanningResponse" name="displayPlanningResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="addStudentEvent">
+            <wsdl:input message="tns:addStudentEvent" name="addStudentEvent">
+            </wsdl:input>
+            <wsdl:output message="tns:addStudentEventResponse" name="addStudentEventResponse">
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="PlanningSOAPImplServiceSoapBinding" type="tns:PlanningSOAP">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="deleteEvent">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="deleteEvent">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="deleteEventResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="moveEvent">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="moveEvent">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="moveEventResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="displayPlanning">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="displayPlanning">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="displayPlanningResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="addStudentEvent">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="addStudentEvent">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="addStudentEventResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="PlanningSOAPImplService">
+        <wsdl:port binding="tns:PlanningSOAPImplServiceSoapBinding" name="PlanningSOAPImplPort">
+            <soap:address location="http://localhost:8080/teami-polydiploma/webservices/planning"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

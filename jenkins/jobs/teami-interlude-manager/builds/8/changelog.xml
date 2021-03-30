@@ -1,0 +1,15 @@
+commit aab7fd40bed616610f76fcef95a14dbca9f7073f
+tree 31d7ae01b6f2afe91b42eadc1e703d8eac5c984c
+parent 88dfee66b48236c8cf98fda5f8aa8e328d73bc46
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:52 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:52 +0200
+
+    #35 Added commands to choose candidate et get the candidates of an offer
+    and corresponding webservices
+
+
+
+:100644 100644 bc7d0002b21a9494dc6856feb8baf1d84355d1e2 f43376a7ef8849e70f741fa86d6277ebc5fb1356 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManager.java
+:100644 100644 fa1ce2233ba6dd85b3bd1b100a38d6d6873dad92 39d2146014a8db1d5a5f5431c42b3207cf16c332 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManagerBean.java
+:100644 100644 d6e95e27b514f7784d63d77be7d83eb2b95943a2 a10e86814298a3043a89b217fa1b4a1f7daa3cff M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/AdminInterludeTest.java
+:100644 100644 447cb4ef5577ebde7589f2669752475b004f99cf e9d0982e10463fd2ac1fd9bdd897f518c47729cb M	src/test/resources/META-INF/persistence.xml

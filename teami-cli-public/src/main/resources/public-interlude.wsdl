@@ -1,0 +1,120 @@
+<wsdl:definitions name="PublicInterludeSOAPImplService" targetNamespace="www.polydiploma.fr"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="www.polydiploma.fr"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="www.polydiploma.fr"
+                   elementFormDefault="unqualified" targetNamespace="www.polydiploma.fr" version="1.0">
+            <xs:element name="getOffers" type="tns:getOffers"/>
+            <xs:element name="getOffersResponse" type="tns:getOffersResponse"/>
+            <xs:element name="postulateOffer" type="tns:postulateOffer"/>
+            <xs:element name="postulateOfferResponse" type="tns:postulateOfferResponse"/>
+            <xs:element name="registerClub" type="tns:registerClub"/>
+            <xs:element name="registerClubResponse" type="tns:registerClubResponse"/>
+            <xs:complexType name="getOffers">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getOffersResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="return" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="registerClub">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+                    <xs:element name="arg1" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="registerClubResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="postulateOffer">
+                <xs:sequence>
+                    <xs:element name="arg0" type="xs:int"/>
+                    <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="postulateOfferResponse">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="registerClubResponse">
+        <wsdl:part element="tns:registerClubResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="postulateOffer">
+        <wsdl:part element="tns:postulateOffer" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="postulateOfferResponse">
+        <wsdl:part element="tns:postulateOfferResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getOffers">
+        <wsdl:part element="tns:getOffers" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getOffersResponse">
+        <wsdl:part element="tns:getOffersResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="registerClub">
+        <wsdl:part element="tns:registerClub" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="PublicInterludeSOAP">
+        <wsdl:operation name="getOffers">
+            <wsdl:input message="tns:getOffers" name="getOffers">
+            </wsdl:input>
+            <wsdl:output message="tns:getOffersResponse" name="getOffersResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="registerClub">
+            <wsdl:input message="tns:registerClub" name="registerClub">
+            </wsdl:input>
+            <wsdl:output message="tns:registerClubResponse" name="registerClubResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="postulateOffer">
+            <wsdl:input message="tns:postulateOffer" name="postulateOffer">
+            </wsdl:input>
+            <wsdl:output message="tns:postulateOfferResponse" name="postulateOfferResponse">
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="PublicInterludeSOAPImplServiceSoapBinding" type="tns:PublicInterludeSOAP">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="getOffers">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getOffers">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getOffersResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="registerClub">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="registerClub">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="registerClubResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="postulateOffer">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="postulateOffer">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="postulateOfferResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="PublicInterludeSOAPImplService">
+        <wsdl:port binding="tns:PublicInterludeSOAPImplServiceSoapBinding" name="PublicInterludeSOAPImplPort">
+            <soap:address location="http://localhost:8080/teami-polydiploma/webservices/public-interlude"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

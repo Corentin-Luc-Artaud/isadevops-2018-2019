@@ -1,0 +1,13 @@
+commit 2dabd37e4a86e68438f64f3c621c3c754baccf8f
+tree cd8c20583ed8111696a53a5a8a6402ce9d0fd5ef
+parent 31704df83720af859bb8ffd3fbc984a9c925153e
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-16 18:46:19 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-16 18:46:19 +0200
+
+    Added commands to manage events on the admin cli
+
+
+
+:100644 100644 bb37a3c516d18a8eaf615bc775b3f6448bf6d66f 3bd1befdacbe696c556533b79c74c4c28d29c4f1 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/ClubEvent.java
+:100644 100644 f74438c8e188d1d77319e5a08fa5d5d6e635ee56 f723ee868b9c712fad86c88b9bc22213b5d59390 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/StudentEvent.java
+:100644 100644 1a01696d42d83daa2575421ab259bfab08723eb5 e0565cc3a365af08ede26df7a4db54bd18ae2af0 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/VipEvent.java

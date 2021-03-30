@@ -1,0 +1,11 @@
+commit adeeb487f81b9c5cf1dbbc3d6ec3a707c309c9b7
+tree d0243050d68161a1e21761d062f28033a327d386
+parent 5c37dd4402e8be093b69715b20afb0f1f47f3b6a
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 10:29:08 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 10:29:08 +0200
+
+    Modified planning webservice and planning manager
+
+
+
+:100644 100644 4cedf01accbb49f4f5788d38ef02d840bceb644b 6df37ecb9302ab8c254aa577c133ca9eac9e4ccb M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java

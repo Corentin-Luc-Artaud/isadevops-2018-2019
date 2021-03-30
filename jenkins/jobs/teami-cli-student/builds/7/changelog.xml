@@ -1,0 +1,11 @@
+commit 219dff6795902ad1717f0520d5419df5698344a6
+tree 712dfdc8d0a3c801c7cbf886c9ff9081c17eeacf
+parent fe117feb398fec97c6c16eb16007f8e2d5d3fa0d
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-14 17:17:51 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-14 17:17:51 +0200
+
+    removing unused dependency
+
+
+
+:100644 100644 9b6abbd46cfaff6d5b760e47ddb7ac255dfb48a0 6dcd6cd869129e7252fa64425ac8b8b0015ea829 M	pom.xml

@@ -1,0 +1,13 @@
+commit 6f4c9be74938c2ba4d46a5e27387a4df80b136ea
+tree 98454c072e78845a6440b84ed142fb3188bbdcb4
+parent 0579891f971a4096a154ef8c2c6f561aa2df4809
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 21:13:50 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 21:13:50 +0200
+
+    #26 finished the guest component
+
+
+
+:100644 100644 71e1e08ac8c177bbd174d131a98380240579aa63 9b7297173c4eb79893fd2dafb6ae79ea0933dc1f M	pom.xml
+:100644 100644 52bc93d815082ab0a23eb52953871e1362ede527 8d5876b37cabed2d2f75588f45bb3c8354afd03d M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java
+:100644 100644 697bcf64ecb8d6ff2b80b64b15cadf915e7b5506 77e5d25ce35aff2fab4c9f282d27aa7bb3d565c5 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java

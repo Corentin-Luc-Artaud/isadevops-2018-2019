@@ -1,0 +1,12 @@
+commit 31704df83720af859bb8ffd3fbc984a9c925153e
+tree 3e93cc4107286d2352021195fa155627c5fcb1e5
+parent e44ce6b7ba519f4bc3e5d513d04da8934ebd8ff6
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:37 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:37 +0200
+
+    #27 clean up code + improve notification
+
+
+
+:100644 100644 c41a55a0bea1e566be6b3a973f1c6447081e8dd2 5634da6c9ab8428d28a71391999c27822843da14 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java
+:100644 100644 363ada79b4265a086be30122b57bb0a8e1f9114c 5ae06d17e7ff2fa2795a56a9f66c1612982d8901 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/CeremonyTest.java

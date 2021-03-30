@@ -1,0 +1,12 @@
+commit 35e87fbe80164835e90791f93919e4440d736f7b
+tree cf84a6cbf2abed9cc70875394b9d3d1527ffc83a
+parent b204d830d26fba646aadda7db80ea59edb13bf68
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-05-03 14:46:00 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-05-03 14:46:00 +0200
+
+    fix #21 Scenarios finished
+
+
+
+:100644 100644 321cb6ffaa0795a6982882f29fc3c1450b6bdf38 da02cdac354e26aad419b296dcd6eb3755bf7b9e M	src/test/java/features/ScenarioTest.java
+:100644 100644 874f1abf29e8a0f3f70838296b785ad13fdc8958 27d08425e801d3483c9f346e26d48be20295fa66 M	src/test/resources/features/ScenarioTest.feature

@@ -1,0 +1,12 @@
+Started on Apr 17, 2019 3:41:08 PM
+Started by event from 192.30.252.35 ⇒ http://vps663090.ovh.net:8080/github-webhook/ on Wed Apr 17 15:41:08 GMT 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 8d773c84dc74f132c3e8855f692924ec9bda721b (refs/remotes/origin/master)
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git # timeout=10
+Found 1 remote heads on https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git
+[poll] Latest remote head revision on refs/heads/master is: 5e8fd3422afdc7ce1955b085a9ab178283591520
+Done. Took 0.65 sec
+Changes found

@@ -1,0 +1,150 @@
+Started by GitHub push by KienanBachwa
+Building in workspace /var/jenkins_home/workspace/teami-cli-student
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-cli-student.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-cli-student.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-cli-student.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9b4a711a64d017e587a617a98c9e8306be1a1c4e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9b4a711a64d017e587a617a98c9e8306be1a1c4e
+Commit message: "removed all useless imports #35 fixed bug nullpointerexception with createoffer and getoffers (api null) moved webservices into war"
+ > git rev-list --no-walk ccb5d6ca0977ad27b2cdce098a445a4c42f68c92 # timeout=10
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-cli-student] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-cli-student@tmp/artifactory/buildInfo8748061815008610886.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-cli-student/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-cli-student/classworlds2481751475717036924conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-cli-student org.codehaus.plexus.classworlds.launcher.Launcher clean install
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------< fr.unice.polytech.si4.isa.devops.teami:teami-cli-student >------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-cli-student 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-cli-student/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- cxf-codegen-plugin:3.1.10:wsdl2java (generate-sources) @ teami-cli-student ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ teami-cli-student ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 18 source files to /var/jenkins_home/workspace/teami-cli-student/target/classes
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] WARNING org.apache.maven.plugin.compiler.CompilerMojo - COMPILATION WARNING : 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] WARNING org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java: /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java uses unchecked or unsafe operations.
+[main] WARNING org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java: Recompile with -Xlint:unchecked for details.
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - 2 warnings 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[11,13] cannot find symbol
+  symbol:   class Map
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[68,52] cannot find symbol
+  symbol:   class List
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[94,13] cannot find symbol
+  symbol:   class Collection
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[11,69] cannot find symbol
+  symbol:   class HashMap
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[19,9] cannot find symbol
+  symbol:   class Scanner
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[19,31] cannot find symbol
+  symbol:   class Scanner
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[37,13] cannot find symbol
+  symbol:   class List
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[42,24] cannot find symbol
+  symbol:   variable Arrays
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[45,28] cannot find symbol
+  symbol:   class LinkedList
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[111,9] cannot find symbol
+  symbol:   class List
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[111,52] cannot find symbol
+  symbol:   class ArrayList
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[112,33] cannot find symbol
+  symbol:   variable Comparator
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[112,54] invalid method reference
+  non-static method getCanonicalName() cannot be referenced from a static context
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[112,9] cannot find symbol
+  symbol:   variable Collections
+  location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - 14 errors 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  10.031 s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-28T21:06:02Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project teami-cli-student: Compilation failure: Compilation failure: 
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[11,13] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class Map
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[68,52] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class List
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[94,13] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class Collection
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[11,69] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class HashMap
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[19,9] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class Scanner
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[19,31] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class Scanner
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[37,13] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class List
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[42,24] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   variable Arrays
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[45,28] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class LinkedList
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[111,9] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class List
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[111,52] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   class ArrayList
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[112,33] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   variable Comparator
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[112,54] invalid method reference
+[main] ERROR org.apache.maven.cli.MavenCli -   non-static method getCanonicalName() cannot be referenced from a static context
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java:[112,9] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   variable Collections
+[main] ERROR org.apache.maven.cli.MavenCli -   location: class fr.unice.polytech.si4.isa.devops.teami.framework.Shell<T>
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

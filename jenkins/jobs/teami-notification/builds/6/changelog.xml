@@ -1,0 +1,14 @@
+commit 1c5b1ecfcc2c4c0f8c3fa428953b70b8a5b0577b
+tree e7d24715f16c96a33eeb47359d92bf78a279c94b
+parent c4abce1b429b7963555eb0dc39a46408a7c2b7e2
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 14:32:23 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 14:32:23 +0200
+
+    #27 use persistence on notification
+
+
+
+:100644 100644 c1f3b2502be72e27ef037a51ed7ac348e1d5f134 450098f66a7d58f8a4f234bfb81e9d7e1144d08a M	pom.xml
+:100644 100644 d82a16c11f834c0e4a9d1d5a3201e9e9ec87d7c2 f8735c36ae579692ee0542bd1991e5f75934e85e M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java
+:100644 100644 5c8ae4d39c63b33e4fee3a89ca20c08ae8afe0ac fe3ffbbac279be8960ef1deb9947e0b994732169 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java
+:000000 100644 0000000000000000000000000000000000000000 699cb9cf33d04f3c46b6ed7ef9676a02c048cf43 A	src/test/resources/META-INF/persistence.xml

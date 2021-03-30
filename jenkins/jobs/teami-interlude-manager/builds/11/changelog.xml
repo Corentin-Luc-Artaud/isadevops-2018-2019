@@ -1,0 +1,11 @@
+commit aad379bc92b79c5faf7cf1305312e4721f98ddd9
+tree 7faa1a66c6f4b991ca918a00e25445f7c0211a38
+parent 345c9ac146432d7737528e08b27fb0efda15a0c0
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 17:30:07 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 17:30:07 +0200
+
+    add README + fix a test
+
+
+
+:100644 100644 b7fe9ea44c60343b65032657a581520bfc5311a6 4bb83291225c093218c822aafa5070b3a5220ccd M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/AdminInterludeTest.java

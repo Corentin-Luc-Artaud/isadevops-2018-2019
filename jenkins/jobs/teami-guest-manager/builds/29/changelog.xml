@@ -1,0 +1,12 @@
+commit 4702c794a372e87bae4e5f48fa7c2153ef94654d
+tree 7776a48bed75b698165edb7156e4d2734fd79e9a
+parent 1f0b7f26e71593e826e1f0362362eadf24a4cc64
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:28 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:28 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:100644 100644 63c1debf6f3cc066ea39991fcde17369abc9973a ee11f965a9df71444b137a5290ac5c307067b454 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/LoadStudentsTest.java

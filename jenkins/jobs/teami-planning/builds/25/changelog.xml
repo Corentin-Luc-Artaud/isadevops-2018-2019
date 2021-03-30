@@ -1,0 +1,11 @@
+commit 590710819876a2eb54b66669cd1b67512df96d8d
+tree c69ea14d183cd4659a760ed71bcbd21054a56ef3
+parent a7eb5fe0f1959a5e0d2c57a16dbe5da1ad87bbd5
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 16:31:08 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 16:31:08 +0200
+
+    add components.pdf + update architecture.pdf + fix a bug on planning
+
+
+
+:100644 100644 bdd855b4f50786f1257d3da74b324d8db7486705 fab72830648f92793103c24a5665ce217574f6c5 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java

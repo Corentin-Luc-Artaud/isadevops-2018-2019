@@ -1,0 +1,23 @@
+commit 5e8fd3422afdc7ce1955b085a9ab178283591520
+tree d1abf7d0cda4f05092eb0abacb3357ec76c960ec
+parent e25c958e4a1dc1e08a9707b86edc2938949f7331
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-17 17:39:32 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-17 17:39:32 +0200
+
+    #29 change place of web service to war component
+
+
+
+:100644 100644 abae111015530b619f10b6446bd94d14ffbb1da3 3775573e45b28ccb2f7759ef75581717beb014b6 M	pom.xml
+commit e25c958e4a1dc1e08a9707b86edc2938949f7331
+tree 0855021394d135f18e7f360c01b878c89189d5cc
+parent 8d773c84dc74f132c3e8855f692924ec9bda721b
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-17 15:25:44 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-17 15:25:44 +0200
+
+    #29 change place of web service to war component
+
+
+
+:100644 000000 b1236fa67a155a684bbf20c8d5970c2539ee6811 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/webservice/CeremonyManagerService.java
+:100644 000000 872cf7012c4932d4245927ce01b3b14e6400a708 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/webservice/CeremonyManagerServiceImpl.java

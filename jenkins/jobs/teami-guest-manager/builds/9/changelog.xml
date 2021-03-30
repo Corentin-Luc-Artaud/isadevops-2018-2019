@@ -1,0 +1,13 @@
+commit 43a2ae43756ed9267f21a92659ab51fbfde3f1ba
+tree b545388ecb8b85e988c251373c37103bf4a4f23c
+parent 3763c941f38eaae52fe3bf9e9fd587a7175bba3c
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 11:55:34 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 11:55:34 +0200
+
+    #6 added persistence for Ceremony and tested it
+
+
+
+:100644 100644 597346d05c391804b8a062a3b69090ab3d1260ce 0dcf933efa5e6704aa8e9960984f9709a9b1e070 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 6ce5a0b838b098202d162d31897f62e9bd637fe2 a0a73ca8b2ae0c8fcd3db17057294b10b1f66beb M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/StorageTest.java
+:100644 100644 f18a3e6dd3d948dbc5e350e0e12e38a9fc03e26b 60521ca9561313f0109876f6917899e25f68c1ad M	src/test/resources/META-INF/persistence.xml

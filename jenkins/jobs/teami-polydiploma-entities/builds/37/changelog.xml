@@ -1,0 +1,15 @@
+commit e48990baa282b65c6ac515973b1a20f07264a451
+tree a9d1efe5e23833a045f726d79328349d376278fc
+parent 947525e625564fe467688090eadbb05d0f9f8433
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 23:10:38 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 23:10:38 +0200
+
+    #26 fix entities
+
+
+
+:100644 100644 4e9b4a03f4531c9ea3cb5d93b8c1aca33e776243 36cec4291188d6631a9b1748c2e7cccb8bfbdb5d M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/ClubEvent.java
+:100644 100644 1c41d76aa7ae1adcb71050c63c7245ba416b0e1f 4bad4663a88b3cc1f18f4666202a835709497d4f M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOffer.java
+:100644 100644 110bdf8486bffbafdd390f02255ac2261f4c7bfd 4cb4ed330c6eac697c276f4493b440f8e1db8c26 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/StudentEvent.java
+:100644 100644 9592f02c71ccce0d41094196d8f712e442c3364e aaeeffb9a037aea245f3f105bd0abd02dfe59c76 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/VipEvent.java
+:100644 100644 7cd25c25291bc31a30f14280adb06435a9b9a4c8 fe5c932029cd49a921d08b42799b38e08b6c8fb4 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Club.java

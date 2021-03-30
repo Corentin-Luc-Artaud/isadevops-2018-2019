@@ -1,0 +1,36 @@
+commit 46a479eac59b86f4278909f07761240170d91e19
+tree 52e6536aa0b3ccc13cf65ce694279ea50c6d2548
+parent d8a471f867d69d9310ccb4a45a972e1bef5cd100
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:32 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:32 +0200
+
+    #6 war AND persistence working :)
+
+
+
+:100644 100644 77aa2a46e1897642b0a77549860dfdb6af055907 63322385ae123a08d7288972efe660342a497b28 M	src/test/resources/arquillian.xml
+commit d8a471f867d69d9310ccb4a45a972e1bef5cd100
+tree da3b580f7941f937f9fd22c5b89ddc0041071deb
+parent 3f64d03d05b8b1b6c0b5c84311f833dcd8be2124
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 12:11:32 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 12:11:32 +0200
+
+    #6 persistance working on 1 component
+
+
+
+:100644 100644 054d969e09598647fa5a064a61f05e5e119baf23 481d0d77cb1af8f228e823ef84e2e0c4092c5366 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+commit 3f64d03d05b8b1b6c0b5c84311f833dcd8be2124
+tree d29943d49c56cbd0f6e1453351228bf84f36e9f1
+parent 9969421e5860980bd2bd5482797e6fc3b0a7a5fb
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 11:49:45 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 11:49:45 +0200
+
+    #6 try to add persistance
+
+
+
+:100644 100644 0a1935b1cbcdfbee8bb662b483990572e17ea1b1 054d969e09598647fa5a064a61f05e5e119baf23 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 000000 ef20468b089dd361052a6a3b4b5d4e2482c83d67 0000000000000000000000000000000000000000 D	src/main/resources/META-INF/persistence.xml
+:100644 100644 17e93dfa639b2b943309b0427706370dd01a4bf6 6ce5a0b838b098202d162d31897f62e9bd637fe2 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/StorageTest.java
+:100644 100644 8162416c97931d783b4a2e7a075e930b71da0169 f18a3e6dd3d948dbc5e350e0e12e38a9fc03e26b M	src/test/resources/META-INF/persistence.xml

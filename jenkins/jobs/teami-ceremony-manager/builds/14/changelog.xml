@@ -1,0 +1,35 @@
+commit 49ea37de319d5f60de8d26f48509724cf21d8926
+tree 2afc3f5430370b48dc2d213e7742b9fc8926f02d
+parent eb10fd63060b2e44746a99cca0585b01b002b384
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 16:56:12 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 16:56:12 +0200
+
+    #34 create or load ceremony
+
+
+
+:100644 100644 ad492f3d1d013fafb8ce7590927dcfe10503b003 1b731d97e66781d0487a18fab2f92d79587121c8 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java
+:100644 100644 cefbf4ccfc959f227e311de04419cd531f4dc034 91004be8660e923fc361e61ed5b20c7f24c56a22 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/AppTest.java
+commit eb10fd63060b2e44746a99cca0585b01b002b384
+tree 9971c4a36fc4838474921f8ad9586ba84f95b1d0
+parent 895d012e4c681f2158bc8d1fed897e3d8ba0225a
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 16:29:09 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 16:29:09 +0200
+
+    #34 create or load ceremony
+
+
+
+:100644 100644 e3dd88e64af11545c9d14ac67c783b39cac31fb9 ad492f3d1d013fafb8ce7590927dcfe10503b003 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java
+commit 895d012e4c681f2158bc8d1fed897e3d8ba0225a
+tree 9acbc671fb3f2dc03a26800fe91cf3a9343cedde
+parent 5e8fd3422afdc7ce1955b085a9ab178283591520
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 16:29:00 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 16:29:00 +0200
+
+    #34 create or load ceremony
+
+
+
+:100644 100644 50c85fb444ee5a2e1fd351e2e47626c155e9e100 e3dd88e64af11545c9d14ac67c783b39cac31fb9 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java
+:100644 100644 de398b09af9b00ab8cea586d418cf94022ed1d31 c88c327a0aa3776b1212c68c20af39930d209c25 M	src/test/resources/META-INF/persistence.xml

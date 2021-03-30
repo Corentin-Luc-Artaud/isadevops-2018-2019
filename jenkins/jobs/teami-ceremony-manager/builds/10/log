@@ -1,0 +1,373 @@
+Started by GitHub push by KienanBachwa
+Building in workspace /var/jenkins_home/workspace/teami-ceremony-manager
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ee93e185032d1e44d99a9d20f921bce13b84a750 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ee93e185032d1e44d99a9d20f921bce13b84a750
+Commit message: "#10 Added wsdl and planning webservice stubs"
+ > git rev-list --no-walk e86555fcf43af64035aa0497f044ff02dca057ce # timeout=10
+[teami-ceremony-manager] $ /bin/sh -xe /tmp/jenkins4140201240765954722.sh
++ rm -r '?/.m2/repository/fr'
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-ceremony-manager] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-ceremony-manager@tmp/artifactory/buildInfo6219037468713642659.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-ceremony-manager/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-ceremony-manager/classworlds5774655492009511211conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-ceremony-manager org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ---< fr.unice.polytech.si4.isa.devops.teami:teami-ceremony-manager >----
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-ceremony-manager 1.1
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5/7.5 kBProgress (1): 7.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom (7.5 kB at 24 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom
+Progress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom (4.5 kB at 125 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom
+Progress (1): 4.1/4.4 kBProgress (1): 4.4 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom (4.4 kB at 15 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.2/teami-polydiploma-entities-1.2.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5/7.5 kBProgress (1): 7.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.2/teami-polydiploma-entities-1.2.pom (7.5 kB at 82 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar
+Progress (1): 4.1/20 kBProgress (1): 7.5/20 kBProgress (1): 12/20 kB Progress (1): 16/20 kBProgress (1): 20 kB   Progress (2): 20 kB | 4.1/9.7 kBProgress (2): 20 kB | 7.5/9.7 kBProgress (2): 20 kB | 9.7 kB                                Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar (20 kB at 181 kB/s)
+Progress (2): 9.7 kB | 4.1/5.1 kBProgress (2): 9.7 kB | 5.1 kB                                 Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar (9.7 kB at 74 kB/s)
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar (5.1 kB at 40 kB/s)
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-ceremony-manager/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-ceremony-manager/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 4 source files to /var/jenkins_home/workspace/teami-ceremony-manager/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /var/jenkins_home/workspace/teami-ceremony-manager/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin -  T E S T S
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.AppTest
+Apr 12, 2019 10:05:29 AM org.apache.tomee.embedded.Container start
+INFO: Starting TomEE from: /tmp/arquillian-apache-tomee
+Apr 12, 2019 10:05:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Apr 12, 2019 10:05:30 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Apr 12, 2019 10:05:30 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:946)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 70 more
+Caused by: java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	... 71 more
+
+Apr 12, 2019 10:05:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Apr 12, 2019 10:05:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.6
+Apr 12, 2019 10:05:36 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://tomee.apache.org/
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Fri Apr 12 10:05:37 GMT 2019
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 7.0.2
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20161106
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 07:23
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /tmp/arquillian-apache-tomee
+Apr 12, 2019 10:05:37 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /tmp/arquillian-apache-tomee
+Apr 12, 2019 10:05:37 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1df8da7a
+Apr 12, 2019 10:05:37 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Apr 12, 2019 10:05:38 AM org.apache.openejb.config.ConfigurationFactory init
+INFO: TomEE configuration file is '/tmp/arquillian-apache-tomee/conf/openejb.xml'
+Apr 12, 2019 10:05:39 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Apr 12, 2019 10:05:39 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Apr 12, 2019 10:05:39 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+Apr 12, 2019 10:05:39 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+Apr 12, 2019 10:05:39 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Apr 12, 2019 10:05:40 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Apr 12, 2019 10:05:41 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.servicemanager.enabled=false'
+Apr 12, 2019 10:05:51 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b.jar
+Apr 12, 2019 10:06:00 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MockGuestManager: EjbDeployment(deployment-id=MockGuestManager)
+Apr 12, 2019 10:06:00 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CeremonyManagerBean: EjbDeployment(deployment-id=CeremonyManagerBean)
+Apr 12, 2019 10:06:00 AM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb StudentNotificationBean: EjbDeployment(deployment-id=StudentNotificationBean)
+Apr 12, 2019 10:06:00 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+Apr 12, 2019 10:06:00 AM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean MockGuestManager: Container(type=STATELESS, id=Default Stateless Container)
+Apr 12, 2019 10:06:00 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+Apr 12, 2019 10:06:01 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+Apr 12, 2019 10:06:01 AM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b.Comp1380976928: Container(type=MANAGED, id=Default Managed Container)
+Apr 12, 2019 10:06:01 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+Apr 12, 2019 10:06:01 AM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /tmp for stateful session passivation
+Apr 12, 2019 10:06:03 AM org.apache.openejb.config.OutputGeneratedDescriptors writeEjbJar
+INFO: Dumping Generated ejb-jar.xml to: /tmp/ejb-jar-8550515513525047545ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b.xml
+Apr 12, 2019 10:06:04 AM org.apache.openejb.config.OutputGeneratedDescriptors writeOpenejbJar
+INFO: Dumping Generated openejb-jar.xml to: /tmp/openejb-jar-4817478784830117712ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b.xml
+Apr 12, 2019 10:06:04 AM org.apache.openejb.config.ReportValidationResults logResults
+SEVERE: FAIL ... StudentNotificationBean:	Missing required persistence.xml for @PersistenceContext ref "entityManager" to unit ""
+Apr 12, 2019 10:06:04 AM org.apache.openejb.config.ReportValidationResults logResults
+SEVERE: FAIL ... ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b:	Missing required persistence.xml for @PersistenceContext ref "entityManager" to unit ""
+Apr 12, 2019 10:06:04 AM org.apache.openejb.config.ReportValidationResults logResults
+SEVERE: Invalid EjbModule(name=ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b, path=/tmp/arquillian-tomee-app-working-dir/0/ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b.jar)
+Apr 12, 2019 10:06:04 AM org.apache.openejb.config.ReportValidationResults deploy
+INFO: Set the 'openejb.validation.output.level' system property to VERBOSE for increased validation details.
+Apr 12, 2019 10:06:04 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+WARNING: Jar not loaded. /tmp/arquillian-tomee-app-working-dir/0/ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b.jar.  Module failed validation. AppModule(name=ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b)
+[ThreadedStreamConsumer] ERROR org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 44.244 s <<< FAILURE! - in fr.unice.polytech.si4.isa.devops.teami.AppTest
+[ThreadedStreamConsumer] ERROR org.apache.maven.plugin.surefire.SurefirePlugin - fr.unice.polytech.si4.isa.devops.teami.AppTest  Time elapsed: 44.079 s  <<< ERROR!
+org.jboss.arquillian.container.spi.client.container.DeploymentException: Unable to deploy
+Caused by: org.apache.openejb.config.ValidationFailedException: Module failed validation. AppModule(name=ea0afcd6-dd4f-4b3b-a5b4-260e365d8d6b)
+
+Apr 12, 2019 10:06:05 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Apr 12, 2019 10:06:05 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Apr 12, 2019 10:06:05 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Tomcat
+Apr 12, 2019 10:06:05 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Results:
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] ERROR org.apache.maven.plugin.surefire.SurefirePlugin - Errors: 
+[main] ERROR org.apache.maven.plugin.surefire.SurefirePlugin -   AppTest.fr.unice.polytech.si4.isa.devops.teami.AppTest » Deployment Unable to ...
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] ERROR org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  01:40 min
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-12T10:06:07Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test (default-test) on project teami-ceremony-manager: There are test failures.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - Please refer to /var/jenkins_home/workspace/teami-ceremony-manager/target/surefire-reports for the individual test results.
+[main] ERROR org.apache.maven.cli.MavenCli - Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

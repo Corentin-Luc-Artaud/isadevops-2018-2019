@@ -1,0 +1,11 @@
+commit 5c7996cd1e4f302d22b694e61ef74047c343f709
+tree 15de78527a0882881fdc1443827741a9b14463b1
+parent 7be1a70e66f47dce95abf9be411bbdadc27a7d64
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-20 16:35:42 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-20 16:35:42 +0200
+
+    fix #5 Good return from the webService of the public cli
+
+
+
+:100644 100644 b7f7fa6361c1d062b747fed5870b84ee5a36c5a4 f3437c559256b5bdcab372d0776edbbdb4d136ee M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PublicServiceImpl.java

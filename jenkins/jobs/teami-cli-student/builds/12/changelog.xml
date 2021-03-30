@@ -1,0 +1,12 @@
+commit 9b4a711a64d017e587a617a98c9e8306be1a1c4e
+tree 6a51f57dc6633862921b01e904b68bdb6f95727b
+parent ccb5d6ca0977ad27b2cdce098a445a4c42f68c92
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:29 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:29 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:100644 100644 a136ddce79106c99b57ac4ed94273b6573c824e2 15470c7e96b68cc43b775558d1c3494c8512b4b9 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java

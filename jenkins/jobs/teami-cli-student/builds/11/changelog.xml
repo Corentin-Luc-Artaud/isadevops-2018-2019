@@ -1,0 +1,12 @@
+commit ccb5d6ca0977ad27b2cdce098a445a4c42f68c92
+tree eacf09a02b88d01b89e72257974b50b58a100108
+parent edfb4859103516b93673ea2993a95fcc8cd69b47
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:46 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:46 +0200
+
+    #34 Added interlude module Added bean AdminInterludeManager
+
+
+
+:100644 100644 76e21629890faf95f1fdf443db0cac5006d42083 f0edad68cbfcf2285b10a473385dd1d9733e9a31 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/StudentRegisterApi.java
+:100644 100644 7b10f8b63f7e2df1085b389aa410a6a45a191b17 a9f9fca998c0b972b348a711d1765056b0e156ea M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/RegisterStudent.java

@@ -1,0 +1,128 @@
+Started by GitHub push by KienanBachwa
+Building in workspace /var/jenkins_home/workspace/teami-cli-student
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-cli-student.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-cli-student.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-cli-student.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ad0e5f127c9bc793c591157cc173182ef7f9c97e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ad0e5f127c9bc793c591157cc173182ef7f9c97e
+Commit message: "erreur de push"
+ > git rev-list --no-walk dd53207b4267165f5875e9a668f36e3d0f030404 # timeout=10
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-cli-student] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-cli-student@tmp/artifactory/buildInfo7000421481990870656.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-cli-student/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-cli-student/classworlds6475697236852869018conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-cli-student org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------< fr.unice.polytech.si4.isa.devops.teami:teami-cli-student >------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-cli-student 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+Progress (1): 4.1/5.6 kBProgress (1): 5.6 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (5.6 kB at 12 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+Progress (1): 4.1/27 kBProgress (1): 7.5/27 kBProgress (1): 12/27 kB Progress (1): 16/27 kBProgress (1): 20/27 kBProgress (1): 24/27 kBProgress (1): 27 kB                      Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 kB at 488 kB/s)
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-cli-student/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- cxf-codegen-plugin:3.1.10:wsdl2java (generate-sources) @ teami-cli-student ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ teami-cli-student ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 32 source files to /var/jenkins_home/workspace/teami-cli-student/target/classes
+[main] WARNING org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java: /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java uses unchecked or unsafe operations.
+[main] WARNING org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-student/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java: Recompile with -Xlint:unchecked for details.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ teami-cli-student ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-cli-student/src/test/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /var/jenkins_home/workspace/teami-cli-student/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Surefire report directory: /var/jenkins_home/workspace/teami-cli-student/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ teami-cli-student ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /var/jenkins_home/workspace/teami-cli-student/target/teami-cli-student-1.0.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ teami-cli-student ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-student/target/teami-cli-student-1.0.jar to /var/jenkins_home/workspace/teami-cli-student/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-student/pom.xml to /var/jenkins_home/workspace/teami-cli-student/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- cxf-codegen-plugin:3.1.10:wsdl2java (generate-sources) @ teami-cli-student ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ teami-cli-student ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ teami-cli-student ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-cli-student/src/test/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ teami-cli-student ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Skipping execution of surefire because it has already been run for this configuration
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ teami-cli-student ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ teami-cli-student ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-student/target/teami-cli-student-1.0.jar to /var/jenkins_home/workspace/teami-cli-student/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-student/pom.xml to /var/jenkins_home/workspace/teami-cli-student/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-deploy-plugin:2.7:deploy (default-deploy) @ teami-cli-student ---
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (5.3 kB at 68 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+Progress (1): 4.1/9.3 kBProgress (1): 7.5/9.3 kBProgress (1): 9.3 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (9.3 kB at 320 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+Progress (1): 4.1/251 kBProgress (1): 7.5/251 kBProgress (1): 12/251 kB Progress (1): 16/251 kBProgress (1): 20/251 kBProgress (1): 24/251 kBProgress (1): 28/251 kBProgress (1): 32/251 kBProgress (1): 36/251 kBProgress (1): 40/251 kBProgress (1): 44/251 kBProgress (1): 48/251 kBProgress (1): 53/251 kBProgress (1): 57/251 kBProgress (1): 61/251 kBProgress (1): 65/251 kBProgress (1): 69/251 kBProgress (1): 73/251 kBProgress (1): 77/251 kBProgress (1): 81/251 kBProgress (1): 85/251 kBProgress (1): 89/251 kBProgress (1): 94/251 kBProgress (1): 98/251 kBProgress (1): 102/251 kBProgress (1): 106/251 kBProgress (1): 110/251 kBProgress (1): 114/251 kBProgress (1): 118/251 kBProgress (1): 122/251 kBProgress (1): 126/251 kBProgress (1): 130/251 kBProgress (1): 134/251 kBProgress (1): 139/251 kBProgress (1): 143/251 kBProgress (1): 147/251 kBProgress (1): 151/251 kBProgress (1): 155/251 kBProgress (1): 159/251 kBProgress (1): 163/251 kBProgress (1): 167/251 kBProgress (1): 171/251 kBProgress (1): 175/251 kBProgress (1): 180/251 kBProgress (1): 184/251 kBProgress (1): 188/251 kBProgress (1): 192/251 kBProgress (1): 196/251 kBProgress (1): 200/251 kBProgress (1): 204/251 kBProgress (1): 208/251 kBProgress (1): 212/251 kBProgress (1): 216/251 kBProgress (1): 221/251 kBProgress (1): 225/251 kBProgress (1): 229/251 kBProgress (1): 233/251 kBProgress (1): 237/251 kBProgress (1): 241/251 kBProgress (1): 245/251 kBProgress (1): 249/251 kBProgress (1): 251 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 2.1 MB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.jar
+Progress (1): 2.0/34 kBProgress (1): 4.1/34 kBProgress (1): 6.1/34 kBProgress (1): 8.2/34 kBProgress (1): 10/34 kB Progress (1): 12/34 kBProgress (1): 14/34 kBProgress (1): 16/34 kBProgress (1): 18/34 kBProgress (1): 20/34 kBProgress (1): 23/34 kBProgress (1): 25/34 kBProgress (1): 27/34 kBProgress (1): 29/34 kBProgress (1): 31/34 kBProgress (1): 33/34 kBProgress (1): 34 kB                      Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.jar (34 kB at 133 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.pom
+Progress (1): 2.0/3.6 kBProgress (1): 3.6 kB                        Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/1.0/teami-cli-student-1.0.pom (3.6 kB at 25 kB/s)
+Downloading from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/maven-metadata.xml
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/maven-metadata.xml
+Progress (1): 331 B                   Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-student/maven-metadata.xml (331 B at 2.5 kB/s)
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  16.563 s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-05-03T11:56:36Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project teami-cli-student: Execution default-deploy of goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy failed.: NullPointerException -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+             xmlns="http://java.sun.com/xml/ns/persistence"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+    <persistence-unit name="notification_persistence_unit" transaction-type="JTA">
+
+        <jta-data-source>PolydiplomaDataSource</jta-data-source>
+
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning</class>
+
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.events.Event</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer</class>
+
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip</class>
+
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation</class>
+
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.school.Club</class>
+        <class>fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality</class>
+
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <properties>
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

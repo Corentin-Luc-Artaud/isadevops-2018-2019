@@ -1,0 +1,128 @@
+Started by GitHub push by FrancoisNespoulous3
+Building in workspace /var/jenkins_home/workspace/teami-polydiploma-entities
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision adeb6efe522e11214f356381a4fda96aeb5e1552 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f adeb6efe522e11214f356381a4fda96aeb5e1552
+Commit message: "#6 added persistence for Ceremony and tested it"
+ > git rev-list --no-walk 778d45fa1608eeaa2eb49c8b4a1b95398514c42c # timeout=10
+Jenkins Artifactory Plugin version: 3.2.1
+Artifactory integration is enabled
+[teami-polydiploma-entities] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-polydiploma-entities@tmp/artifactory/buildInfo35048811776472335.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-polydiploma-entities/cache/artifactory-plugin/3.2.1 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-polydiploma-entities/classworlds5299395062979615914conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-polydiploma-entities org.codehaus.plexus.classworlds.launcher.Launcher clean install package deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --< fr.unice.polytech.si4.isa.devops.teami:teami-polydiploma-entities >--
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-polydiploma-entities 1.3
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-polydiploma-entities/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 14 source files to /var/jenkins_home/workspace/teami-polydiploma-entities/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/test/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /var/jenkins_home/workspace/teami-polydiploma-entities/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin -  T E S T S
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Results:
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-polydiploma-entities ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /var/jenkins_home/workspace/teami-polydiploma-entities/target/teami-polydiploma-entities-1.3.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ teami-polydiploma-entities ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/target/teami-polydiploma-entities-1.3.jar to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/pom.xml to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/test/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Skipping execution of surefire because it has already been run for this configuration
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/test/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Skipping execution of surefire because it has already been run for this configuration
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ teami-polydiploma-entities ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/target/teami-polydiploma-entities-1.3.jar to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/pom.xml to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ teami-polydiploma-entities ---
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+Progress (1): 2.0/17 kBProgress (1): 4.1/17 kBProgress (1): 6.1/17 kBProgress (1): 8.2/17 kBProgress (1): 10/17 kB Progress (1): 12/17 kBProgress (1): 14/17 kBProgress (1): 16/17 kBProgress (1): 17 kB                      Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar (17 kB at 19 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+Progress (1): 2.0/7.5 kBProgress (1): 4.1/7.5 kBProgress (1): 6.1/7.5 kBProgress (1): 7.5 kB                        Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom (7.5 kB at 30 kB/s)
+Downloading from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml
+Progress (1): 394 B                   [WARNING] Checksum validation failed, expected 7988dee7711ed57e0f078470e379a3cbcc300060 but is a5be0a200e228bb19b63f13f3587146769f0b6e0 from teami for http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml
+Progress (1): 440 B                   Downloaded from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml (440 B at 525 B/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml
+Progress (1): 394 B                   Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml (394 B at 2.5 kB/s)
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Saving Build Info to '/var/jenkins_home/workspace/teami-polydiploma-entities/target/build-info.json'
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: deploy artifacts set to false, artifacts will not be deployed...
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Deploying build info ...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Deploying build descriptor to: http://vps663090.ovh.net:8081/artifactory/api/build
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Build successfully deployed. Browse it in Artifactory under http://vps663090.ovh.net:8081/artifactory/webapp/builds/teami-polydiploma-entities/4
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  01:53 min
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-05T09:57:19Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Finished: SUCCESS

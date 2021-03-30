@@ -1,0 +1,17 @@
+commit dd53207b4267165f5875e9a668f36e3d0f030404
+tree f6a814d044543dcc810a2e67288f898c649e19ec
+parent 1799cfce670e238c00fa196ea7323526da84eb18
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:34 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:34 +0200
+
+    Added commands to add vip and see them
+
+
+
+:100644 100644 1a760560da9f35696ba4bd195fc9359b9f635a89 982cc5c0a0bfa314e2fca6362fbee932121d67be M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:000000 100644 0000000000000000000000000000000000000000 385aaa32814ba08669e1703eec3f6436c6407288 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddAttendant.java
+:000000 100644 0000000000000000000000000000000000000000 1ff59f1c77de0c39ca1a163a6e5d636e57895654 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetPrice.java
+:000000 100644 0000000000000000000000000000000000000000 78f88d858a67e7a5fcf83413fb5c38efc803aea5 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/PayForAttendant.java
+:100644 100644 7b10f8b63f7e2df1085b389aa410a6a45a191b17 42f379f9b7e5252bc2eb1da530a8ae22e0b96867 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/RegisterStudent.java
+:000000 100644 0000000000000000000000000000000000000000 5b132ecff19074268f9f9908f97087e0b180c3d4 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/SeeNbOfRegisteredGuests.java
+:100644 100644 a821a3e38014f86a6cc28eebeeb8bb510097c142 30a5acf037176664def80de96951c899ab69551a M	src/main/resources/register-student.wsdl

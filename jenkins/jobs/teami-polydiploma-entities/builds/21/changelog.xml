@@ -1,0 +1,14 @@
+commit 57a6ecf69ad37348fb42496b212df2dc1851d633
+tree bcfd3c7c65f537e869476f42be42ecdd9fc8e4a4
+parent 180ca707ac2a2a817508fba257cd1e313921604d
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-22 19:46:07 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-22 19:46:07 +0200
+
+    #35 Ajout de EventOffer Ajout module interlude-manager Webservice
+    permettant de créer des offres commencé
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 5be7cb4fd13e1b6abd881ff4a2d474a83da67e58 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOffer.java
+:000000 100644 0000000000000000000000000000000000000000 f1a468c58eb7838e2cf13805f1b3fef843f08cfa A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOfferTest.java
+:100644 100644 fd53c3c16767322bf3059bf1ea40c53fffe0312d caef81bc15687f924f043719a408cc80049fd346 M	src/test/resources/META-INF/persistence.xml

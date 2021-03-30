@@ -1,0 +1,11 @@
+commit bbf8d1e5a25148a51597b3e0b9f01091d1479d67
+tree d040dc32b0fa3e368227c639b2db2ee668d53cc7
+parent bc66201922fec3ffe6ace55745792f8393a22099
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 14:04:04 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 14:04:04 +0200
+
+    #26 add persistence on register
+
+
+
+:100644 100644 2f9adc2042a7bce2236a40f03dd5550c7bdd1620 7805b83f7f2719d6d862d5c3a2bf6aa0d2502c03 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/DisplayPlanning.java

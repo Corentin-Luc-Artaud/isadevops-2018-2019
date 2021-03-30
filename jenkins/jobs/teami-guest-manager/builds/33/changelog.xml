@@ -1,0 +1,12 @@
+commit 90221386b76a4e062064138b6a3918d9176f32fb
+tree 9b3adb0f36444d24c41a8913718745b8e998d783
+parent b71bc4704bd5f6f31dbc56eb567d2cd0b24e87a1
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:31 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:31 +0200
+
+    Added commands to add vip and see them
+
+
+
+:100644 100644 45e52896b79100a1a2ed99a7f2c0eb04f58d02d9 8f4e2c761b05ace15dafe20499fd7c4896876a0e M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 8ba469b4aab42f43da0c7f639db43c0fe5662a8f 7f7f79e8c00a1009c3bac7b98455fc3d2775ff7e M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/VipTest.java

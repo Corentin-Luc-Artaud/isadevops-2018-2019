@@ -1,0 +1,12 @@
+commit 08a3faa040f358b552b41c252bceb43ba7ef99f4
+tree 051e0fca7a684fe05c5488031ef4ec6de854c832
+parent 3cf589660fcdd1ebdb597a30afb85cd9cd6c0ed4
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-22 19:59:12 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-22 19:59:12 +0200
+
+    #35 Fixed bug
+
+
+
+:100644 100644 b8668bf89164cc40bf4b969b7bc9e3041b4c16ee 85d79fbd2918fc9f21722bbaa5297d757f48d806 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAPImpl.java
+:100644 100644 4b3c1369e159d6efee6b11ba82b3034af3989ff8 96433181ba942cccf5797eb88b25b4bc53c30a4d M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java

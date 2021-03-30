@@ -1,0 +1,11 @@
+commit 38808f66f51a6120fd8c3b0896346647574dd9d5
+tree ec3aaa55b7526e53dc5aea05aaa80453fb63472a
+parent 08a3faa040f358b552b41c252bceb43ba7ef99f4
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:47:00 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:47:00 +0200
+
+    clean up code
+
+
+
+:100644 100644 30e6c59c1b040a96a0237e73dc60e7b3e79afb6b 8c1bd793dc8104c23c2625527fdbfebcaae9d364 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAP.java

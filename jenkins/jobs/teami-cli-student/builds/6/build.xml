@@ -1,0 +1,173 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.29.4">
+            <pushedBy>Corentin-Luc-Artaud</pushedBy>
+          </com.cloudbees.jenkins.GitHubPushCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.3">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.6">
+              <sha1>fe117feb398fec97c6c16eb16007f8e2d5d3fa0d</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>6</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/pns-isa-devops-1819/teami-cli-student.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.3">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/teami-cli-student</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.4.2"/>
+    <org.jfrog.hudson.BuildInfoResultAction plugin="artifactory@3.2.2">
+      <publishedBuildsDetails>
+        <org.jfrog.hudson.PublishedBuildDetails>
+          <artifactoryUrl>http://vps663090.ovh.net:8081/artifactory</artifactoryUrl>
+          <buildName>teami-cli-student</buildName>
+          <buildNumber>6</buildNumber>
+        </org.jfrog.hudson.PublishedBuildDetails>
+      </publishedBuildsDetails>
+      <build class="build" reference="../../.."/>
+    </org.jfrog.hudson.BuildInfoResultAction>
+    <org.jfrog.hudson.release.promotion.UnifiedPromoteBuildAction plugin="artifactory@3.2.2">
+      <build class="build" reference="../../.."/>
+      <promotionCandidates>
+        <entry>
+          <string>0</string>
+          <org.jfrog.hudson.release.promotion.PromotionInfo>
+            <promotionConfig>
+              <buildName>teami-cli-student</buildName>
+              <buildNumber>6</buildNumber>
+              <includeDependencies>false</includeDependencies>
+              <copy>false</copy>
+              <failFast>true</failFast>
+            </promotionConfig>
+            <configurator class="org.jfrog.hudson.maven3.ArtifactoryMaven3Configurator">
+              <deployerDetails>
+                <artifactoryName>Artifactory</artifactoryName>
+                <artifactoryUrl>http://vps663090.ovh.net:8081/artifactory</artifactoryUrl>
+                <deployReleaseRepository>
+                  <keyFromText></keyFromText>
+                  <keyFromSelect>libs-release-local</keyFromSelect>
+                  <dynamicMode>false</dynamicMode>
+                </deployReleaseRepository>
+                <deploySnapshotRepository>
+                  <keyFromText></keyFromText>
+                  <keyFromSelect>libs-snapshot-local</keyFromSelect>
+                  <dynamicMode>false</dynamicMode>
+                </deploySnapshotRepository>
+                <stagingPlugin/>
+              </deployerDetails>
+              <resolverDetails>
+                <artifactoryName>Artifactory</artifactoryName>
+                <artifactoryUrl>http://vps663090.ovh.net:8081/artifactory</artifactoryUrl>
+                <resolveSnapshotRepository>
+                  <keyFromText></keyFromText>
+                  <keyFromSelect>libs-snapshot</keyFromSelect>
+                  <dynamicMode>false</dynamicMode>
+                </resolveSnapshotRepository>
+                <resolveReleaseRepository>
+                  <keyFromText></keyFromText>
+                  <keyFromSelect>libs-release</keyFromSelect>
+                  <dynamicMode>false</dynamicMode>
+                </resolveReleaseRepository>
+                <stagingPlugin/>
+              </resolverDetails>
+              <deployerCredentialsConfig>
+                <credentials>
+                  <username></username>
+                  <password></password>
+                </credentials>
+                <credentialsId></credentialsId>
+                <overridingCredentials>false</overridingCredentials>
+                <ignoreCredentialPluginDisabled>false</ignoreCredentialPluginDisabled>
+              </deployerCredentialsConfig>
+              <resolverCredentialsConfig>
+                <credentials>
+                  <username></username>
+                  <password></password>
+                </credentials>
+                <credentialsId></credentialsId>
+                <overridingCredentials>false</overridingCredentials>
+                <ignoreCredentialPluginDisabled>false</ignoreCredentialPluginDisabled>
+              </resolverCredentialsConfig>
+              <deployArtifacts>false</deployArtifacts>
+              <artifactDeploymentPatterns>
+                <includePatterns></includePatterns>
+                <excludePatterns></excludePatterns>
+              </artifactDeploymentPatterns>
+              <includeEnvVars>false</includeEnvVars>
+              <deployBuildInfo>true</deployBuildInfo>
+              <discardOldBuilds>false</discardOldBuilds>
+              <discardBuildArtifacts>true</discardBuildArtifacts>
+              <asyncBuildRetention>false</asyncBuildRetention>
+              <deploymentProperties></deploymentProperties>
+              <enableIssueTrackerIntegration>false</enableIssueTrackerIntegration>
+              <filterExcludedArtifactsFromBuild>true</filterExcludedArtifactsFromBuild>
+              <enableResolveArtifacts>true</enableResolveArtifacts>
+              <envVarsPatterns>
+                <includePatterns></includePatterns>
+                <excludePatterns>*password*,*secret*,*key*</excludePatterns>
+              </envVarsPatterns>
+              <aggregateBuildIssues>false</aggregateBuildIssues>
+              <aggregationBuildStatus>Released</aggregationBuildStatus>
+              <recordAllDependencies>false</recordAllDependencies>
+              <customBuildName></customBuildName>
+              <overrideBuildName>false</overrideBuildName>
+            </configurator>
+            <id>0</id>
+          </org.jfrog.hudson.release.promotion.PromotionInfo>
+        </entry>
+      </promotionCandidates>
+      <currentPromotionCandidate reference="../promotionCandidates/entry/org.jfrog.hudson.release.promotion.PromotionInfo"/>
+      <useCopy>false</useCopy>
+      <failFast>true</failFast>
+      <includeDependencies>false</includeDependencies>
+    </org.jfrog.hudson.release.promotion.UnifiedPromoteBuildAction>
+  </actions>
+  <queueId>71</queueId>
+  <timestamp>1555254678757</timestamp>
+  <startTime>1555254678802</startTime>
+  <result>SUCCESS</result>
+  <duration>63185</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/teami-cli-student</workspace>
+  <hudsonVersion>2.164.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@3.9.3">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>corentin.artaud</string>
+    <string>kienan.bachwa</string>
+  </culprits>
+</build>

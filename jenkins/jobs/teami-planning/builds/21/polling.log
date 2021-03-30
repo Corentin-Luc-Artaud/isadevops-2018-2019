@@ -1,0 +1,12 @@
+Started on May 2, 2019 9:47:35 PM
+Started by event from 140.82.115.15 ⇒ http://vps663090.ovh.net:8080/github-webhook/ on Thu May 02 21:47:35 GMT 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 05fbd59ab04e8c2f594513a8416fdff2b38a5c04 (refs/remotes/origin/master)
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/pns-isa-devops-1819/teami-planning.git # timeout=10
+Found 1 remote heads on https://github.com/pns-isa-devops-1819/teami-planning.git
+[poll] Latest remote head revision on refs/heads/master is: a7eb5fe0f1959a5e0d2c57a16dbe5da1ad87bbd5
+Done. Took 0.83 sec
+Changes found

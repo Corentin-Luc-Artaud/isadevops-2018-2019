@@ -1,0 +1,22 @@
+commit f6ce2757a1a05306bbfc53e6ad82c96c78ba9dd6
+tree 2a1048d0d16fb2537439e9f732790e1ae3c0e63d
+parent 836ca281dfd9e8307c52c85e8dbc8d9ef8c8517b
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 15:36:29 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 15:36:29 +0200
+
+    #10 Completed webservice stubs, modified shell to use 2 wsdl, added
+    command AddStudentEvent
+
+
+
+:100644 100644 a20cfad8ae2728612c91a7f1399bbc3dc4e28acb fd092bf72fc7b5d54ce57ab75185eb1e3dd60c56 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:100644 100644 20a2c684f3507cf106e677409bac22f9aada5bca e09939cd30cff7af8226674a336a9fea97483a14 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/PlanningApi.java
+:100644 100644 9e5eb860e063badc9e334db9fd5c341a0bf689f6 2d43771632b89a58d096959cb345b241083c609a M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddStudentEvent.java
+:100644 100644 891c7297de38020e2ec00d2b93d3cc6b549306b9 d2def3adaa5cc628646d7cd5bc3b67a9a295a2ea M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/CreateNewRdd.java
+:100644 100644 847f484eca9f71b03a01b51dd605def19b310254 a642b32525b43c1a4bfbe530bb9915fbc4f937b2 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetCeremony.java
+:100644 100644 e4808a719705b9fddc3c4de3be9b1065dfd2e037 e15153c8ec06ba7c9c9ac86f305140f2a6eabc58 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/NotifyGuests.java
+:100644 100644 bd8f441a69fd6914a1c459b91b3d91521e3a6974 d3d108a701117861dc4fc73a93fe12558365cea2 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/Ping.java
+:100644 100644 d07b0cff64ca450baad0f425b0d0e1f0ca5b5ba3 ada808285864139f25e7418cc989674672367eb3 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/SetDate.java
+:100644 100644 7fd8bd2697da35bad966d38dda2f022f9dbe0623 786934147cd4aaeb7f39c99fd0edb0d8b5762090 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/SetPlace.java
+:100644 100644 8ca0d7ba709513e3ae679500daa0e14a32f774a2 bfabcc33b2ba1f3ed7dc64bc88adad851f8f305e M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Command.java
+:100644 100644 c6d4ec731d2fbc40f2a32a79c5a44fd1de1a0ff2 58f209c70a918c1de403ff36b3e0f5f93919cdb3 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java

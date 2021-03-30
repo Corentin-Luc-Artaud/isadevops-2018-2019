@@ -1,0 +1,12 @@
+commit 3b614840b56d9690b0f57a51ecfd78efcd8bb67d
+tree 78e033e9c4fd7e2c27c7c56d26c5fe884530d318
+parent 47756cb0a7777f0aac054bf576940e4b97d808ad
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:10 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:10 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 a9cdeca1118c225f4e476283451f69626b852129 409ee16fb8836bc218ba3926e730b994a3a8a0b5 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java

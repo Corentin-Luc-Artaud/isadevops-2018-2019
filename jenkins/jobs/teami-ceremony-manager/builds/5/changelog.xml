@@ -1,0 +1,12 @@
+commit f0d60a304c11e88a63c330e298705c6ada0d8f55
+tree 1ec74e2984cdf573c8c1b745740560b4f3a4b1bf
+parent e83ca99aa99ff60fe3cfcc321ca4a4df5a9ff4f7
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-12 09:15:02 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-12 09:15:02 +0200
+
+    #24 set date and place of ceremony
+
+
+
+:100644 100644 383237bbbcdeec4a6a68e26719deab6e9406c461 b1236fa67a155a684bbf20c8d5970c2539ee6811 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/webservice/CeremonyManagerService.java
+:100644 100644 5eaa6a19be46c5facd173464a2eab5a4dfc2e393 f7adf7303d73ec8102d95e8d7781ff64cf794028 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/webservice/CeremonyManagerServiceImpl.java

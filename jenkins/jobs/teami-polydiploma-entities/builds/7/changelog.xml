@@ -1,0 +1,11 @@
+commit 0af922218b845bdef7506af7b0f99df3222ad6ba
+tree 79b7dc31ad1db16d785282229bf601e3c7dd9907
+parent 728cc3e90235bae2ada65d43ee361b716a195f63
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-09 10:26:39 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-09 10:26:39 +0200
+
+    Added teami-planning Started SOAP implementation
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 a84a3148b0366bf0a66fcadf787accaebda474e9 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java

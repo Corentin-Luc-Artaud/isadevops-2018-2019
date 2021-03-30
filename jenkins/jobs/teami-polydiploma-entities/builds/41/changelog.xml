@@ -1,0 +1,11 @@
+commit bd0d96549cb967046bfd24bdfa14980b1c925203
+tree 9a8039fac9b1521a442a349e213014b9ea79481f
+parent 40ab6c0abf5a9597b8845f40836847aa920b1799
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 17:30:05 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 17:30:05 +0200
+
+    add README + fix a test
+
+
+
+:100644 100644 2a9071655c5828e03fb36f0541a1240f43357ebd 37317aac008edfb8919f5640a864443160ed0381 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOffer.java

@@ -1,0 +1,16 @@
+commit d1d401e43c80118ccb3944394b428e88c6dbb78a
+tree de1b1b1a0c80db68ea99b2723d1a8b3e31ea095d
+parent 01fc4cd0aed9f833e57dcc105642128135c90b01
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:02 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:02 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 6e73dc12d505109157cd899255fb6f9ad04bfa95 19059adaa5193dcbd3a25e60bb54c0b9e0099778 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 fb625ed93b576a8db3855ffcfa86c941b3d802b4 9da4cb81dd9ecb87e6f96dd7ee7b688cb065d287 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/utils/IStudentAPI.java
+:100644 100644 e7eed0d87cc4d2cd40e30831f7de2cc74894e620 fb8d5a943f17f00e898a3f40b75b688d9f9ae6bf M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/utils/StudentAPI.java
+:100644 100644 12b07fb51b9a1794e078749b97607900e7273492 fb99e9bb809daa6186dc73c438a6c7a063377a54 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/GuestManagerTest.java
+:100644 100644 dbe868da2ae3f864a6f343da96dcbabc30c051ec 4d090d6feff229b0ccab8aee21a6840716239ce5 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/mock/StudentApiMock.java

@@ -1,0 +1,16 @@
+commit 6e8de56d9aec84f475717182d26f08c226277d9e
+tree 0e9ce8dc88712fb6a084e8e8f14e6c67dfd9153c
+parent b95e152a37f2d2316869aec8ae1c7c2c1f738e2e
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:57 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:57 +0200
+
+    #35 Added commands to choose candidate et get the candidates of an offer
+    and corresponding webservices
+
+
+
+:100644 100644 ccad27ea185ce6f4637d7de52399fe547267a1aa d58dab05171b228f731572f492f12944060c2478 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:000000 100644 0000000000000000000000000000000000000000 6652eca7249fb1704e68a891ee9811c969ae42b6 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/ChooseCandidate.java
+:000000 100644 0000000000000000000000000000000000000000 0137f584732bed5f8549cdc14d6f25378caff65e A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetCandidatesForOffer.java
+:100644 100644 05c05d3da0f0ad67ba2eec756e2770d5cea26987 82af26225c1960ce905b2d081168b3e0d6407d33 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetOffers.java
+:100644 100644 c2e0997155c906fb347083ef911b599833b0a10f 7ebbcc945c7fbe0f5491ccfc7e43c863de44f359 M	src/main/resources/admin-interlude.wsdl

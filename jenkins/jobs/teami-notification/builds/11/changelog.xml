@@ -1,0 +1,11 @@
+commit d4125ba6b3b47cfe2c40486cf7f81c26c550bab4
+tree 0af5b6b4843f8d4bbf6087a9689fc450d02debc3
+parent dab1f1fec54284a515ac8f765c6c67e833c03cef
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:55 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:55 +0200
+
+    clean up code
+
+
+
+:100644 100644 33505eb4854aae691fd283839489165c53ee721a a96ca262e3a76d908fe99dbfb6c61c27157e6ea5 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java

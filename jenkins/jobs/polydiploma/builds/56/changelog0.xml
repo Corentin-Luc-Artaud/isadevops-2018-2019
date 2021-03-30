@@ -1,0 +1,14 @@
+commit 4353a7d4093c9f9a1d3bc14c8d9a3fd8e82cc286
+tree 5977bac0e8f1bec5b3fa1c44990f7ee571c41633
+parent f4b1eba285efa76dbc091c4a6ea295c171b63b60
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:29 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:29 +0200
+
+    Added commands to add vip and see them
+
+
+
+:100644 100644 d8eaf1565b172d4cf385182c4ba0e50b9c38741d d2feb524ceba16fa80913d42492c675b23709809 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/CeremonyManagerService.java
+:100644 100644 67de9aeee4f42b88130e5f764f77ff014f298c83 27c422bd33132376d394776a4d81ad1e9f9ad651 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/CeremonyManagerServiceImpl.java
+:100644 100644 3da9e9074408c13875d099e4b275ba4f5b36ebb3 b9f8e01f61957b4774490f3f394ff53f5ac16c96 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAPImpl.java
+:100644 100644 321cb6ffaa0795a6982882f29fc3c1450b6bdf38 f46f8d026dc878db9558023986927c567dae12e1 M	src/test/java/features/ScenarioTest.java

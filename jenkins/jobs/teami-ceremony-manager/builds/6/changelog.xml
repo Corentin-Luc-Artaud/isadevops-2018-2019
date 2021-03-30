@@ -1,0 +1,11 @@
+commit e86555fcf43af64035aa0497f044ff02dca057ce
+tree fae7e6c7ea80565c162525f02607ad924bce6974
+parent 6f55e62133c46af2c05f26fc3f89f9399800bde3
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-12 09:46:14 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-12 09:46:14 +0200
+
+    #24 mistakes
+
+
+
+:100644 100644 73f1befeed0c3c91570a51591b9510015d540704 8658792808b8fafc2571b064a77492e7e465f44d M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java

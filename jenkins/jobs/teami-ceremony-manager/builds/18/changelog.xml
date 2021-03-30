@@ -1,0 +1,11 @@
+commit 9c4657d983c7c94eb8151559ba553e7f3b2a6e30
+tree d74236f5fb54d016fc06525f143ab561dd8b2f04
+parent a5a39047003cfdb99d54f16c8fafb2fa369a9833
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:53 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:53 +0200
+
+    clean up code
+
+
+
+:100644 100644 91004be8660e923fc361e61ed5b20c7f24c56a22 14db5214f58b08142e4d658c7df52c59589af0c8 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/AppTest.java

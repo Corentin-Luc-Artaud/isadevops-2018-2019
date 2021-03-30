@@ -1,0 +1,12 @@
+commit 50af73c02ac653cd18874fcfbc9d163744474249
+tree b60251ddfe1fbc2da89760e9ccb1fff91b7e9539
+parent 2e9953e8d6abc3d812599ba0130df3d6c6914f10
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-29 22:15:29 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-29 22:15:29 +0200
+
+    #26 fix interlude bug in war
+
+
+
+:100644 100644 5f8b13afab0c5ac415f678aee6dd3cdff72e4028 c9ee93af53362ee1867b13ccecd42a5d7a9b2118 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAP.java
+:100644 100644 c0ff8c8b758b01443e745c7366faedd1fa8d74f4 b0f6670c7a0350ccfaf6b22a6a53b3e512137f64 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAPImpl.java

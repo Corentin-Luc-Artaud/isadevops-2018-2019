@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="www.polydiploma.fr"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  name="PublicServiceImplService" targetNamespace="www.polydiploma.fr">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="www.polydiploma.fr" elementFormDefault="unqualified" targetNamespace="www.polydiploma.fr" version="1.0">
+
+  <xs:element name="displayPlanning" type="tns:displayPlanning"/>
+
+  <xs:element name="displayPlanningResponse" type="tns:displayPlanningResponse"/>
+
+  <xs:element name="getCurrentCeremony" type="tns:getCurrentCeremony"/>
+
+  <xs:element name="getCurrentCeremonyResponse" type="tns:getCurrentCeremonyResponse"/>
+
+  <xs:element name="ping" type="tns:ping"/>
+
+  <xs:element name="pingResponse" type="tns:pingResponse"/>
+
+  <xs:complexType name="displayPlanning">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="displayPlanningResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getCurrentCeremony">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getCurrentCeremonyResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType final="extension restriction" name="localDateTime">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="ceremony">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="date" type="tns:localDateTime"/>
+      <xs:element minOccurs="0" name="place" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ping">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="pingResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="displayPlanning">
+    <wsdl:part element="tns:displayPlanning" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="pingResponse">
+    <wsdl:part element="tns:pingResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="displayPlanningResponse">
+    <wsdl:part element="tns:displayPlanningResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCurrentCeremony">
+    <wsdl:part element="tns:getCurrentCeremony" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ping">
+    <wsdl:part element="tns:ping" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCurrentCeremonyResponse">
+    <wsdl:part element="tns:getCurrentCeremonyResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="PublicService">
+    <wsdl:operation name="displayPlanning">
+      <wsdl:input message="tns:displayPlanning" name="displayPlanning">
+    </wsdl:input>
+      <wsdl:output message="tns:displayPlanningResponse" name="displayPlanningResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCurrentCeremony">
+      <wsdl:input message="tns:getCurrentCeremony" name="getCurrentCeremony">
+    </wsdl:input>
+      <wsdl:output message="tns:getCurrentCeremonyResponse" name="getCurrentCeremonyResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ping">
+      <wsdl:input message="tns:ping" name="ping">
+    </wsdl:input>
+      <wsdl:output message="tns:pingResponse" name="pingResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PublicServiceImplServiceSoapBinding" type="tns:PublicService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="displayPlanning">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="displayPlanning">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="displayPlanningResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCurrentCeremony">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getCurrentCeremony">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getCurrentCeremonyResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ping">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="ping">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="pingResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PublicServiceImplService">
+    <wsdl:port binding="tns:PublicServiceImplServiceSoapBinding" name="PublicServiceImplPort">
+      <soap:address location="http://localhost:8080/teami-polydiploma/webservices/publicService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,19 @@
+commit 92f9b7ce7a69bb68db6a872d99d84c96e0df8d61
+tree 8ea65acff4832ce38fd83052aab5b215e6d592d6
+parent adeeb487f81b9c5cf1dbbc3d6ec3a707c309c9b7
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 10:37:16 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 10:37:16 +0200
+
+    #14 add storage tests
+
+
+
+:100644 100644 325a8f89f8a03ef213d0ba71f12a6c8459f8e569 16d5f571c287f8d0a5a7fb79557ca0ac444b4af4 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/Event.java
+:100644 100644 dea020697e531e916841e8b5aa0ce15729bd6845 f74438c8e188d1d77319e5a08fa5d5d6e635ee56 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/StudentEvent.java
+:100644 000000 6d0e608230c2770268bb9c550b1e0ef12494afcd 0000000000000000000000000000000000000000 D	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/TestStudent.java
+:100644 100644 a9b3f2a20e87234eda08c12fb7641864aae5b6b4 57ce097286edc6f8e74bd01a386bc3b9e4f40370 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/AttendantTest.java
+:100644 100644 5ce3180757f5d137754ae6cf4dcb8a6fd21bb2e0 78b57bbf2f9f54973cca5bf73c3f5956f49aa520 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/StudentTest.java
+:100644 100644 5f90c02da79db0b083fec45455a5c483b206341d 1ddcf77ef7b355dd7815ed612df4074137e6bc2c M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/VipTest.java
+:100644 100644 9862a79921343bd2108d9b8603649762f12c5fe0 dbffe9f13067b9ca8977a4d8c809c2684b72bfe8 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/BillTest.java
+:100644 100644 1bea48faaaa907a87d64b4f602175e6df2a894d3 1ab1195e784842f0ad62f4a2514f26103b12e04a M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/ClubTest.java
+:100644 100644 d269baca6dadfea7b0ee181f1483ae429ef6db2d 407627f3d1c1d7db4604eb391be08e9d5ab213ed M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/SpecialityTest.java

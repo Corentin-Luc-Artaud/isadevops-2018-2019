@@ -1,0 +1,11 @@
+commit 875e7cfa28e362c32cbbf678f7dc26d49a35055a
+tree 47d5b028cf207b3a608b8ea1370ba22f8f328338
+parent 95601692cd3cc3f15b37564ce8647db013b7a1df
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 16:12:30 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 16:12:30 +0200
+
+    #26 fix persistence guest manager
+
+
+
+:100644 100644 01286ba55aaefacaee9ed148e7c127c3bc89d49f de8af50717e5b0e5fad0ca73f99eeced4e145e35 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java

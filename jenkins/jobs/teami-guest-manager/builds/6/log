@@ -1,0 +1,541 @@
+Started by user [8mha:////4MygrPD6YFAvMi/E/S4M6nr1Fda8lIFAXCIKZCZoqYWgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/teami-guest-manager
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-guest-manager.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-guest-manager.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-guest-manager.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 46a479eac59b86f4278909f07761240170d91e19 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 46a479eac59b86f4278909f07761240170d91e19
+Commit message: "#6 war AND persistence working :)"
+ > git rev-list --no-walk 46a479eac59b86f4278909f07761240170d91e19 # timeout=10
+Jenkins Artifactory Plugin version: 3.2.1
+Artifactory integration is enabled
+[teami-guest-manager] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-guest-manager@tmp/artifactory/buildInfo897956373244070048.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-guest-manager/cache/artifactory-plugin/3.2.1 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-guest-manager/classworlds1259024056959700827conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-guest-manager org.codehaus.plexus.classworlds.launcher.Launcher clean install package deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - -----< fr.unice.polytech.si4.isa.devops.teami:teami-guest-manager >-----
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-guest-manager 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-guest-manager/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-guest-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-guest-manager/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 3 source files to /var/jenkins_home/workspace/teami-guest-manager/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-guest-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /var/jenkins_home/workspace/teami-guest-manager/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin -  T E S T S
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.GuestManagerTest
+790  classpath-bootstrap  INFO   [main] openjpa.Runtime - OpenJPA dynamically loaded a validation provider.
+Apr 04, 2019 9:32:00 PM org.apache.tomee.embedded.Container start
+INFO: Starting TomEE from: /tmp/arquillian-apache-tomee
+Apr 04, 2019 9:32:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Apr 04, 2019 9:32:01 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Apr 04, 2019 9:32:01 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:946)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 70 more
+Caused by: java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	... 71 more
+
+Apr 04, 2019 9:32:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Apr 04, 2019 9:32:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.6
+Apr 04, 2019 9:32:04 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://tomee.apache.org/
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Thu Apr 04 21:32:05 GMT 2019
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 7.0.2
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20161106
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 07:23
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /tmp/arquillian-apache-tomee
+Apr 04, 2019 9:32:05 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /tmp/arquillian-apache-tomee
+Apr 04, 2019 9:32:05 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@7203c7ff
+Apr 04, 2019 9:32:05 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Apr 04, 2019 9:32:05 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: TomEE configuration file is '/tmp/arquillian-apache-tomee/conf/openejb.xml'
+Apr 04, 2019 9:32:05 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Apr 04, 2019 9:32:05 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Apr 04, 2019 9:32:05 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+Apr 04, 2019 9:32:05 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+Apr 04, 2019 9:32:05 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Apr 04, 2019 9:32:06 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Apr 04, 2019 9:32:06 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.servicemanager.enabled=false'
+Apr 04, 2019 9:32:08 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/4a9a89ba-dbda-446b-ab07-9dacd9f32fb9.jar
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb GuestManagerBean: EjbDeployment(deployment-id=GuestManagerBean)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean GuestManagerBean: Container(type=STATELESS, id=Default Stateless Container)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean 4a9a89ba-dbda-446b-ab07-9dacd9f32fb9.Comp1437983537: Container(type=MANAGED, id=Default Managed Container)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /tmp for stateful session passivation
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=gest_manager_persistence_unit)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default JDBC Database, type=Resource, provider-id=Default JDBC Database)
+Apr 04, 2019 9:32:10 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'Default JDBC Database' of type 'DataSource for 'gest_manager_persistence_unit'.
+Apr 04, 2019 9:32:10 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=Default JDBC Database)
+Apr 04, 2019 9:32:12 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+Apr 04, 2019 9:32:12 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'Default Unmanaged JDBC Database' of type 'DataSource for 'gest_manager_persistence_unit'.
+Apr 04, 2019 9:32:12 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=Default Unmanaged JDBC Database)
+Apr 04, 2019 9:32:12 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit gest_manager_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+Apr 04, 2019 9:32:12 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit gest_manager_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+Apr 04, 2019 9:32:12 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/4a9a89ba-dbda-446b-ab07-9dacd9f32fb9.jar" loaded.
+Apr 04, 2019 9:32:12 PM org.apache.openejb.assembler.classic.Assembler createAppClassLoader
+INFO: Creating dedicated application classloader for 4a9a89ba-dbda-446b-ab07-9dacd9f32fb9
+Apr 04, 2019 9:32:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/4a9a89ba-dbda-446b-ab07-9dacd9f32fb9.jar
+Apr 04, 2019 9:32:13 PM org.apache.openejb.assembler.classic.Assembler$PersistenceClassLoaderHandlerImpl addTransformer
+INFO: JAVA AGENT NOT INSTALLED. The JPA Persistence Provider requested installation of a ClassFileTransformer which requires a JavaAgent.  See http://tomee.apache.org/javaagent.html
+Apr 04, 2019 9:32:13 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+Apr 04, 2019 9:32:13 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=gest_manager_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 219ms
+Apr 04, 2019 9:32:13 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=GuestManagerBeanLocal) --> Ejb(deployment-id=GuestManagerBean)
+Apr 04, 2019 9:32:13 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/4a9a89ba-dbda-446b-ab07-9dacd9f32fb9/GuestManagerBean!fr.unice.polytech.si4.isa.devops.teami.api.GuestManager) --> Ejb(deployment-id=GuestManagerBean)
+Apr 04, 2019 9:32:13 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/4a9a89ba-dbda-446b-ab07-9dacd9f32fb9/GuestManagerBean) --> Ejb(deployment-id=GuestManagerBean)
+Apr 04, 2019 9:32:13 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@7203c7ff
+Apr 04, 2019 9:32:14 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Apr 04, 2019 9:32:14 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Apr 04, 2019 9:32:15 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Apr 04, 2019 9:32:15 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 971 ms.
+Apr 04, 2019 9:32:15 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=GuestManagerBean, ejb-name=GuestManagerBean, container=Default Stateless Container)
+Apr 04, 2019 9:32:15 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=GuestManagerBean, ejb-name=GuestManagerBean, container=Default Stateless Container)
+Apr 04, 2019 9:32:15 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/4a9a89ba-dbda-446b-ab07-9dacd9f32fb9.jar)
+Apr 04, 2019 9:32:15 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/4a9a89ba-dbda-446b-ab07-9dacd9f32fb9.jar
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.305 s - in fr.unice.polytech.si4.isa.devops.teami.GuestManagerTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.StorageTest
+Apr 04, 2019 9:32:16 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e.war
+Apr 04, 2019 9:32:16 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e
+Apr 04, 2019 9:32:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+Apr 04, 2019 9:32:16 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /2d87eaa5-bae1-471c-8367-1a73f585969e
+Apr 04, 2019 9:32:16 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+Apr 04, 2019 9:32:16 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e
+Apr 04, 2019 9:32:16 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=gest_manager_persistence_unit)
+Apr 04, 2019 9:32:16 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit gest_manager_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+Apr 04, 2019 9:32:16 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit gest_manager_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+Apr 04, 2019 9:32:16 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='2d87eaa5-bae1-471c-8367-1a73f585969e', contextRoot='2d87eaa5-bae1-471c-8367-1a73f585969e'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e/META-INF/beans.xml The file should be in WEB-INF directory
+Apr 04, 2019 9:32:16 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=2d87eaa5-bae1-471c-8367-1a73f585969e)
+Apr 04, 2019 9:32:16 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e" loaded.
+Apr 04, 2019 9:32:16 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e
+Apr 04, 2019 9:32:17 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+Apr 04, 2019 9:32:17 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=gest_manager_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 38ms
+Apr 04, 2019 9:32:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e)
+Apr 04, 2019 9:32:18 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 04, 2019 9:32:18 PM null
+INFO: Starting OpenJPA 2.4.1
+Apr 04, 2019 9:32:18 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+Apr 04, 2019 9:32:19 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+Apr 04, 2019 9:32:19 PM null
+INFO: The temporary file "/tmp/org.apache.openjpa.enhance.InstrumentationFactory2494564650318795965.jar" was created and it may not get cleaned up properly.
+Apr 04, 2019 9:32:20 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+Apr 04, 2019 9:32:21 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/2d87eaa5-bae1-471c-8367-1a73f585969e
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.453 s - in fr.unice.polytech.si4.isa.devops.teami.StorageTest
+Apr 04, 2019 9:32:21 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Apr 04, 2019 9:32:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Apr 04, 2019 9:32:21 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Tomcat
+Apr 04, 2019 9:32:21 PM org.apache.openejb.assembler.classic.Assembler doResourceDestruction
+INFO: Closing DataSource: Default JDBC Database
+Apr 04, 2019 9:32:21 PM org.apache.openejb.assembler.classic.Assembler doResourceDestruction
+INFO: Closing DataSource: Default Unmanaged JDBC Database
+Apr 04, 2019 9:32:21 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Results:
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-guest-manager ---
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom (4.3 kB at 11 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom
+Progress (1): 4.1/4.6 kBProgress (1): 4.6 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom (4.6 kB at 176 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom
+Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom (5.3 kB at 140 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+Progress (1): 4.1/19 kBProgress (1): 7.5/19 kBProgress (1): 12/19 kB Progress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 kB at 536 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+Progress (1): 4.1/4.9 kBProgress (1): 4.9 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom (4.9 kB at 141 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/commons-io/commons-io/2.2/commons-io-2.2.pom
+Progress (1): 4.1/11 kBProgress (1): 7.5/11 kBProgress (1): 11 kB                       Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/commons-io/commons-io/2.2/commons-io-2.2.pom (11 kB at 356 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/commons/commons-parent/24/commons-parent-24.pom
+Progress (1): 4.1/47 kBProgress (1): 7.5/47 kBProgress (1): 12/47 kB Progress (1): 16/47 kBProgress (1): 20/47 kBProgress (1): 24/47 kBProgress (1): 28/47 kBProgress (1): 32/47 kBProgress (1): 36/47 kBProgress (1): 40/47 kBProgress (1): 44/47 kBProgress (1): 47 kB                      Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 kB at 1.1 MB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom
+Progress (1): 4.1/13 kBProgress (1): 7.5/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom (13 kB at 433 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/iq80/snappy/snappy/0.4/snappy-0.4.pom
+Progress (1): 4.1/14 kBProgress (1): 7.5/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/iq80/snappy/snappy/0.4/snappy-0.4.pom (14 kB at 391 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/tukaani/xz/1.5/xz-1.5.pom
+Progress (1): 1.9 kB                    Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/tukaani/xz/1.5/xz-1.5.pom (1.9 kB at 95 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom
+Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom (5.3 kB at 254 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+Progress (1): 4.1/154 kBProgress (1): 7.5/154 kBProgress (1): 12/154 kB Progress (1): 16/154 kBProgress (1): 20/154 kBProgress (1): 24/154 kBProgress (2): 24/154 kB | 4.1/24 kBProgress (2): 24/154 kB | 7.5/24 kBProgress (2): 24/154 kB | 12/24 kB Progress (2): 24/154 kB | 16/24 kBProgress (2): 24/154 kB | 20/24 kBProgress (2): 24/154 kB | 24 kB   Progress (3): 24/154 kB | 24 kB | 4.1/187 kBProgress (3): 24/154 kB | 24 kB | 7.5/187 kBProgress (3): 24/154 kB | 24 kB | 12/187 kB Progress (3): 24/154 kB | 24 kB | 16/187 kBProgress (3): 24/154 kB | 24 kB | 20/187 kBProgress (3): 24/154 kB | 24 kB | 24/187 kBProgress (4): 24/154 kB | 24 kB | 24/187 kB | 4.1/86 kBProgress (4): 28/154 kB | 24 kB | 24/187 kB | 4.1/86 kBProgress (4): 32/154 kB | 24 kB | 24/187 kB | 4.1/86 kBProgress (4): 36/154 kB | 24 kB | 24/187 kB | 4.1/86 kBProgress (4): 40/154 kB | 24 kB | 24/187 kB | 4.1/86 kBProgress (4): 44/154 kB | 24 kB | 24/187 kB | 4.1/86 kB                                                       Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar (24 kB at 282 kB/s)
+Progress (3): 44/154 kB | 28/187 kB | 4.1/86 kBProgress (3): 44/154 kB | 32/187 kB | 4.1/86 kBProgress (3): 44/154 kB | 36/187 kB | 4.1/86 kBProgress (3): 44/154 kB | 40/187 kB | 4.1/86 kBProgress (3): 44/154 kB | 44/187 kB | 4.1/86 kBProgress (3): 44/154 kB | 48/187 kB | 4.1/86 kBProgress (3): 44/154 kB | 53/187 kB | 4.1/86 kBProgress (3): 44/154 kB | 57/187 kB | 4.1/86 kBProgress (3): 48/154 kB | 57/187 kB | 4.1/86 kBProgress (3): 53/154 kB | 57/187 kB | 4.1/86 kBProgress (3): 57/154 kB | 57/187 kB | 4.1/86 kBProgress (3): 61/154 kB | 57/187 kB | 4.1/86 kBProgress (3): 65/154 kB | 57/187 kB | 4.1/86 kBProgress (3): 69/154 kB | 57/187 kB | 4.1/86 kBProgress (3): 69/154 kB | 57/187 kB | 7.5/86 kBProgress (3): 69/154 kB | 57/187 kB | 12/86 kB Progress (3): 69/154 kB | 57/187 kB | 16/86 kBProgress (3): 69/154 kB | 57/187 kB | 20/86 kBProgress (3): 69/154 kB | 57/187 kB | 24/86 kBProgress (3): 69/154 kB | 57/187 kB | 28/86 kBProgress (3): 69/154 kB | 57/187 kB | 32/86 kBProgress (3): 69/154 kB | 57/187 kB | 36/86 kBProgress (3): 69/154 kB | 57/187 kB | 40/86 kBProgress (3): 69/154 kB | 57/187 kB | 44/86 kBProgress (3): 69/154 kB | 57/187 kB | 48/86 kBProgress (3): 69/154 kB | 57/187 kB | 53/86 kBProgress (4): 69/154 kB | 57/187 kB | 53/86 kB | 4.1/426 kBProgress (4): 69/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 73/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 77/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 81/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 85/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 89/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 94/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 98/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 102/154 kB | 57/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 102/154 kB | 61/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 102/154 kB | 65/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 102/154 kB | 69/187 kB | 53/86 kB | 7.5/426 kBProgress (4): 102/154 kB | 73/187 kB | 53/86 kB | 7.5/426 kB                                                            Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+Progress (4): 102/154 kB | 73/187 kB | 57/86 kB | 7.5/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 12/426 kB Progress (4): 102/154 kB | 73/187 kB | 57/86 kB | 16/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 20/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 24/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 28/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 32/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 36/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 40/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 44/426 kBProgress (4): 102/154 kB | 73/187 kB | 57/86 kB | 48/426 kBProgress (4): 102/154 kB | 77/187 kB | 57/86 kB | 48/426 kBProgress (4): 102/154 kB | 81/187 kB | 57/86 kB | 48/426 kBProgress (4): 102/154 kB | 85/187 kB | 57/86 kB | 48/426 kBProgress (4): 102/154 kB | 89/187 kB | 57/86 kB | 48/426 kBProgress (4): 102/154 kB | 94/187 kB | 57/86 kB | 48/426 kBProgress (4): 102/154 kB | 98/187 kB | 57/86 kB | 48/426 kBProgress (4): 102/154 kB | 102/187 kB | 57/86 kB | 48/426 kBProgress (4): 106/154 kB | 102/187 kB | 57/86 kB | 48/426 kBProgress (4): 110/154 kB | 102/187 kB | 57/86 kB | 48/426 kBProgress (4): 114/154 kB | 102/187 kB | 57/86 kB | 48/426 kBProgress (4): 118/154 kB | 102/187 kB | 57/86 kB | 48/426 kBProgress (4): 122/154 kB | 102/187 kB | 57/86 kB | 48/426 kBProgress (5): 122/154 kB | 102/187 kB | 57/86 kB | 48/426 kB | 4.1/58 kBProgress (5): 122/154 kB | 102/187 kB | 57/86 kB | 48/426 kB | 7.5/58 kBProgress (5): 122/154 kB | 102/187 kB | 57/86 kB | 48/426 kB | 12/58 kB Progress (5): 122/154 kB | 102/187 kB | 57/86 kB | 48/426 kB | 16/58 kBProgress (5): 122/154 kB | 102/187 kB | 61/86 kB | 48/426 kB | 16/58 kBProgress (5): 122/154 kB | 102/187 kB | 65/86 kB | 48/426 kB | 16/58 kBProgress (5): 122/154 kB | 102/187 kB | 69/86 kB | 48/426 kB | 16/58 kBProgress (5): 122/154 kB | 102/187 kB | 73/86 kB | 48/426 kB | 16/58 kBProgress (5): 122/154 kB | 102/187 kB | 77/86 kB | 48/426 kB | 16/58 kBProgress (5): 122/154 kB | 102/187 kB | 81/86 kB | 48/426 kB | 16/58 kBProgress (5): 122/154 kB | 102/187 kB | 81/86 kB | 48/426 kB | 20/58 kBProgress (5): 122/154 kB | 102/187 kB | 81/86 kB | 48/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 48/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 53/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 57/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 61/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 65/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 69/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 73/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 77/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 81/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 85/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 81/86 kB | 89/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 85/86 kB | 89/426 kB | 24/58 kBProgress (5): 122/154 kB | 106/187 kB | 86 kB | 89/426 kB | 24/58 kB   Progress (5): 126/154 kB | 106/187 kB | 86 kB | 89/426 kB | 24/58 kBProgress (5): 130/154 kB | 106/187 kB | 86 kB | 89/426 kB | 24/58 kBProgress (5): 134/154 kB | 106/187 kB | 86 kB | 89/426 kB | 24/58 kBProgress (5): 139/154 kB | 106/187 kB | 86 kB | 89/426 kB | 24/58 kBProgress (5): 139/154 kB | 106/187 kB | 86 kB | 89/426 kB | 28/58 kBProgress (5): 139/154 kB | 106/187 kB | 86 kB | 89/426 kB | 32/58 kBProgress (5): 139/154 kB | 106/187 kB | 86 kB | 89/426 kB | 36/58 kBProgress (5): 139/154 kB | 106/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 110/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 114/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 118/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 122/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 126/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 130/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 134/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 139/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 143/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 139/154 kB | 147/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 143/154 kB | 147/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 147/154 kB | 147/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 151/154 kB | 147/187 kB | 86 kB | 89/426 kB | 40/58 kBProgress (5): 154 kB | 147/187 kB | 86 kB | 89/426 kB | 40/58 kB                                                                    Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar (86 kB at 421 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/tukaani/xz/1.5/xz-1.5.jar
+Progress (4): 154 kB | 147/187 kB | 94/426 kB | 40/58 kBProgress (4): 154 kB | 147/187 kB | 98/426 kB | 40/58 kBProgress (4): 154 kB | 147/187 kB | 102/426 kB | 40/58 kBProgress (4): 154 kB | 147/187 kB | 106/426 kB | 40/58 kBProgress (4): 154 kB | 147/187 kB | 110/426 kB | 40/58 kBProgress (4): 154 kB | 147/187 kB | 114/426 kB | 40/58 kBProgress (4): 154 kB | 147/187 kB | 118/426 kB | 40/58 kBProgress (4): 154 kB | 147/187 kB | 118/426 kB | 44/58 kBProgress (4): 154 kB | 147/187 kB | 118/426 kB | 48/58 kBProgress (4): 154 kB | 147/187 kB | 118/426 kB | 53/58 kBProgress (4): 154 kB | 147/187 kB | 118/426 kB | 57/58 kBProgress (4): 154 kB | 147/187 kB | 118/426 kB | 58 kB   Progress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 4.1/100 kBProgress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 7.6/100 kBProgress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 12/100 kB Progress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 16/100 kBProgress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 20/100 kBProgress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 24/100 kBProgress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 28/100 kBProgress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 32/100 kBProgress (5): 154 kB | 147/187 kB | 118/426 kB | 58 kB | 36/100 kB                                                                  Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/iq80/snappy/snappy/0.4/snappy-0.4.jar (58 kB at 249 kB/s)
+Progress (4): 154 kB | 147/187 kB | 122/426 kB | 36/100 kBProgress (4): 154 kB | 147/187 kB | 126/426 kB | 36/100 kBProgress (4): 154 kB | 147/187 kB | 130/426 kB | 36/100 kBProgress (4): 154 kB | 147/187 kB | 134/426 kB | 36/100 kB                                                          Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar (154 kB at 633 kB/s)
+Progress (3): 151/187 kB | 134/426 kB | 36/100 kBProgress (3): 155/187 kB | 134/426 kB | 36/100 kBProgress (3): 159/187 kB | 134/426 kB | 36/100 kBProgress (3): 163/187 kB | 134/426 kB | 36/100 kBProgress (3): 167/187 kB | 134/426 kB | 36/100 kBProgress (3): 171/187 kB | 134/426 kB | 36/100 kBProgress (3): 175/187 kB | 134/426 kB | 36/100 kBProgress (3): 180/187 kB | 134/426 kB | 36/100 kBProgress (3): 184/187 kB | 134/426 kB | 36/100 kBProgress (3): 187 kB | 134/426 kB | 36/100 kB    Progress (3): 187 kB | 139/426 kB | 36/100 kBProgress (3): 187 kB | 143/426 kB | 36/100 kBProgress (3): 187 kB | 147/426 kB | 36/100 kBProgress (3): 187 kB | 151/426 kB | 36/100 kBProgress (3): 187 kB | 151/426 kB | 40/100 kBProgress (3): 187 kB | 151/426 kB | 44/100 kBProgress (3): 187 kB | 151/426 kB | 49/100 kBProgress (3): 187 kB | 151/426 kB | 53/100 kBProgress (3): 187 kB | 151/426 kB | 57/100 kBProgress (3): 187 kB | 151/426 kB | 61/100 kBProgress (3): 187 kB | 151/426 kB | 65/100 kBProgress (3): 187 kB | 151/426 kB | 69/100 kBProgress (3): 187 kB | 151/426 kB | 73/100 kBProgress (3): 187 kB | 155/426 kB | 73/100 kBProgress (3): 187 kB | 159/426 kB | 73/100 kBProgress (3): 187 kB | 163/426 kB | 73/100 kBProgress (3): 187 kB | 167/426 kB | 73/100 kBProgress (3): 187 kB | 171/426 kB | 73/100 kBProgress (3): 187 kB | 175/426 kB | 73/100 kBProgress (3): 187 kB | 180/426 kB | 73/100 kBProgress (3): 187 kB | 184/426 kB | 73/100 kBProgress (3): 187 kB | 188/426 kB | 73/100 kBProgress (3): 187 kB | 192/426 kB | 73/100 kB                                             Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar (187 kB at 656 kB/s)
+Progress (2): 192/426 kB | 77/100 kBProgress (2): 192/426 kB | 81/100 kBProgress (2): 192/426 kB | 85/100 kBProgress (2): 192/426 kB | 89/100 kBProgress (2): 192/426 kB | 94/100 kBProgress (2): 192/426 kB | 98/100 kBProgress (2): 192/426 kB | 100 kB   Progress (2): 196/426 kB | 100 kBProgress (2): 200/426 kB | 100 kBProgress (2): 204/426 kB | 100 kBProgress (2): 208/426 kB | 100 kBProgress (2): 212/426 kB | 100 kB                                 Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/tukaani/xz/1.5/xz-1.5.jar (100 kB at 341 kB/s)
+Progress (1): 216/426 kBProgress (1): 220/426 kBProgress (1): 225/426 kBProgress (1): 229/426 kBProgress (1): 233/426 kBProgress (1): 237/426 kBProgress (1): 241/426 kBProgress (1): 245/426 kBProgress (1): 249/426 kBProgress (1): 253/426 kBProgress (1): 257/426 kBProgress (1): 261/426 kBProgress (1): 266/426 kBProgress (1): 270/426 kBProgress (1): 274/426 kBProgress (1): 278/426 kBProgress (1): 282/426 kBProgress (1): 286/426 kBProgress (1): 290/426 kBProgress (1): 294/426 kBProgress (1): 298/426 kBProgress (1): 302/426 kBProgress (1): 307/426 kBProgress (1): 311/426 kBProgress (1): 315/426 kBProgress (1): 319/426 kBProgress (1): 323/426 kBProgress (1): 327/426 kBProgress (1): 331/426 kBProgress (1): 335/426 kBProgress (1): 339/426 kBProgress (1): 343/426 kBProgress (1): 347/426 kBProgress (1): 352/426 kBProgress (1): 356/426 kBProgress (1): 360/426 kBProgress (1): 364/426 kBProgress (1): 368/426 kBProgress (1): 372/426 kBProgress (1): 376/426 kBProgress (1): 380/426 kBProgress (1): 384/426 kBProgress (1): 388/426 kBProgress (1): 393/426 kBProgress (1): 397/426 kBProgress (1): 401/426 kBProgress (1): 405/426 kBProgress (1): 409/426 kBProgress (1): 413/426 kBProgress (1): 417/426 kBProgress (1): 421/426 kBProgress (1): 425/426 kBProgress (1): 426 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar (426 kB at 1.1 MB/s)
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /var/jenkins_home/workspace/teami-guest-manager/target/teami-guest-manager-1.0.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ teami-guest-manager ---
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom
+Progress (1): 4.0 kB                    Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom (4.0 kB at 131 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom
+Progress (1): 3.1 kB                    Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom (3.1 kB at 108 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/junit/junit/3.8.1/junit-3.8.1.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar
+Progress (1): 4.1/233 kBProgress (2): 4.1/233 kB | 4.1/121 kBProgress (2): 4.1/233 kB | 7.5/121 kBProgress (2): 4.1/233 kB | 12/121 kB Progress (2): 4.1/233 kB | 16/121 kBProgress (2): 4.1/233 kB | 20/121 kBProgress (2): 4.1/233 kB | 24/121 kBProgress (2): 4.1/233 kB | 28/121 kBProgress (2): 4.1/233 kB | 32/121 kBProgress (2): 4.1/233 kB | 36/121 kBProgress (2): 4.1/233 kB | 40/121 kBProgress (2): 4.1/233 kB | 44/121 kBProgress (2): 4.1/233 kB | 48/121 kBProgress (2): 4.1/233 kB | 53/121 kBProgress (2): 4.1/233 kB | 57/121 kBProgress (2): 4.1/233 kB | 61/121 kBProgress (2): 4.1/233 kB | 65/121 kBProgress (2): 4.1/233 kB | 69/121 kBProgress (2): 4.1/233 kB | 73/121 kBProgress (2): 4.1/233 kB | 77/121 kBProgress (2): 4.1/233 kB | 81/121 kBProgress (2): 4.1/233 kB | 85/121 kBProgress (2): 4.1/233 kB | 89/121 kBProgress (2): 4.1/233 kB | 94/121 kBProgress (2): 4.1/233 kB | 98/121 kBProgress (2): 4.1/233 kB | 102/121 kBProgress (2): 4.1/233 kB | 106/121 kBProgress (2): 4.1/233 kB | 110/121 kB                                     Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar
+Progress (3): 4.1/233 kB | 110/121 kB | 4.1/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 7.5/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 12/38 kB Progress (3): 4.1/233 kB | 110/121 kB | 16/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 20/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 24/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 28/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 32/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 36/38 kBProgress (3): 4.1/233 kB | 110/121 kB | 38 kB   Progress (3): 7.5/233 kB | 110/121 kB | 38 kBProgress (3): 12/233 kB | 110/121 kB | 38 kB Progress (3): 16/233 kB | 110/121 kB | 38 kBProgress (3): 20/233 kB | 110/121 kB | 38 kBProgress (3): 24/233 kB | 110/121 kB | 38 kBProgress (3): 28/233 kB | 110/121 kB | 38 kBProgress (3): 32/233 kB | 110/121 kB | 38 kBProgress (3): 36/233 kB | 110/121 kB | 38 kBProgress (3): 40/233 kB | 110/121 kB | 38 kBProgress (3): 44/233 kB | 110/121 kB | 38 kBProgress (3): 48/233 kB | 110/121 kB | 38 kBProgress (3): 53/233 kB | 110/121 kB | 38 kBProgress (3): 57/233 kB | 110/121 kB | 38 kBProgress (3): 61/233 kB | 110/121 kB | 38 kBProgress (3): 65/233 kB | 110/121 kB | 38 kBProgress (3): 69/233 kB | 110/121 kB | 38 kBProgress (3): 73/233 kB | 110/121 kB | 38 kBProgress (3): 77/233 kB | 110/121 kB | 38 kBProgress (3): 77/233 kB | 114/121 kB | 38 kBProgress (3): 77/233 kB | 118/121 kB | 38 kBProgress (3): 77/233 kB | 121 kB | 38 kB                                            Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 383 kB/s)
+Progress (3): 77/233 kB | 121 kB | 4.1/239 kBProgress (3): 77/233 kB | 121 kB | 7.5/239 kBProgress (3): 77/233 kB | 121 kB | 12/239 kB Progress (3): 77/233 kB | 121 kB | 16/239 kBProgress (3): 77/233 kB | 121 kB | 20/239 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 4.1/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 7.5/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 12/155 kB Progress (4): 77/233 kB | 121 kB | 20/239 kB | 16/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 20/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 24/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 28/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 32/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 36/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 40/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 44/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 48/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 53/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 57/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 61/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 65/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 69/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 73/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 77/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 81/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 85/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 89/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 94/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 98/155 kBProgress (4): 77/233 kB | 121 kB | 20/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 20/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 24/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 28/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 32/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 36/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 40/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 44/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 48/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 53/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 57/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 61/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 65/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 69/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 73/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 77/239 kB | 102/155 kBProgress (4): 81/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 85/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 89/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 94/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 98/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 102/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 106/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 110/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 114/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 118/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 122/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 126/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 130/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 134/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 139/233 kB | 121 kB | 81/239 kB | 102/155 kBProgress (4): 139/233 kB | 121 kB | 85/239 kB | 102/155 kBProgress (4): 139/233 kB | 121 kB | 89/239 kB | 102/155 kBProgress (4): 139/233 kB | 121 kB | 94/239 kB | 102/155 kB                                                          Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/junit/junit/3.8.1/junit-3.8.1.jar (121 kB at 877 kB/s)
+Progress (3): 143/233 kB | 94/239 kB | 102/155 kBProgress (3): 143/233 kB | 94/239 kB | 106/155 kBProgress (3): 143/233 kB | 94/239 kB | 110/155 kBProgress (3): 143/233 kB | 94/239 kB | 114/155 kBProgress (3): 143/233 kB | 94/239 kB | 118/155 kBProgress (3): 143/233 kB | 94/239 kB | 122/155 kBProgress (3): 143/233 kB | 94/239 kB | 126/155 kBProgress (3): 143/233 kB | 94/239 kB | 130/155 kBProgress (3): 143/233 kB | 94/239 kB | 134/155 kBProgress (3): 143/233 kB | 94/239 kB | 139/155 kBProgress (3): 143/233 kB | 94/239 kB | 143/155 kBProgress (3): 143/233 kB | 94/239 kB | 147/155 kBProgress (3): 143/233 kB | 94/239 kB | 151/155 kBProgress (3): 143/233 kB | 94/239 kB | 155/155 kBProgress (3): 143/233 kB | 94/239 kB | 155 kB    Progress (3): 147/233 kB | 94/239 kB | 155 kBProgress (3): 151/233 kB | 94/239 kB | 155 kBProgress (3): 155/233 kB | 94/239 kB | 155 kBProgress (3): 159/233 kB | 94/239 kB | 155 kBProgress (3): 163/233 kB | 94/239 kB | 155 kBProgress (3): 167/233 kB | 94/239 kB | 155 kBProgress (3): 171/233 kB | 94/239 kB | 155 kBProgress (3): 175/233 kB | 94/239 kB | 155 kBProgress (3): 180/233 kB | 94/239 kB | 155 kBProgress (3): 184/233 kB | 94/239 kB | 155 kBProgress (3): 188/233 kB | 94/239 kB | 155 kBProgress (3): 192/233 kB | 94/239 kB | 155 kBProgress (3): 196/233 kB | 94/239 kB | 155 kBProgress (3): 200/233 kB | 94/239 kB | 155 kBProgress (3): 204/233 kB | 94/239 kB | 155 kBProgress (3): 208/233 kB | 94/239 kB | 155 kBProgress (3): 212/233 kB | 94/239 kB | 155 kBProgress (3): 216/233 kB | 94/239 kB | 155 kBProgress (3): 221/233 kB | 94/239 kB | 155 kBProgress (3): 225/233 kB | 94/239 kB | 155 kBProgress (3): 229/233 kB | 94/239 kB | 155 kBProgress (3): 229/233 kB | 98/239 kB | 155 kBProgress (3): 229/233 kB | 102/239 kB | 155 kBProgress (3): 229/233 kB | 106/239 kB | 155 kBProgress (3): 229/233 kB | 110/239 kB | 155 kBProgress (3): 229/233 kB | 114/239 kB | 155 kBProgress (3): 229/233 kB | 118/239 kB | 155 kBProgress (3): 229/233 kB | 122/239 kB | 155 kBProgress (3): 229/233 kB | 126/239 kB | 155 kBProgress (3): 229/233 kB | 130/239 kB | 155 kBProgress (3): 229/233 kB | 134/239 kB | 155 kBProgress (3): 233 kB | 134/239 kB | 155 kB                                              Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar (155 kB at 1.1 MB/s)
+Progress (2): 233 kB | 139/239 kBProgress (2): 233 kB | 143/239 kBProgress (2): 233 kB | 147/239 kBProgress (2): 233 kB | 151/239 kBProgress (2): 233 kB | 155/239 kBProgress (2): 233 kB | 159/239 kBProgress (2): 233 kB | 163/239 kBProgress (2): 233 kB | 167/239 kB                                 Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (233 kB at 1.4 MB/s)
+Progress (1): 171/239 kBProgress (1): 175/239 kBProgress (1): 180/239 kBProgress (1): 184/239 kBProgress (1): 188/239 kBProgress (1): 192/239 kBProgress (1): 196/239 kBProgress (1): 200/239 kBProgress (1): 204/239 kBProgress (1): 208/239 kBProgress (1): 212/239 kBProgress (1): 216/239 kBProgress (1): 221/239 kBProgress (1): 225/239 kBProgress (1): 229/239 kBProgress (1): 233/239 kBProgress (1): 237/239 kBProgress (1): 239 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar (239 kB at 1.4 MB/s)
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-guest-manager/target/teami-guest-manager-1.0.jar to /var/jenkins_home/workspace/teami-guest-manager/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-guest-manager/pom.xml to /var/jenkins_home/workspace/teami-guest-manager/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-guest-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-guest-manager/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-guest-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Skipping execution of surefire because it has already been run for this configuration
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-guest-manager ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-guest-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-guest-manager/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-guest-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-guest-manager ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Skipping execution of surefire because it has already been run for this configuration
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-guest-manager ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ teami-guest-manager ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-guest-manager/target/teami-guest-manager-1.0.jar to /var/jenkins_home/workspace/teami-guest-manager/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-guest-manager/pom.xml to /var/jenkins_home/workspace/teami-guest-manager/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ teami-guest-manager ---
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar
+Progress (1): 2.0/8.3 kBProgress (1): 4.1/8.3 kBProgress (1): 6.1/8.3 kBProgress (1): 8.2/8.3 kBProgress (1): 8.3 kB                        Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar (8.3 kB at 16 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom
+Progress (1): 2.0/4.5 kBProgress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom (4.5 kB at 33 kB/s)
+Downloading from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/maven-metadata.xml
+Progress (1): 358 B                   [WARNING] Checksum validation failed, expected 51efcdd1c03ad604707c5021a10a1a97f8ba121b but is 48bc5e507c0ccaf1fa57b220259c5b53803b4d5d from teami for http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/maven-metadata.xml
+Progress (1): 404 B                   Downloaded from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/maven-metadata.xml (404 B at 1.4 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/maven-metadata.xml
+Progress (1): 358 B                   Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/maven-metadata.xml (358 B at 6.8 kB/s)
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Saving Build Info to '/var/jenkins_home/workspace/teami-guest-manager/target/build-info.json'
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: deploy artifacts set to false, artifacts will not be deployed...
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Deploying build info ...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Deploying build descriptor to: http://vps663090.ovh.net:8081/artifactory/api/build
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Build successfully deployed. Browse it in Artifactory under http://vps663090.ovh.net:8081/artifactory/webapp/builds/teami-guest-manager/6
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  01:36 min
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-04T21:32:36Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Finished: SUCCESS

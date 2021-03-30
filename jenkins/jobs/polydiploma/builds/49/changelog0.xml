@@ -1,0 +1,11 @@
+commit 6793838315b24170c1c3706dd2fcaf5fc78dd902
+tree 7b47a8339d0819059ebe81b1b78ea6fe529614d0
+parent 987edf83bf3feca021cabbd38a4da716e3c3835b
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:22 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:22 +0200
+
+    #26 add register + guest manager interface
+
+
+
+:100644 100644 294dacde42300565ae161828d528b2ce51a0a97d bff3575b3e9078ecdcda8b601216ed71db0cae59 M	src/test/resources/features/ScenarioTest.feature

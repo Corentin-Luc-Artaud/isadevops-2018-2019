@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="www.polydiploma.fr"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  name="CeremonyManagerServiceImplService" targetNamespace="www.polydiploma.fr">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="www.polydiploma.fr"
+                   targetNamespace="www.polydiploma.fr" version="1.0">
+
+            <xs:element name="addVip" type="tns:addVip"/>
+            <xs:element name="addVipResponse" type="tns:addVipResponse"/>
+            <xs:element name="createNewRdd" type="tns:createNewRdd"/>
+            <xs:element name="createNewRddResponse" type="tns:createNewRddResponse"/>
+            <xs:element name="generateInitialPlanning" type="tns:generateInitialPlanning"/>
+            <xs:element name="generateInitialPlanningResponse" type="tns:generateInitialPlanningResponse"/>
+            <xs:element name="getAllVipToString" type="tns:getAllVipToString"/>
+            <xs:element name="getAllVipToStringResponse" type="tns:getAllVipToStringResponse"/>
+            <xs:element name="getCurrentCeremony" type="tns:getCurrentCeremony"/>
+            <xs:element name="getCurrentCeremonyResponse" type="tns:getCurrentCeremonyResponse"/>
+            <xs:element name="notifyGuests" type="tns:notifyGuests"/>
+            <xs:element name="notifyGuestsResponse" type="tns:notifyGuestsResponse"/>
+            <xs:element name="ping" type="tns:ping"/>
+            <xs:element name="pingResponse" type="tns:pingResponse"/>
+            <xs:element name="removeVip" type="tns:removeVip"/>
+            <xs:element name="removeVipResponse" type="tns:removeVipResponse"/>
+            <xs:element name="setDate" type="tns:setDate"/>
+            <xs:element name="setDateResponse" type="tns:setDateResponse"/>
+            <xs:element name="setPlace" type="tns:setPlace"/>
+            <xs:element name="setPlaceResponse" type="tns:setPlaceResponse"/>
+            <xs:complexType name="generateInitialPlanning">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="generateInitialPlanningResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="addVip">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+                    <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+                    <xs:element minOccurs="0" name="arg2" type="xs:string"/>
+                    <xs:element minOccurs="0" name="arg3" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="addVipResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="setDate">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="date" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="setDateResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="createNewRdd">
+                <xs:sequence>
+                    <xs:element name="year" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="createNewRddResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getCurrentCeremony">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getCurrentCeremonyResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="ceremony" type="tns:ceremony"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="ceremony">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="date" type="tns:localDateTime"/>
+                    <xs:element minOccurs="0" name="minimalDate" type="tns:localDateTime"/>
+                    <xs:element minOccurs="0" name="place" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType final="extension restriction" name="localDateTime">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="notifyGuests">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="notifyGuestsResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="setPlace">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="place" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="setPlaceResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getAllVipToString">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getAllVipToStringResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="vips" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="ping">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="pingResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="return" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="removeVip">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="removeVipResponse">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="generateInitialPlanning">
+        <wsdl:part element="tns:generateInitialPlanning" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getAllVipToStringResponse">
+        <wsdl:part element="tns:getAllVipToStringResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="setDate">
+        <wsdl:part element="tns:setDate" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createNewRdd">
+        <wsdl:part element="tns:createNewRdd" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="pingResponse">
+        <wsdl:part element="tns:pingResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="setPlaceResponse">
+        <wsdl:part element="tns:setPlaceResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getCurrentCeremonyResponse">
+        <wsdl:part element="tns:getCurrentCeremonyResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="setDateResponse">
+        <wsdl:part element="tns:setDateResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getAllVipToString">
+        <wsdl:part element="tns:getAllVipToString" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="notifyGuestsResponse">
+        <wsdl:part element="tns:notifyGuestsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="removeVip">
+        <wsdl:part element="tns:removeVip" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="addVip">
+        <wsdl:part element="tns:addVip" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="addVipResponse">
+        <wsdl:part element="tns:addVipResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createNewRddResponse">
+        <wsdl:part element="tns:createNewRddResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getCurrentCeremony">
+        <wsdl:part element="tns:getCurrentCeremony" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="notifyGuests">
+        <wsdl:part element="tns:notifyGuests" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="setPlace">
+        <wsdl:part element="tns:setPlace" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="removeVipResponse">
+        <wsdl:part element="tns:removeVipResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="generateInitialPlanningResponse">
+        <wsdl:part element="tns:generateInitialPlanningResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="ping">
+        <wsdl:part element="tns:ping" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="CeremonyManagerService">
+        <wsdl:operation name="generateInitialPlanning">
+            <wsdl:input message="tns:generateInitialPlanning" name="generateInitialPlanning">
+            </wsdl:input>
+            <wsdl:output message="tns:generateInitialPlanningResponse" name="generateInitialPlanningResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="addVip">
+            <wsdl:input message="tns:addVip" name="addVip">
+            </wsdl:input>
+            <wsdl:output message="tns:addVipResponse" name="addVipResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="setDate">
+            <wsdl:input message="tns:setDate" name="setDate">
+            </wsdl:input>
+            <wsdl:output message="tns:setDateResponse" name="setDateResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createNewRdd">
+            <wsdl:input message="tns:createNewRdd" name="createNewRdd">
+            </wsdl:input>
+            <wsdl:output message="tns:createNewRddResponse" name="createNewRddResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCurrentCeremony">
+            <wsdl:input message="tns:getCurrentCeremony" name="getCurrentCeremony">
+            </wsdl:input>
+            <wsdl:output message="tns:getCurrentCeremonyResponse" name="getCurrentCeremonyResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="notifyGuests">
+            <wsdl:input message="tns:notifyGuests" name="notifyGuests">
+            </wsdl:input>
+            <wsdl:output message="tns:notifyGuestsResponse" name="notifyGuestsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="setPlace">
+            <wsdl:input message="tns:setPlace" name="setPlace">
+            </wsdl:input>
+            <wsdl:output message="tns:setPlaceResponse" name="setPlaceResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getAllVipToString">
+            <wsdl:input message="tns:getAllVipToString" name="getAllVipToString">
+            </wsdl:input>
+            <wsdl:output message="tns:getAllVipToStringResponse" name="getAllVipToStringResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ping">
+            <wsdl:input message="tns:ping" name="ping">
+            </wsdl:input>
+            <wsdl:output message="tns:pingResponse" name="pingResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="removeVip">
+            <wsdl:input message="tns:removeVip" name="removeVip">
+            </wsdl:input>
+            <wsdl:output message="tns:removeVipResponse" name="removeVipResponse">
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="CeremonyManagerServiceImplServiceSoapBinding" type="tns:CeremonyManagerService">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="generateInitialPlanning">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="generateInitialPlanning">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="generateInitialPlanningResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="addVip">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="addVip">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="addVipResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="setDate">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="setDate">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="setDateResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createNewRdd">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="createNewRdd">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createNewRddResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCurrentCeremony">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getCurrentCeremony">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getCurrentCeremonyResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="notifyGuests">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="notifyGuests">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="notifyGuestsResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="setPlace">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="setPlace">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="setPlaceResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getAllVipToString">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getAllVipToString">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getAllVipToStringResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="ping">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="ping">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="pingResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="removeVip">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="removeVip">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="removeVipResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="CeremonyManagerServiceImplService">
+        <wsdl:port binding="tns:CeremonyManagerServiceImplServiceSoapBinding" name="CeremonyManagerServiceImplPort">
+            <soap:address location="http://localhost:8080/teami-polydiploma/webservices/ceremony-manager"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

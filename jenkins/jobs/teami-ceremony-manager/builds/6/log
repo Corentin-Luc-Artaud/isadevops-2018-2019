@@ -1,0 +1,70 @@
+Started by GitHub push by Corentin-Luc-Artaud
+Building in workspace /var/jenkins_home/workspace/teami-ceremony-manager
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e86555fcf43af64035aa0497f044ff02dca057ce (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e86555fcf43af64035aa0497f044ff02dca057ce
+Commit message: "#24 mistakes"
+ > git rev-list --no-walk 6f55e62133c46af2c05f26fc3f89f9399800bde3 # timeout=10
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-ceremony-manager] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-ceremony-manager@tmp/artifactory/buildInfo7419971516568261195.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-ceremony-manager/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-ceremony-manager/classworlds1778879538034669332conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-ceremony-manager org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ---< fr.unice.polytech.si4.isa.devops.teami:teami-ceremony-manager >----
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-ceremony-manager 1.1
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-ceremony-manager/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-ceremony-manager/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 4 source files to /var/jenkins_home/workspace/teami-ceremony-manager/target/classes
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-ceremony-manager/src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java:[28,31] incompatible types: java.time.LocalDateTime cannot be converted to java.sql.Timestamp
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-ceremony-manager/src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java:[50,28] method notifyStudents in interface fr.unice.polytech.si4.isa.devops.teami.notification.StudentNotification cannot be applied to given types;
+  required: java.util.List<fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student>
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - 2 errors 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  7.015 s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-12T07:46:46Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile) on project teami-ceremony-manager: Compilation failure: Compilation failure: 
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-ceremony-manager/src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java:[28,31] incompatible types: java.time.LocalDateTime cannot be converted to java.sql.Timestamp
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-ceremony-manager/src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java:[50,28] method notifyStudents in interface fr.unice.polytech.si4.isa.devops.teami.notification.StudentNotification cannot be applied to given types;
+[main] ERROR org.apache.maven.cli.MavenCli -   required: java.util.List<fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student>
+[main] ERROR org.apache.maven.cli.MavenCli -   found: no arguments
+[main] ERROR org.apache.maven.cli.MavenCli -   reason: actual and formal argument lists differ in length
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

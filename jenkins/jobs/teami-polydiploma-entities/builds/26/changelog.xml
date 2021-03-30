@@ -1,0 +1,11 @@
+commit a3e8f8f297195f994dbd18715e98e2f65b5683dc
+tree 179e7fbfd9ece96f153c5df0d985002ac652cbfa
+parent 25c72ace246a68be8833a01befdbc136f7deef11
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 14:04:02 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 14:04:02 +0200
+
+    #26 add persistence on register
+
+
+
+:100644 100644 9aecd559cf8f0f43b6ac3545e3102b84f81eea4b 6f78c17927fac83cba23e6fa1a857116b15f8a7c M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/Event.java

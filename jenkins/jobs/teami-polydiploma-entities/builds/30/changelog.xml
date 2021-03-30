@@ -1,0 +1,13 @@
+commit d8f5b014e3782e77770f73729664ce8548c51bcb
+tree c571f6c9a94bdf921d9b9e2f77314ff9411b307b
+parent 12b70c68da764b60ced3504cc06c330b2759fe82
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:26 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:26 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:100644 100644 934ebd22c5c1b07ad4e92857de518df47c36bf51 70077306de379aea0449361834ddbd9352845cba M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOffer.java
+:100644 100644 f1a468c58eb7838e2cf13805f1b3fef843f08cfa 0d9cfc2ef3ac341b2036241a2f95e843975fee25 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOfferTest.java

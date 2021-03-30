@@ -1,0 +1,17 @@
+commit 34b6d2a4b0abd6a3a15c54670091cbc49857bb7d
+tree 812b4c153e004f78e567d9c56ca0ca2521ac9b6c
+parent c71cb7d9c18b670d2ba871f2e80ede48f8704188
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:11 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:11 +0200
+
+    #26 finished the register component
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 4587727ae259f7024f499ab445a6abfcc7f24b85 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/BankMock/BankService.java
+:000000 100644 0000000000000000000000000000000000000000 65a1822a8f66ff0e64961e352caf23eef5123d73 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/BankMock/IBankService.java
+:100644 100644 85abb78a9faf73448deb66471c363a1a763fa49c 5936dbd76b6a5decef19cc7e7492276ba0814f59 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegister.java
+:100644 100644 c46fffda450b5a31b2a619c5dac4cb8b70eef094 eaca6985179cc43e77860df7b8cdf419bf73262a M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterBean.java
+:100644 100644 6613dfdeded009cdd18599d2bdc4aa4e5620d946 c4b745511eeac182e0ba262b2049a2f827fc51f8 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java
+:100644 100644 82eeae732e8d8cde01439816d57d29a310736c32 018baa1a78dc20c78ed7a35c9add35af91b06765 M	src/test/resources/META-INF/persistence.xml
+:100644 100644 77f8a678072b75edcb35f4791606c6afc31753cf 63322385ae123a08d7288972efe660342a497b28 M	src/test/resources/arquillian.xml

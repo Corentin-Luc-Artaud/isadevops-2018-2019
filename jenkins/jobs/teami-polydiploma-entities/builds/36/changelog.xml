@@ -1,0 +1,11 @@
+commit 947525e625564fe467688090eadbb05d0f9f8433
+tree 3b63df1730506fefb20c62cddef05060f8657bb8
+parent 940309daab00193ac7f077dfdbaaafe789a4f6d0
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:01 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:01 +0200
+
+    #26 fix price
+
+
+
+:100644 100644 04b2fcb5b7a81fd7bcd26d7e5b34e4de2a134c82 310b0d5dfca40897a1b96522761d4abb65807652 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Student.java

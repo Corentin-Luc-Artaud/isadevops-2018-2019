@@ -1,0 +1,14 @@
+commit 5204940823aa65bee507c2f8c62a3cdad4768206
+tree 5c5bb964ef9d96129106f829a5358a861eff520d
+parent 7d0e486322cb4e18860dde87e94462d10d63ac75
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-30 20:25:32 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-30 20:25:32 +0200
+
+    #21 more cucumber tests
+
+
+
+:100644 100644 ce1238fa5d3d006eebdeea51b619cea31a6ed637 67de9aeee4f42b88130e5f764f77ff014f298c83 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/CeremonyManagerServiceImpl.java
+:100644 100644 80e0bc9772d7bf51ac5e2f643154320642574d72 bcab0073e9e60134c9ef5921af7063fa2ef99ee2 M	src/test/java/arquillian/AbstractTest.java
+:100644 100644 20b934cc150ca4444d4dc50ca0cad7ae49aaf52f 98b04e52998d0931d1d58eb537e82ad3eb7623fc M	src/test/java/features/ScenarioTest.java
+:100644 100644 c067d02022e97ffe60da53349c5510aaa59cc7dc 9c93772cc6c77b78dbadc913020a8ef3486de9b7 M	src/test/resources/features/ScenarioTest.feature

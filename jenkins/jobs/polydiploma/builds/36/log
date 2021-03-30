@@ -1,0 +1,621 @@
+Started by user [8mha:////4MygrPD6YFAvMi/E/S4M6nr1Fda8lIFAXCIKZCZoqYWgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4I7MvtDMgU+jiGKE9kRT8atBNzr3UiQq+6FXJrc5hap+AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IMMPIAazcC9rAVv8I769hdrIsJc6qTaIYiRiCbwJXr3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4L8h4xa0l4mqJO+HuvfFo+MUxATcF4RpQ1TEPHN6yWOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/polydiploma
+[8mha:////4CSyvzpFtCmge6Rrx1QfoxVunAp/mTl6OHYJiB0pQWMfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MRWXTF08i1w06YA0UxJ4dAZYaJY8PBZdM1tSKLl1MVpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4HEEspXoGjA4lgbPJ3vDRss8SmN30DF3fSg4hC5CjWVmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4PsNQTwPQuzoUUATv1EG+Sc08k7I/yC8UqFslMHYPdhaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
+[8mha:////4DPSFw7vo0s2NSrBZV5cd9TI6Nqno/HQ3HIC/OhfojFaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4AHfXNRIFiUeonc6j4tyTMv99e3Rr91+GMoRPNaI0XKLAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED9uwSoQvAAAAA==[0m[Pipeline] tool
+[8mha:////4C0Yi7CP/u3d4Tn1Dq+h5erKcw7R1gytImX+YTrphYlkAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoY+NY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbC/LdtvsAfEnCxL0AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4ANHvi3I4KCFS0LSne89HnRgKcy5xoA0pjPs1S7dkv3jAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMjY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AGWMrAb0AAAA=[0m[Pipeline] }
+[8mha:////4Ey5CfzSV8Q9O15jXTeOkZZIyAFylLqyoxrk48kmnmFqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPc0iC370AAAA=[0m[Pipeline] // stage
+[8mha:////4HvhaZAMKyGqAyd1XRGmL4Ms8OGgU07nlYTv2c846ociAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INGJa+18EAAAA=[0m[Pipeline] withEnv
+[8mha:////4BZU0p9DXq+PF8bx8kIPVuFVzGPrZRx9c2AaFZdn9jBkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4F98JSFYo46hSrpKbKV7gep9iMQSmqBGAEIS3liazFOoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] stage
+[8mha:////4Ett+UffS070LJpANIz9WLgdtCm8MwJ1bI99a3w4kW7wAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Checkout)
+[8mha:////4F3GGAlcfFZCQ5jkUHTgO82/oQqyH33v9DuSaGp/ZE7GAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] tool
+[8mha:////4BSkSmOPBrTg88+Jj8nxp4sjXYIcntd+2cPavXEoEHl1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Mu88xI5rQ7HW2k2lVwOi3lnwsP1Smb0G1lLHvoBF6ONAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHg5TgTvgAAAA==[0m[Pipeline] tool
+[8mha:////4NHOA6jaQoPeYOWC7AbxoZG25HfXiOZEy5ZT56xo+wz3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHw4LzAvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4LX1FOLU0VLqoicCAcjdSnRb4Tofe7C0sRvhQarB61IrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWBBTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHfce0FwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4AehV2j7sym/n7Goy9hlqMn0LIP+zrhOgRG48Tq0SPdpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4FQHjYx7kJnI3glZFitVP8Lf+cZo7Ip2vlynwoX7ZLzAAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ rm -r '?/.m2/repository/fr'
+[8mha:////4NxHaYlZf1+MvMDJ4T5eUK2NsajUGDtNaopSsFyD4r2HAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/AQQGEN6+AAAA[0m[Pipeline] git
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-polydiploma-war.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-polydiploma-war.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-polydiploma-war.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a7590210d4927cefa1270b6bd873b4c21dfa6c6b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a7590210d4927cefa1270b6bd873b4c21dfa6c6b
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master a7590210d4927cefa1270b6bd873b4c21dfa6c6b
+Commit message: "#34 uncommented class"
+ > git rev-list --no-walk a7590210d4927cefa1270b6bd873b4c21dfa6c6b # timeout=10
+[8mha:////4F3xZNPhblQWnhejdGaqf7B14zZsJVjD6IrcOe8pWsTlAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNHEyTq6ExS/AFhFK3qNApZNf5K/5D6JNnLzDzT13Oc8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXge7LK+AAAA[0m[Pipeline] }
+[8mha:////4D1JJAvJGsmjZgVrcaI4HYUeEECsfdvaFX0cRP1LcHaHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN2w9ca2+AAAA[0m[Pipeline] // withEnv
+[8mha:////4LZh7/gCLikJkWH9fvQnlYfiV6CU0WLvi1glIeEYeZmFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+pKGTTvgAAAA==[0m[Pipeline] }
+[8mha:////4FdzTFPDaCerRN5fdS8i/a/ibjBiyef8sM6T+bTFpUK9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4Dxss7u74AAAA=[0m[Pipeline] // stage
+[8mha:////4D8dOm5ArCqUCWcyYcHTT+2QC6l48ZHbMNIGx8Fb8t3QAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIBaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1zStKxwgAAAA==[0m[Pipeline] stage
+[8mha:////4PmRu7Rms2U8zOl1fSUXL+DHp31mpE6n2k6bo7jpH8XnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (prepare maven)
+[8mha:////4JRtSWM5jFqDCKEO9VMrLzag7TckYP9Me6E9UpmyCt7SAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] tool
+[8mha:////4G+rD9K8NQb0xNCauk9mIBxrAHksokmXdRUOSmktiEmsAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeAtq90r4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4Mcv9Kfz4V2pbZPaqwKI5qKk9reT/c40uNOQbLQvPqotAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKClBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fQ+umy74AAAA=[0m[Pipeline] tool
+[8mha:////4CQJkz2p6RGlxrATk3aSlZTDD0znSuSGikNgL+xiqn0bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBoR954S+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4BH3bBm9E1ahPmKDmClJdC7IV4IVzWD4x5CkyTGo4RZ4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCTEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD6FshTzCAAAA[0m[Pipeline] withEnv
+[8mha:////4H4kj+IyLII003mTOlazKxKsW3ZqQOTX0XEo5qkGeFX6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4Cjt0zsE3/oPN767BhSCZJSOoZv7RDscaSLUoYhpieqyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] rtMavenResolver
+[8mha:////4Agsa7blTRVGvrDKpRetKyIbdZAPCsxmBcWFzBAslSn7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] rtMavenDeployer
+[8mha:////4NM91aUg6Am6fwSkUPLICSsHnY3gBI4obdXLV4nzoGgXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3vIC99vgAAAA==[0m[Pipeline] }
+[8mha:////4Ge/cSMrkJgg49uda0bOdQ66QrOGEgag+aDG/dDnm2zxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AETHo4GvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4CrmeT4yRPj41KfR6kPUBO/1N5FErN5b9n2F4UkGiytSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5dpvPzk5uL2+AAAA[0m[Pipeline] }
+[8mha:////4B+X0pIDtnXnZzbkhoxfQahzlc+fFbg1TC6gg3WJ/XFhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRTQIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9ywutbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KCABQbyw+95IW82keT3C5zLf2zo693ItWr2HSUB/Xp8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiG6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7Jluz/zyrNy9cmXPCAAAA[0m[Pipeline] stage
+[8mha:////4CC1ecspJ315BEKm9ZAjzip4XYgX9aBs6LhKYUk8frKTAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (Build)
+[8mha:////4Gs18SMNuTeqed4PhAk9BS1jlRsOrevOvoV37GENnoMNAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] tool
+[8mha:////4BTWGvRy+zMjqeleeENkKJIt2Hj2ikQL+3+r+amJsI6cAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fiSQUTb4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4DeFQDeJlMYuolqKPIYZuoA0Y+2gqRnZGt+b6U4BpNHYAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZMbCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DcgVD1S+AAAA[0m[Pipeline] tool
+[8mha:////4LiHXXk5c1BTtyfjPwZEXFqRnOLVGW04FkrMTOztd39PAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHDGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DQcJl9O+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4BodJve/l511k5PAe3Jl2ogT15zaqlgE9gniBgoEyW31AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh06YIQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AFkIoUrCAAAA[0m[Pipeline] withEnv
+[8mha:////4LDwatieWHF3UPPepEmBSuuiX97vv/VVF+3YIZnsIzQ2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] {
+[8mha:////4I9KN7P3RTWs2+skkOjNR7UBQ/t823PExWJT7Shez6pkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] rtMavenRun
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[polydiploma] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/polydiploma@tmp/artifactory/buildInfo6582689394332443921.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/polydiploma@tmp/artifactory/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/polydiploma@tmp/artifactory/classworlds2454658114672170107conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/polydiploma org.codehaus.plexus.classworlds.launcher.Launcher -f pom.xml clean install
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ----< fr.unice.polytech.si4.isa.devops.teami:teami-polydiploma-war >----
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-polydiploma-war 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ war ]---------------------------------
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom
+Progress (1): 4.1/4.4 kBProgress (1): 4.4 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom (4.4 kB at 2.9 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5/7.5 kBProgress (1): 7.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom (7.5 kB at 42 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom
+Progress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom (4.5 kB at 125 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.pom
+Progress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.pom (4.5 kB at 27 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.pom
+Progress (1): 4.1/5.0 kBProgress (1): 5.0 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.pom (5.0 kB at 21 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.pom
+Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.pom (4.2 kB at 28 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.pom (4.3 kB at 47 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.jar
+Progress (1): 4.1/28 kBProgress (1): 7.5/28 kBProgress (1): 12/28 kB Progress (1): 16/28 kBProgress (1): 20/28 kBProgress (1): 24/28 kBProgress (1): 28/28 kBProgress (1): 28 kB   Progress (2): 28 kB | 4.1/5.4 kBProgress (2): 28 kB | 5.4 kB    Progress (3): 28 kB | 5.4 kB | 4.1/5.8 kBProgress (3): 28 kB | 5.4 kB | 5.8 kB    Progress (4): 28 kB | 5.4 kB | 5.8 kB | 4.1/7.9 kBProgress (4): 28 kB | 5.4 kB | 5.8 kB | 7.5/7.9 kBProgress (4): 28 kB | 5.4 kB | 5.8 kB | 7.9 kB    Progress (5): 28 kB | 5.4 kB | 5.8 kB | 7.9 kB | 4.1/13 kBProgress (5): 28 kB | 5.4 kB | 5.8 kB | 7.9 kB | 7.5/13 kBProgress (5): 28 kB | 5.4 kB | 5.8 kB | 7.9 kB | 12/13 kB Progress (5): 28 kB | 5.4 kB | 5.8 kB | 7.9 kB | 13 kB                                                         Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar (5.4 kB at 21 kB/s)
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.jar (5.8 kB at 24 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.jar
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.jar (7.9 kB at 30 kB/s)
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar (28 kB at 107 kB/s)
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar (13 kB at 45 kB/s)
+Progress (1): 4.1/8.0 kBProgress (1): 7.5/8.0 kBProgress (1): 8.0 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.jar (8.0 kB at 24 kB/s)
+Progress (1): 4.1/6.4 kBProgress (1): 6.4 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.jar (6.4 kB at 17 kB/s)
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/polydiploma/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 10 source files to /var/jenkins_home/workspace/polydiploma/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /var/jenkins_home/workspace/polydiploma/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin -  T E S T S
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running features.ScenarioTest
+1433  classpath-bootstrap  INFO   [main] openjpa.Runtime - OpenJPA dynamically loaded a validation provider.
+Apr 30, 2019 5:53:10 PM org.apache.tomee.embedded.Container start
+INFO: Starting TomEE from: /tmp/arquillian-apache-tomee
+Apr 30, 2019 5:53:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Apr 30, 2019 5:53:13 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+Apr 30, 2019 5:53:13 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:946)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 70 more
+Caused by: java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	... 71 more
+
+Apr 30, 2019 5:53:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Apr 30, 2019 5:53:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.6
+Apr 30, 2019 5:53:19 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://tomee.apache.org/
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Tue Apr 30 17:53:20 GMT 2019
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 7.0.2
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20161106
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 07:23
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /tmp/arquillian-apache-tomee
+Apr 30, 2019 5:53:20 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /tmp/arquillian-apache-tomee
+Apr 30, 2019 5:53:20 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@19648c40
+Apr 30, 2019 5:53:20 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Apr 30, 2019 5:53:21 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: TomEE configuration file is '/tmp/arquillian-apache-tomee/conf/openejb.xml'
+Apr 30, 2019 5:53:21 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Apr 30, 2019 5:53:21 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Apr 30, 2019 5:53:21 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+Apr 30, 2019 5:53:21 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+Apr 30, 2019 5:53:21 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Apr 30, 2019 5:53:21 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Apr 30, 2019 5:53:22 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.servicemanager.enabled=false'
+Apr 30, 2019 5:53:30 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/bd0ca0f1-6824-44e9-9de3-119580af18b7.war
+Apr 30, 2019 5:53:31 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/bd0ca0f1-6824-44e9-9de3-119580af18b7
+Apr 30, 2019 5:53:31 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+Apr 30, 2019 5:53:31 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /bd0ca0f1-6824-44e9-9de3-119580af18b7
+Apr 30, 2019 5:53:31 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/bd0ca0f1-6824-44e9-9de3-119580af18b7
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb StudentAPI: EjbDeployment(deployment-id=StudentAPI)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb GuestManagerBean: EjbDeployment(deployment-id=GuestManagerBean)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CeremonyManagerBean: EjbDeployment(deployment-id=CeremonyManagerBean)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb PlanningManagerBean: EjbDeployment(deployment-id=PlanningManagerBean)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb StudentNotificationBean: EjbDeployment(deployment-id=StudentNotificationBean)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb PrintingService: EjbDeployment(deployment-id=PrintingService)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean StudentAPI: Container(type=STATELESS, id=Default Stateless Container)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean bd0ca0f1-6824-44e9-9de3-119580af18b7.Comp2041504298: Container(type=MANAGED, id=Default Managed Container)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+Apr 30, 2019 5:53:32 PM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /tmp for stateful session passivation
+Apr 30, 2019 5:53:32 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=war_persistence_unit)
+Apr 30, 2019 5:53:33 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default JDBC Database, type=Resource, provider-id=Default JDBC Database)
+Apr 30, 2019 5:53:33 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'Default JDBC Database' of type 'DataSource for 'war_persistence_unit'.
+Apr 30, 2019 5:53:33 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=Default JDBC Database)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'Default Unmanaged JDBC Database' of type 'DataSource for 'war_persistence_unit'.
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=Default Unmanaged JDBC Database)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit war_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+Apr 30, 2019 5:53:34 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit war_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+Apr 30, 2019 5:53:34 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/bd0ca0f1-6824-44e9-9de3-119580af18b7" loaded.
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/bd0ca0f1-6824-44e9-9de3-119580af18b7
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.Assembler$PersistenceClassLoaderHandlerImpl addTransformer
+INFO: JAVA AGENT NOT INSTALLED. The JPA Persistence Provider requested installation of a ClassFileTransformer which requires a JavaAgent.  See http://tomee.apache.org/javaagent.html
+Apr 30, 2019 5:53:34 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=war_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 60ms
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=StudentAPILocal) --> Ejb(deployment-id=StudentAPI)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/StudentAPI!fr.unice.polytech.si4.isa.devops.teami.api.utils.IStudentAPI) --> Ejb(deployment-id=StudentAPI)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/StudentAPI) --> Ejb(deployment-id=StudentAPI)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=GuestManagerBeanLocal) --> Ejb(deployment-id=GuestManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/GuestManagerBean!fr.unice.polytech.si4.isa.devops.teami.api.GuestManager) --> Ejb(deployment-id=GuestManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/GuestManagerBean) --> Ejb(deployment-id=GuestManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CeremonyManagerBeanLocal) --> Ejb(deployment-id=CeremonyManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/CeremonyManagerBean!fr.unice.polytech.si4.isa.devops.teami.ceremony.manager.CeremonyManager) --> Ejb(deployment-id=CeremonyManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/CeremonyManagerBean) --> Ejb(deployment-id=CeremonyManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=PlanningManagerBeanLocal) --> Ejb(deployment-id=PlanningManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/PlanningManagerBean!fr.unice.polytech.si4.isa.devops.teami.utils.PlanningManager) --> Ejb(deployment-id=PlanningManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/PlanningManagerBean) --> Ejb(deployment-id=PlanningManagerBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=StudentNotificationBeanLocal) --> Ejb(deployment-id=StudentNotificationBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/StudentNotificationBean!fr.unice.polytech.si4.isa.devops.teami.notification.StudentNotification) --> Ejb(deployment-id=StudentNotificationBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/StudentNotificationBean) --> Ejb(deployment-id=StudentNotificationBean)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=PrintingServiceLocal) --> Ejb(deployment-id=PrintingService)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/PrintingService!fr.unice.polytech.si4.isa.devops.teami.api.PrintingServiceMock.IPrintingService) --> Ejb(deployment-id=PrintingService)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/bd0ca0f1-6824-44e9-9de3-119580af18b7/PrintingService) --> Ejb(deployment-id=PrintingService)
+Apr 30, 2019 5:53:34 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@19648c40
+Apr 30, 2019 5:53:35 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Apr 30, 2019 5:53:35 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Apr 30, 2019 5:53:35 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Apr 30, 2019 5:53:35 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 633 ms.
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=CeremonyManagerBean, ejb-name=CeremonyManagerBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=StudentNotificationBean, ejb-name=StudentNotificationBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=PlanningManagerBean, ejb-name=PlanningManagerBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=GuestManagerBean, ejb-name=GuestManagerBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=PrintingService, ejb-name=PrintingService, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=StudentAPI, ejb-name=StudentAPI, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=CeremonyManagerBean, ejb-name=CeremonyManagerBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=StudentNotificationBean, ejb-name=StudentNotificationBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=PlanningManagerBean, ejb-name=PlanningManagerBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=GuestManagerBean, ejb-name=GuestManagerBean, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=PrintingService, ejb-name=PrintingService, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=StudentAPI, ejb-name=StudentAPI, container=Default Stateless Container)
+Apr 30, 2019 5:53:35 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/bd0ca0f1-6824-44e9-9de3-119580af18b7)
+Apr 30, 2019 5:53:36 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 30, 2019 5:53:36 PM org.apache.openejb.arquillian.common.TomEEInjectionEnricher getAppContext
+WARNING: Failed to find AppContext for: cucumber.runtime.arquillian.runner.BaseCukeSpace
+Apr 30, 2019 5:53:37 PM cucumber.runtime.arquillian.runner.BaseCukeSpace runFeatures
+INFO: Running src/test/resources/features
+Apr 30, 2019 5:53:37 PM null
+INFO: Starting OpenJPA 2.4.1
+Apr 30, 2019 5:53:37 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+Apr 30, 2019 5:53:38 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+Apr 30, 2019 5:53:38 PM null
+INFO: The temporary file "/tmp/org.apache.openjpa.enhance.InstrumentationFactory6257429822932093523.jar" was created and it may not get cleaned up properly.
+Apr 30, 2019 5:53:39 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+Apr 30, 2019 5:53:40 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+Speciality{name='ELEC'}
+Speciality{name='SI'}
+Speciality{name='BAT'}
+Speciality{name='MAM'}
+Speciality{name='GB'}
+Speciality{name='GE'}
+
+1 Scenarios (1 passed)
+2 Steps (2 passed)
+0m6.073s
+
+Apr 30, 2019 5:53:43 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/bd0ca0f1-6824-44e9-9de3-119580af18b7
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.491 s - in features.ScenarioTest
+2019-04-30 17:53:45,282 main INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+Apr 30, 2019 5:53:46 PM cucumber.runtime.arquillian.reporter.CucumberReporter doReport
+INFO: Cucumber report available at /var/jenkins_home/workspace/polydiploma/target/cucumber-report/feature-overview.html
+Apr 30, 2019 5:53:47 PM com.github.cukedoctor.util.FileUtil saveFile
+INFO: Wrote: /var/jenkins_home/workspace/polydiploma/target/docs/documentation.adoc
+[ThreadedStreamConsumer] WARNING org.apache.maven.plugin.surefire.SurefirePlugin - Corrupted STDOUT by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file /var/jenkins_home/workspace/polydiploma/target/surefire-reports/2019-04-30T17-52-51_458-jvmRun1.dumpstream
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Results:
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  02:02 min
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-30T17:53:54Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test (default-test) on project teami-polydiploma-war: There are test failures.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - Please refer to /var/jenkins_home/workspace/polydiploma/target/surefire-reports for the individual test results.
+[main] ERROR org.apache.maven.cli.MavenCli - Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[main] ERROR org.apache.maven.cli.MavenCli - The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[main] ERROR org.apache.maven.cli.MavenCli - Command was /bin/sh -c cd /var/jenkins_home/workspace/polydiploma && /usr/lib/jvm/java-1.8-openjdk/jre/bin/java -jar /var/jenkins_home/workspace/polydiploma/target/surefire/surefirebooter5227072409810317437.jar /var/jenkins_home/workspace/polydiploma/target/surefire 2019-04-30T17-52-51_458-jvmRun1 surefire20278473006450301tmp surefire_08413833697011423070tmp
+[main] ERROR org.apache.maven.cli.MavenCli - Error occurred in starting fork, check output in log
+[main] ERROR org.apache.maven.cli.MavenCli - Process Exit Code: 1
+[main] ERROR org.apache.maven.cli.MavenCli - org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[main] ERROR org.apache.maven.cli.MavenCli - Command was /bin/sh -c cd /var/jenkins_home/workspace/polydiploma && /usr/lib/jvm/java-1.8-openjdk/jre/bin/java -jar /var/jenkins_home/workspace/polydiploma/target/surefire/surefirebooter5227072409810317437.jar /var/jenkins_home/workspace/polydiploma/target/surefire 2019-04-30T17-52-51_458-jvmRun1 surefire20278473006450301tmp surefire_08413833697011423070tmp
+[main] ERROR org.apache.maven.cli.MavenCli - Error occurred in starting fork, check output in log
+[main] ERROR org.apache.maven.cli.MavenCli - Process Exit Code: 1
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:669)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:282)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:245)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1183)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1011)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:857)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:192)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4HKZKtp0OLh7rlwBIlcgNsVfglpgf4j1PEdD2bAMUvVsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+[8mha:////4KcMLzlmhf0q8xaCkueSk3NEkPdZYngglGsQHS3p0IjsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4OiKpMiDCBHjqo8nWJachJt2NpgwWEaWMMLFkzv/HZ+4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpQoWoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AODxLgO+AAAA[0m[Pipeline] }
+[8mha:////4DOifxqNKZckDEceGwBoym6FcemoJ9B0hn4tYa2uu+fsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd5zrsP+a3Fla+AAAA[0m[Pipeline] // stage
+[8mha:////4DsMLXqUrs/GH6jBJ8kQs4kzdTozUZp4FVcp1b7idFhAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw+upJEzvgAAAA==[0m[Pipeline] }
+[8mha:////4BrtMm3W8XZX96fITQwKXrd5maOjDENrQgI/MwAbvykzAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i13X0AqOKpZr4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4K9ZvkBfBJpEYII84n1FLvziiR8unz2cO8v+/Sc9dE92AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQEJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AFIipHm9AAAA[0m[Pipeline] }
+[8mha:////4LB7K0T33CluCw6vA1V/jR5HkphgP3vCudq4XueKrBQyAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEAVCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AEGeoNq9AAAA[0m[Pipeline] // node
+[8mha:////4BSuPKqT974xehloI0lMx2bBJ3bPl3EPAD0c2DxvKm0rAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBFDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPCL4jJr0AAAA=[0m[Pipeline] End of Pipeline
+java.lang.RuntimeException: Maven build failed
+	at org.jfrog.hudson.pipeline.common.executors.MavenExecutor.execute(MavenExecutor.java:72)
+	at org.jfrog.hudson.pipeline.declarative.steps.maven.MavenStep$Execution.run(MavenStep.java:111)
+	at org.jfrog.hudson.pipeline.declarative.steps.maven.MavenStep$Execution.run(MavenStep.java:85)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate(ACL.java:290)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: FAILURE

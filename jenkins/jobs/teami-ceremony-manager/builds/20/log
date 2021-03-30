@@ -1,0 +1,89 @@
+Started by GitHub push by FrancoisNespoulous3
+Building in workspace /var/jenkins_home/workspace/teami-ceremony-manager
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-ceremony-manager.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3628120df6cee5e7ebafb57b085888e1b627497e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3628120df6cee5e7ebafb57b085888e1b627497e
+Commit message: "#29 moved webServices Planning and Student in war"
+ > git rev-list --no-walk 5d54c2f90547c1e38ce228d0d1111c238a09618b # timeout=10
+[teami-ceremony-manager] $ /bin/sh -xe /tmp/jenkins4108914558233915230.sh
++ rm -r '?/.m2/repository/fr'
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-ceremony-manager] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-ceremony-manager@tmp/artifactory/buildInfo4173636565837134289.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-ceremony-manager/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-ceremony-manager/classworlds4091596472010331949conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-ceremony-manager org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ---< fr.unice.polytech.si4.isa.devops.teami:teami-ceremony-manager >----
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-ceremony-manager 1.2
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5/7.5 kBProgress (1): 7.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom (7.5 kB at 22 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom
+Progress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom (4.5 kB at 71 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom
+Progress (1): 4.1/4.4 kBProgress (1): 4.4 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom (4.4 kB at 68 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar
+Progress (1): 4.1/28 kBProgress (1): 7.5/28 kBProgress (2): 7.5/28 kB | 4.1/12 kBProgress (2): 7.5/28 kB | 7.5/12 kBProgress (2): 7.5/28 kB | 12/12 kB Progress (3): 7.5/28 kB | 12/12 kB | 4.1/5.4 kBProgress (3): 7.5/28 kB | 12/12 kB | 5.4 kB    Progress (3): 7.5/28 kB | 12 kB | 5.4 kB   Progress (3): 12/28 kB | 12 kB | 5.4 kB Progress (3): 16/28 kB | 12 kB | 5.4 kBProgress (3): 20/28 kB | 12 kB | 5.4 kBProgress (3): 24/28 kB | 12 kB | 5.4 kB                                       Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar (5.4 kB at 55 kB/s)
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar (12 kB at 118 kB/s)
+Progress (1): 28/28 kBProgress (1): 28 kB                      Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar (28 kB at 213 kB/s)
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-ceremony-manager/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-ceremony-manager/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /var/jenkins_home/workspace/teami-ceremony-manager/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-ceremony-manager ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /var/jenkins_home/workspace/teami-ceremony-manager/target/test-classes
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - COMPILATION ERROR : 
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[14,8] fr.unice.polytech.si4.isa.devops.teami.MockGuestManager is not abstract and does not override abstract method addStudent(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String) in fr.unice.polytech.si4.isa.devops.teami.api.GuestManager
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[31,5] method does not override or implement a method from a supertype
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[36,5] method does not override or implement a method from a supertype
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[41,5] method does not override or implement a method from a supertype
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - 4 errors 
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  13.330 s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-27T15:14:12Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project teami-ceremony-manager: Compilation failure: Compilation failure: 
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[14,8] fr.unice.polytech.si4.isa.devops.teami.MockGuestManager is not abstract and does not override abstract method addStudent(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String) in fr.unice.polytech.si4.isa.devops.teami.api.GuestManager
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[31,5] method does not override or implement a method from a supertype
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[36,5] method does not override or implement a method from a supertype
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-ceremony-manager/src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java:[41,5] method does not override or implement a method from a supertype
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,12 @@
+commit 3a9dd3e36f9b56be126cb382678ae86d605330d6
+tree 94927dcfa35db30695abf0b2d036b9ef2cc036e5
+parent 91d058e53abb888b6437e690c7eb2536861d0ebd
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:06 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:06 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 344f11174ff5b142f20c2105d92472965a0ae5e0 f994fc195cebe4692eeefdf8be63e2b1c48a41c9 M	src/main/java/fr/polydiploma/StudentSOAPImplService.java

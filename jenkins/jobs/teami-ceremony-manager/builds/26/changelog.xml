@@ -1,0 +1,11 @@
+commit 19b7fbe5f2d8547f3c8880704826c666d7de4dff
+tree 41e84eb138f8c4920fca11eb956562f6cd0b7c7c
+parent cc937eb613b0ced6bb483f950da7927f6ce9f8cc
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:10 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:10 +0200
+
+    #26 features cucumber
+
+
+
+:100644 100644 c88c327a0aa3776b1212c68c20af39930d209c25 2e5cdd0a833577a323804e5f4fd4929e87b27ec5 M	src/test/resources/META-INF/persistence.xml

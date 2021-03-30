@@ -1,0 +1,12 @@
+commit fe117feb398fec97c6c16eb16007f8e2d5d3fa0d
+tree b989f7002895418f3ad2df36e661d0e07e6fad32
+parent 3a9dd3e36f9b56be126cb382678ae86d605330d6
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-14 17:10:52 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-14 17:10:52 +0200
+
+    #31 change url to point to the war without his version (not included in
+    the name of deployed app)
+
+
+
+:100644 100644 59f73d176294c657f6b80c127883853dab8bc788 76e21629890faf95f1fdf443db0cac5006d42083 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/StudentRegisterApi.java

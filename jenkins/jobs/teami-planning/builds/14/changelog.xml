@@ -1,0 +1,14 @@
+commit 1c2f453e3feba8c08cef17f2365d6a34438fb7d1
+tree 0064c6c3c22f72a23a22f9776176d6f0b34c09fb
+parent 982d5b146f47675e8a9d8e9c6de71c077792a3b2
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 18:00:41 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 18:00:41 +0200
+
+    #26 fix persistence on planning
+
+
+
+:100644 100644 97e1ed9731bc8110ed331c4cd74bd3d4ecf2d24b 0aa11cc8da004e9df3c69245a063c2e1b6b26daa M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java
+:100644 100644 96c0bb19580b2cf795efb0d897851a6248fd7839 29dd5d6241377fc2266b65e74be755a146012763 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerBean.java
+:100644 100644 2c0a1cb21a0d6c5ab468f4ea079f5eb4cab44edd b7c5a697ff898f41486c68086754371584ef4846 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java
+:100644 100644 5100e175702400d5166e78c381e2d2062c8e0c26 742ff4acfe0791c3ef642cfd3303e86983059b7a M	src/test/resources/META-INF/persistence.xml

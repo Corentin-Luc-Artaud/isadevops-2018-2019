@@ -1,0 +1,13 @@
+commit 5a7aba2d4591a863082b09cea861cd274e927eb5
+tree 2e96ab7ba54e4d748c0ec23026b74ffefc6699e4
+parent 6793838315b24170c1c3706dd2fcaf5fc78dd902
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-05-02 21:21:03 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-05-02 21:21:03 +0200
+
+    #21 more tests
+
+
+
+:100644 100644 bcab0073e9e60134c9ef5921af7063fa2ef99ee2 97b4ca2640fc0cd03d1a046c81990a711a28d1da M	src/test/java/arquillian/AbstractTest.java
+:100644 100644 3a164e38bc32c50d4671e0d7d4a0a1ac37a33a29 72f2f9089dde2ad9085d283aea15557df2fdd67f M	src/test/java/features/ScenarioTest.java
+:100644 100644 bff3575b3e9078ecdcda8b601216ed71db0cae59 da74abe05ccf6bdadc00046080b94a47c92c70a5 M	src/test/resources/features/ScenarioTest.feature

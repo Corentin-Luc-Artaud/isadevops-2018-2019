@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.2">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.65">
+    <parentIds>
+      <string>30</string>
+    </parentIds>
+    <id>31</id>
+    <descriptorId>org.jfrog.hudson.pipeline.declarative.steps.maven.MavenResolverStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.65">
+      <arguments>
+        <entry>
+          <string>id</string>
+          <string>resolver</string>
+        </entry>
+        <entry>
+          <string>serverId</string>
+          <string>Artifactory</string>
+        </entry>
+        <entry>
+          <string>releaseRepo</string>
+          <string>libs-release</string>
+        </entry>
+        <entry>
+          <string>snapshotRepo</string>
+          <string>libs-snapshot</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.33">
+      <startTime>1557585355072</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

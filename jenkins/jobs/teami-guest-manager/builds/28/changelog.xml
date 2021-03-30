@@ -1,0 +1,14 @@
+commit 1f0b7f26e71593e826e1f0362362eadf24a4cc64
+tree ffdcce9538bfa4fd7d26560c80c4440f2c90cea7
+parent 66bbf1a5cf9014b5bda709cdd570685fbe02f36c
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 21:13:52 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 21:13:52 +0200
+
+    #26 finished the guest component
+
+
+
+:100644 100644 44a27fc6ee7ddef2ce10586d7c83dbcdaeca36fe 5fc85b38d7b2ee0bf8ddbe1d8cbabd0a6964ef9a M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManager.java
+:100644 100644 1b14257dc70065ee245801600d7c5b344b8fa253 360f09c2ed8121c148472189b2f669ebc248ac50 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:000000 100644 0000000000000000000000000000000000000000 8ba469b4aab42f43da0c7f639db43c0fe5662a8f A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/VipTest.java
+:100644 100644 787c70bb060a085d224dd18bd347e9eb3e4bea55 5a867f897ede6f7522f80892297638b2a44e8bda M	src/test/resources/META-INF/persistence.xml

@@ -1,0 +1,12 @@
+Started on Apr 12, 2019 8:11:31 AM
+Started by event from 192.30.252.39 ⇒ http://vps663090.ovh.net:8080/github-webhook/ on Fri Apr 12 08:11:31 GMT 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 1d845de78c212d6a7902192775fc65e972699992 (refs/remotes/origin/master)
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git # timeout=10
+Found 1 remote heads on https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git
+[poll] Latest remote head revision on refs/heads/master is: 5c37dd4402e8be093b69715b20afb0f1f47f3b6a
+Done. Took 0.79 sec
+Changes found

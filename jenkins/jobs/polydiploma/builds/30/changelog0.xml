@@ -1,0 +1,14 @@
+commit 2e9953e8d6abc3d812599ba0130df3d6c6914f10
+tree 096f969bfc99b00307f66ae2deda5aef7e87090b
+parent a725a96500ebc17f8ee116f29bd97c16a80fc401
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:28 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:28 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 5f8b13afab0c5ac415f678aee6dd3cdff72e4028 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAP.java
+:000000 100644 0000000000000000000000000000000000000000 c0ff8c8b758b01443e745c7366faedd1fa8d74f4 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAPImpl.java
+:100644 100644 c6052b1f034749b0b2b9710a5d43de2c6bb95071 97ee74dd336b8c58495c4e9e6cee2700a25b6dc6 M	src/test/java/features/Scenario.java

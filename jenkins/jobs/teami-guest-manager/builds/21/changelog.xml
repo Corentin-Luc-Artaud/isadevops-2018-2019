@@ -1,0 +1,13 @@
+commit da9843f329f6a4e3d2998e7e2d59ce3a25a854d7
+tree 4a2a7c6f8330bc86d06b2793b54e437eefb91606
+parent 43127d830796f6ef8e33d67258dc939ef1caa8f7
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-24 14:10:34 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-24 14:10:34 +0200
+
+    #30 add print request + deadline delivered
+
+
+
+:100644 100644 46daf55042a373579fc85901fd62327decc2992f 0f71eabfbe7a6c8f3c7f30c7edc0d05a301a81fb M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManager.java
+:100644 100644 dd2034d2f0cbb119f1c9eb8606563ea157056c5a dd9d66ab565d300de1203dad792411277401e65c M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 be8bf0367daa79ca5ea9b8e6e1e0cc1d913dbfa5 56565a0277d9732dd7610f6b1fcf381584e72014 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/GuestManagerTest.java

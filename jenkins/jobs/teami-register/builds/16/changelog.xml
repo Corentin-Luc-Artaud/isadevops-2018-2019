@@ -1,0 +1,12 @@
+commit d0932f5123e7f557c4a17b34d2115320de910a8e
+tree 1ed191f206677d87da5573e048cd01e3c6f4dedd
+parent 61e51d57cfa59d8f266ea3727f3d10fab69f21ba
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:51 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:51 +0200
+
+    #10 Added wsdl and planning webservice stubs
+
+
+
+:100644 100644 82f7a343d9b263396ba1e00d99d85333f8c63266 d97c4bc30bf56f764cc66286443da953ebcd56bb M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java
+:100644 100644 63322385ae123a08d7288972efe660342a497b28 77f8a678072b75edcb35f4791606c6afc31753cf M	src/test/resources/arquillian.xml

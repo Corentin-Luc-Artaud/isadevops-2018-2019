@@ -1,0 +1,14 @@
+commit 99e0ec835c8c3458ddbc68a3ff5b46970a94ee75
+tree e415750388effbdcb1297ea2fd13ba1cdae869ba
+parent ac429d17a47928cf55c40eef7a4a09a5b352366f
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:27 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:27 +0200
+
+    #26 add register + guest manager interface
+
+
+
+:100644 100644 9ee22e0be5e63fd8403a3fc75c6387cfe292e172 1efb8c3a1384fb3701bf97431901a787ff2c0ace M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegister.java
+:100644 100644 9596c0c89862413da465261660ae7cbdb467addd 790cc23c69aa8bcc3802b2fa15dd993b92f92387 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterBean.java
+:100644 100644 c4b745511eeac182e0ba262b2049a2f827fc51f8 803211772d70f42bd8e1162a29f59ecfcbb986fa M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java
+:100644 100644 018baa1a78dc20c78ed7a35c9add35af91b06765 30ef7e4195c8174e4bb12e2d289b700c4786ab67 M	src/test/resources/META-INF/persistence.xml

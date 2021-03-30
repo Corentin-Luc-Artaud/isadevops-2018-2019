@@ -1,0 +1,12 @@
+commit 8848727be2f8bfce31e1edd0cbce45302741b721
+tree 09e74692abf615c00025467fc337d51002e3407c
+parent 19b7fbe5f2d8547f3c8880704826c666d7de4dff
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:54 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:54 +0200
+
+    #35 Added commands to choose candidate et get the candidates of an offer
+    and corresponding webservices
+
+
+
+:100644 100644 43694c8906f8c5cf81305ed0c8bed9a2adf7e884 96980e048c05caa53e6c1fcb98ca75134bc3a0ff M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/AppTest.java

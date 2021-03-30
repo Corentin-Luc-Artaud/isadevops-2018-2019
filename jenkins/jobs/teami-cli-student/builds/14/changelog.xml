@@ -1,0 +1,12 @@
+commit 1799cfce670e238c00fa196ea7323526da84eb18
+tree 2a32dad5e7b161104bec5f9acfaf4bbb49e2ad16
+parent 59308c0d8fa6f295525ede8a199ad169ed142ac4
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-30 17:56:48 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-30 17:56:48 +0200
+
+    #21 fix cucumber test + fix pop error
+
+
+
+:100644 100644 f0edad68cbfcf2285b10a473385dd1d9733e9a31 76e21629890faf95f1fdf443db0cac5006d42083 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/StudentRegisterApi.java
+:100644 100644 a9f9fca998c0b972b348a711d1765056b0e156ea 7b10f8b63f7e2df1085b389aa410a6a45a191b17 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/RegisterStudent.java

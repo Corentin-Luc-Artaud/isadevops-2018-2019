@@ -1,0 +1,11 @@
+commit 25c72ace246a68be8833a01befdbc136f7deef11
+tree e372796ff4478efeea4116d4ba3329cdfe05d425
+parent 7c0baeef7cfe4136bffe9fafa77e8644723f1647
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-24 14:10:28 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-24 14:10:28 +0200
+
+    #30 add print request + deadline delivered
+
+
+
+:100644 100644 64dfdda9a6c74b52b6382d352d7e121baa074e18 7f786df6fa2620ff8d9846b212dafd2ea3b675c7 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Ceremony.java

@@ -1,0 +1,14 @@
+commit 01fc4cd0aed9f833e57dcc105642128135c90b01
+tree 6c64fdb088e9e65625ebcca9edc73b5d34c47178
+parent a92cec9f4e7c710fd090f8c8fcee063b33908352
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 15:34:36 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 15:34:36 +0200
+
+    #27 fix bugs
+
+
+
+:100644 100644 84255bf32b76a2f45ccab1b39da3c5dc5b0de621 6e73dc12d505109157cd899255fb6f9ad04bfa95 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 efdfdc17677f99320ac0f2e80c17490976a747c8 e7eed0d87cc4d2cd40e30831f7de2cc74894e620 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/utils/StudentAPI.java
+:100644 100644 4c732ed9d06a1763f7e9c822199900179f7dc21d 12b07fb51b9a1794e078749b97607900e7273492 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/GuestManagerTest.java
+:100644 000000 c008ffd3fc05250e02adc4628b072ada089725ad 0000000000000000000000000000000000000000 D	src/test/java/fr/unice/polytech/si4/isa/devops/teami/StorageTest.java

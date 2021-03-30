@@ -1,0 +1,39 @@
+commit 72be92799e622e151ec81a627c61487d782f14fe
+tree 6725f337e9811cc4643aec308afdd87542d01a4f
+parent 3a40c6aeeaa33e009e1c30a299dd13720c456a43
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:27 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:27 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:100644 100644 3bdb170f07b0559069d53856e50f9e2fa29d9da0 b7f6c7a4cfe7511e79ac681ba69301b3a2b0a8e7 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManager.java
+:100644 100644 4e9929d18e2f3dbeef06eb9e5928f1964014859c 9cf0efce07f5ce799efe762bd0eaf417e63f43f7 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManagerBean.java
+:100644 000000 4f59c791b05f7675640703eb15ead35fe6e867a0 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeSOAP.java
+:100644 000000 79e0ca4bf5c7ac261b909a159583cedc029d96cf 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeSOAPImpl.java
+:100644 100644 418f721eff01831a44d3e7d08f13a1581a04cbd2 00c6d960944301df76148b29ee2b55c93341061a M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeManagerBean.java
+:100644 100644 7f977a2630a5caf6f1671561055fd2dc8d4c37a5 00e465165f52b6b982078a4cd273a823bad1bb82 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/AdminInterludeTest.java
+commit 3a40c6aeeaa33e009e1c30a299dd13720c456a43
+tree b608be16e87b21cb94cf4267b3d70ae404379986
+parent 98b1ca91f4dcf4b17a422fc0c67475804ef4c576
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:43 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:43 +0200
+
+    #34 Added interlude module Added bean AdminInterludeManager
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 3bdb170f07b0559069d53856e50f9e2fa29d9da0 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManager.java
+:000000 100644 0000000000000000000000000000000000000000 4e9929d18e2f3dbeef06eb9e5928f1964014859c A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManagerBean.java
+:100644 100644 b7283f4cab17348422592afb43057e2f0798db0b 4f59c791b05f7675640703eb15ead35fe6e867a0 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeSOAP.java
+:100644 100644 0fbcb971b5ee40446d03554774cf3b7542df85cd 79e0ca4bf5c7ac261b909a159583cedc029d96cf M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeSOAPImpl.java
+:000000 100644 0000000000000000000000000000000000000000 893027cbf1e58131f61cde73dea6ccbbbb1a9e36 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeManager.java
+:000000 100644 0000000000000000000000000000000000000000 418f721eff01831a44d3e7d08f13a1581a04cbd2 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeManagerBean.java
+:000000 100644 0000000000000000000000000000000000000000 b71fd13732f1d674d71f77d6f5409948710eb8fc A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeSOAP.java
+:100644 000000 87e7d92c32e544ded83900fd1d89d04a808c872f 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/student/StudentInterludeSOAP.java
+:000000 100644 0000000000000000000000000000000000000000 7f977a2630a5caf6f1671561055fd2dc8d4c37a5 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/AdminInterludeTest.java
+:000000 100644 0000000000000000000000000000000000000000 447cb4ef5577ebde7589f2669752475b004f99cf A	src/test/resources/META-INF/persistence.xml
+:000000 100644 0000000000000000000000000000000000000000 63322385ae123a08d7288972efe660342a497b28 A	src/test/resources/arquillian.xml
+:100644 000000 12830f8d377e88131570d8e9202c3d3f311d0967 0000000000000000000000000000000000000000 D	teami-interlude-manager.iml

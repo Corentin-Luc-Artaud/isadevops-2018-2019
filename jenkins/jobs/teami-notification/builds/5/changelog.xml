@@ -1,0 +1,13 @@
+commit c4abce1b429b7963555eb0dc39a46408a7c2b7e2
+tree 9f0bf69a5cbb6de445356d44a216db93e8661ae1
+parent a0b7482c304289ff87e7ec0ed07043d541f072f1
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 16:07:35 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 16:07:35 +0200
+
+    #14 fix some bugs
+
+
+
+:100644 100644 94660595935f47f4eeca378d2708d9f5cb58fc8f 403b0c97bfc8e0c46cd6404d2009e44e31a9e1f4 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotification.java
+:100644 100644 92879cd641ec59c74fc8872736dfe8722815a9f9 d82a16c11f834c0e4a9d1d5a3201e9e9ec87d7c2 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java
+:100644 100644 345ff05484002c7f580348055eac8116bf8b3747 5c8ae4d39c63b33e4fee3a89ca20c08ae8afe0ac M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java

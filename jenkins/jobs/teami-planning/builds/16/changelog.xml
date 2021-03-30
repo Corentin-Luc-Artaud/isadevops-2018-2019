@@ -1,0 +1,11 @@
+commit 872e81d5813873bae2cd0f53bf672573a1a10ab8
+tree f49562ddb4d3296f660d8928571760432a2e7bde
+parent f9f89607a11c86d358f7629859f05d252180e14d
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:08 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:08 +0200
+
+    #26 finished the register component
+
+
+
+:100644 100644 b7c5a697ff898f41486c68086754371584ef4846 bdd855b4f50786f1257d3da74b324d8db7486705 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java

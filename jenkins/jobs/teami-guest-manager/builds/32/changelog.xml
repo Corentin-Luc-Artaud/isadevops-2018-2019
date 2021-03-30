@@ -1,0 +1,12 @@
+commit b71bc4704bd5f6f31dbc56eb567d2cd0b24e87a1
+tree 42bc17e29003b7ca7f4ca64a90d4d860664b80da
+parent 4702c794a372e87bae4e5f48fa7c2153ef94654d
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:24 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:24 +0200
+
+    #26 add register + guest manager interface
+
+
+
+:100644 100644 5fc85b38d7b2ee0bf8ddbe1d8cbabd0a6964ef9a 4cf3b939a3abc9dfecacfa21a6c145c89a95020d M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManager.java
+:100644 100644 360f09c2ed8121c148472189b2f669ebc248ac50 45e52896b79100a1a2ed99a7f2c0eb04f58d02d9 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java

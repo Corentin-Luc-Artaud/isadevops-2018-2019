@@ -1,0 +1,294 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="www.polydiploma.fr"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="StudentSOAPImplService"
+                  targetNamespace="www.polydiploma.fr">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   targetNamespace="www.polydiploma.fr" version="1.0">
+            <xs:element name="addAttendant" type="tns:addAttendant"/>
+            <xs:element name="addAttendantResponse" type="tns:addAttendantResponse"/>
+            <xs:element name="getNumberOfRegisteredGuest" type="tns:getNumberOfRegisteredGuest"/>
+            <xs:element name="getNumberOfRegisteredGuestResponse" type="tns:getNumberOfRegisteredGuestResponse"/>
+            <xs:element name="getPrice" type="tns:getPrice"/>
+            <xs:element name="getPriceResponse" type="tns:getPriceResponse"/>
+            <xs:element name="isRegistered" type="tns:isRegistered"/>
+            <xs:element name="isRegisteredResponse" type="tns:isRegisteredResponse"/>
+            <xs:element name="payForAttendant" type="tns:payForAttendant"/>
+            <xs:element name="payForAttendantResponse" type="tns:payForAttendantResponse"/>
+            <xs:element name="registerStudent" type="tns:registerStudent"/>
+            <xs:element name="registerStudentResponse" type="tns:registerStudentResponse"/>
+            <xs:element name="seeAllStudents" type="tns:seeAllStudents"/>
+            <xs:element name="seeAllStudentsResponse" type="tns:seeAllStudentsResponse"/>
+            <xs:element name="seeRegisteredStudents" type="tns:seeRegisteredStudents"/>
+            <xs:element name="seeRegisteredStudentsResponse" type="tns:seeRegisteredStudentsResponse"/>
+            <xs:complexType name="addAttendant">
+                <xs:sequence>
+                    <xs:element name="arg0" type="xs:int"/>
+                    <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+                    <xs:element minOccurs="0" name="arg2" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="addAttendantResponse">
+                <xs:sequence>
+                    <xs:element name="return" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="getNumberOfRegisteredGuest">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getNumberOfRegisteredGuestResponse">
+                <xs:sequence>
+                    <xs:element name="return" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="isRegistered">
+                <xs:sequence>
+                    <xs:element name="arg0" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="isRegisteredResponse">
+                <xs:sequence>
+                    <xs:element name="return" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="seeRegisteredStudents">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="seeRegisteredStudentsResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="seeRegisteredStudentResult" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="getPrice">
+                <xs:sequence>
+                    <xs:element name="arg0" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="getPriceResponse">
+                <xs:sequence>
+                    <xs:element name="return" type="xs:double"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="registerStudent">
+                <xs:sequence>
+                    <xs:element name="id" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="registerStudentResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="seeAllStudents">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="seeAllStudentsResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="seeAllStudentsResult" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="payForAttendant">
+                <xs:sequence>
+                    <xs:element name="arg0" type="xs:int"/>
+                    <xs:element name="arg1" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="payForAttendantResponse">
+                <xs:sequence>
+                    <xs:element name="return" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="getNumberOfRegisteredGuest">
+        <wsdl:part element="tns:getNumberOfRegisteredGuest" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="isRegistered">
+        <wsdl:part element="tns:isRegistered" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="seeRegisteredStudentsResponse">
+        <wsdl:part element="tns:seeRegisteredStudentsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="addAttendantResponse">
+        <wsdl:part element="tns:addAttendantResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="registerStudent">
+        <wsdl:part element="tns:registerStudent" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="registerStudentResponse">
+        <wsdl:part element="tns:registerStudentResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="seeAllStudentsResponse">
+        <wsdl:part element="tns:seeAllStudentsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="payForAttendant">
+        <wsdl:part element="tns:payForAttendant" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="addAttendant">
+        <wsdl:part element="tns:addAttendant" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="payForAttendantResponse">
+        <wsdl:part element="tns:payForAttendantResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="seeRegisteredStudents">
+        <wsdl:part element="tns:seeRegisteredStudents" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPrice">
+        <wsdl:part element="tns:getPrice" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getNumberOfRegisteredGuestResponse">
+        <wsdl:part element="tns:getNumberOfRegisteredGuestResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="isRegisteredResponse">
+        <wsdl:part element="tns:isRegisteredResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPriceResponse">
+        <wsdl:part element="tns:getPriceResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="seeAllStudents">
+        <wsdl:part element="tns:seeAllStudents" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="StudentSOAP">
+        <wsdl:operation name="addAttendant">
+            <wsdl:input message="tns:addAttendant" name="addAttendant">
+            </wsdl:input>
+            <wsdl:output message="tns:addAttendantResponse" name="addAttendantResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getNumberOfRegisteredGuest">
+            <wsdl:input message="tns:getNumberOfRegisteredGuest" name="getNumberOfRegisteredGuest">
+            </wsdl:input>
+            <wsdl:output message="tns:getNumberOfRegisteredGuestResponse" name="getNumberOfRegisteredGuestResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="isRegistered">
+            <wsdl:input message="tns:isRegistered" name="isRegistered">
+            </wsdl:input>
+            <wsdl:output message="tns:isRegisteredResponse" name="isRegisteredResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="seeRegisteredStudents">
+            <wsdl:input message="tns:seeRegisteredStudents" name="seeRegisteredStudents">
+            </wsdl:input>
+            <wsdl:output message="tns:seeRegisteredStudentsResponse" name="seeRegisteredStudentsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getPrice">
+            <wsdl:input message="tns:getPrice" name="getPrice">
+            </wsdl:input>
+            <wsdl:output message="tns:getPriceResponse" name="getPriceResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="registerStudent">
+            <wsdl:input message="tns:registerStudent" name="registerStudent">
+            </wsdl:input>
+            <wsdl:output message="tns:registerStudentResponse" name="registerStudentResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="seeAllStudents">
+            <wsdl:input message="tns:seeAllStudents" name="seeAllStudents">
+            </wsdl:input>
+            <wsdl:output message="tns:seeAllStudentsResponse" name="seeAllStudentsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="payForAttendant">
+            <wsdl:input message="tns:payForAttendant" name="payForAttendant">
+            </wsdl:input>
+            <wsdl:output message="tns:payForAttendantResponse" name="payForAttendantResponse">
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="StudentSOAPImplServiceSoapBinding" type="tns:StudentSOAP">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="addAttendant">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="addAttendant">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="addAttendantResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getNumberOfRegisteredGuest">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getNumberOfRegisteredGuest">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getNumberOfRegisteredGuestResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="isRegistered">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="isRegistered">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="isRegisteredResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="seeRegisteredStudents">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="seeRegisteredStudents">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="seeRegisteredStudentsResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getPrice">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getPrice">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPriceResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="registerStudent">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="registerStudent">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="registerStudentResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="seeAllStudents">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="seeAllStudents">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="seeAllStudentsResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="payForAttendant">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="payForAttendant">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="payForAttendantResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="StudentSOAPImplService">
+        <wsdl:port binding="tns:StudentSOAPImplServiceSoapBinding" name="StudentSOAPImplPort">
+            <soap:address location="http://localhost:8080/teami-polydiploma/webservices/register-student"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

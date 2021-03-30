@@ -1,0 +1,16 @@
+commit c50a65f818c1c8229fb1309c05190813184c0c1b
+tree c8814e522ca55719d28899f098954c98f3d8646e
+parent b8feaa60daebba0048d483e9cb6193ccd2c43356
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-16 18:46:20 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-16 18:46:20 +0200
+
+    Added commands to manage events on the admin cli
+
+
+
+:100644 100644 fd092bf72fc7b5d54ce57ab75185eb1e3dd60c56 2eff347989bd24c1bc1419c463b727430afefba5 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:100644 100644 cfde0cff42fdbcded05885cd5ce18b888a8cfae5 933c04e688eb2453ac5f691f51c2e943074fda83 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddStudentEvent.java
+:000000 100644 0000000000000000000000000000000000000000 aed59d674253d8370ae6049696881b49c79db913 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/DeleteEvent.java
+:000000 100644 0000000000000000000000000000000000000000 a3071add4df72df751ad7e6990784c0e1d6f90ef A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/DisplayPlanning.java
+:000000 100644 0000000000000000000000000000000000000000 29bc2cab2f62b3a7e131cc84e3330f2f222d715c A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/MoveEvent.java
+:100644 100644 f73d0d4d4803b3b3c86c24590479a02875417f54 15394ac56ca94ee187670f28f37b90d11eff319b M	src/main/resources/planning.wsdl

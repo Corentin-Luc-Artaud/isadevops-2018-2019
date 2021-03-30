@@ -1,0 +1,14 @@
+commit 636b131503ed286acccda07f69b80846fb518bd4
+tree 546e63247afeed1bf61b010223841d4466a12b33
+parent ca13cf1cd6652edb8c40edfa4a1cbfc9feff9eff
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 10:29:10 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 10:29:10 +0200
+
+    Modified planning webservice and planning manager
+
+
+
+:100644 100644 34e2225c0b4629075c8497020abcb6c5104260ff 1fcaccbf246f231d6da215a54286468aa4e7fb52 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java
+:100644 100644 ba41e5df0007ec4aa93cd9a60b36b343eac40b78 48b9b387bb4b8559b9be80cafe5d56072d3f5475 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAP.java
+:100644 100644 456386c7768d3aa6991dc4d4c7e3bd7d283c3026 a931786b24c787410b1d9924f888ec5a0a781d94 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAPImpl.java
+:100644 100644 c33047d75adf74298b448df3c438fd4ea8eade86 a9cdeca1118c225f4e476283451f69626b852129 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java

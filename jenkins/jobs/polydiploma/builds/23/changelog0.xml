@@ -1,0 +1,12 @@
+commit 3b4277522a9123c706bd68d2053408cc33ef9b9a
+tree a2d37bd34f35d5677293cf73ae4309bcdf6ac2ee
+parent 46393b5e57e384cf658a10eb0a4d3270fcaab353
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:44 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:44 +0200
+
+    #34 Added interlude module Added bean AdminInterludeManager
+
+
+
+:100644 100644 8664dbc9e71583523a6a8c18d51f2e09fd22fb53 a94a607835205d616399fd6e94c2e39f97ae1ae0 M	pom.xml
+:100644 100644 c298342e4625983915badffe2619764fe80e541d beb58bd3efd8136580bc4eeb191aaa87a1ae83fe M	src/test/resources/META-INF/persistence.xml

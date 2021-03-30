@@ -1,0 +1,13 @@
+commit 7c0baeef7cfe4136bffe9fafa77e8644723f1647
+tree 127916c49566d66ec328f394e9baed6110d85175
+parent 57a6ecf69ad37348fb42496b212df2dc1851d633
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:50 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:50 +0200
+
+    clean up code
+
+
+
+:100644 100644 a6016776506aacff49b216cc0313dd62f36c2102 64dfdda9a6c74b52b6382d352d7e121baa074e18 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Ceremony.java
+:100644 100644 15cfdad869977f9f02597d8d1a19c45c0c88f47a e76992ae76470b23b17bf10f74409865084ef64f M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java
+:100644 100644 5be7cb4fd13e1b6abd881ff4a2d474a83da67e58 c2fba34946a46f56e1cf28b65f00a9365f1dbcfb M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOffer.java

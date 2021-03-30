@@ -1,0 +1,1046 @@
+Started by GitHub push by AlexisDefranoux
+Building in workspace /var/jenkins_home/workspace/teami-polydiploma-entities
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-polydiploma-entities.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 947525e625564fe467688090eadbb05d0f9f8433 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 947525e625564fe467688090eadbb05d0f9f8433
+Commit message: "#26 fix price"
+ > git rev-list --no-walk 940309daab00193ac7f077dfdbaaafe789a4f6d0 # timeout=10
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-polydiploma-entities] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-polydiploma-entities@tmp/artifactory/buildInfo8700176591986620014.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-polydiploma-entities/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-polydiploma-entities/classworlds8506687779652631300conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-polydiploma-entities org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --< fr.unice.polytech.si4.isa.devops.teami:teami-polydiploma-entities >--
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-polydiploma-entities 1.3
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-polydiploma-entities/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 17 source files to /var/jenkins_home/workspace/teami-polydiploma-entities/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 15 source files to /var/jenkins_home/workspace/teami-polydiploma-entities/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin -  T E S T S
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.guests.VipTest
+321  classpath-bootstrap  INFO   [main] openjpa.Runtime - OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:46:51 PM org.apache.tomee.embedded.Container start
+INFO: Starting TomEE from: /tmp/arquillian-apache-tomee
+May 02, 2019 7:46:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+May 02, 2019 7:46:52 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+May 02, 2019 7:46:52 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:873)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Tomcat.init(Tomcat.java:344)
+	at org.apache.tomee.embedded.Container.start(Container.java:679)
+	at org.apache.openejb.arquillian.embedded.EmbeddedTomEEContainer.start(EmbeddedTomEEContainer.java:135)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:199)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:163)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:157)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:255)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:77)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:221)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:96)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:75)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:116)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:946)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 70 more
+Caused by: java.net.BindException: Address in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:866)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:213)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:575)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:65)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:944)
+	... 71 more
+
+May 02, 2019 7:46:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+May 02, 2019 7:46:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.6
+May 02, 2019 7:46:54 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://tomee.apache.org/
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Thu May 02 19:46:54 GMT 2019
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 7.0.2
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20161106
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 07:23
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /tmp/arquillian-apache-tomee
+May 02, 2019 7:46:54 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /tmp/arquillian-apache-tomee
+May 02, 2019 7:46:54 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@37052337
+May 02, 2019 7:46:54 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+May 02, 2019 7:46:54 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: TomEE configuration file is '/tmp/arquillian-apache-tomee/conf/openejb.xml'
+May 02, 2019 7:46:54 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+May 02, 2019 7:46:54 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+May 02, 2019 7:46:54 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+May 02, 2019 7:46:54 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+May 02, 2019 7:46:54 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+May 02, 2019 7:46:54 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+May 02, 2019 7:46:55 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.servicemanager.enabled=false'
+May 02, 2019 7:46:57 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56.war
+May 02, 2019 7:46:57 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56
+May 02, 2019 7:46:57 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:46:57 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /7496c1fe-203a-4c10-b1f4-038216beae56
+May 02, 2019 7:46:57 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:46:58 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56
+May 02, 2019 7:46:58 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+May 02, 2019 7:46:58 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean 7496c1fe-203a-4c10-b1f4-038216beae56.Comp1598434875: Container(type=MANAGED, id=Default Managed Container)
+May 02, 2019 7:46:58 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+May 02, 2019 7:46:58 PM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /tmp for stateful session passivation
+May 02, 2019 7:46:58 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:46:58 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default JDBC Database, type=Resource, provider-id=Default JDBC Database)
+May 02, 2019 7:46:58 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'Default JDBC Database' of type 'DataSource for 'entities_persistence_unit'.
+May 02, 2019 7:46:58 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=Default JDBC Database)
+May 02, 2019 7:47:00 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+May 02, 2019 7:47:00 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFO: Auto-creating a Resource with id 'Default Unmanaged JDBC Database' of type 'DataSource for 'entities_persistence_unit'.
+May 02, 2019 7:47:00 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=Default Unmanaged JDBC Database)
+May 02, 2019 7:47:00 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:00 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:00 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='7496c1fe-203a-4c10-b1f4-038216beae56', contextRoot='7496c1fe-203a-4c10-b1f4-038216beae56'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:00 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=7496c1fe-203a-4c10-b1f4-038216beae56)
+May 02, 2019 7:47:00 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56" loaded.
+May 02, 2019 7:47:00 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56
+May 02, 2019 7:47:00 PM org.apache.openejb.assembler.classic.Assembler$PersistenceClassLoaderHandlerImpl addTransformer
+INFO: JAVA AGENT NOT INSTALLED. The JPA Persistence Provider requested installation of a ClassFileTransformer which requires a JavaAgent.  See http://tomee.apache.org/javaagent.html
+May 02, 2019 7:47:00 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:00 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 84ms
+May 02, 2019 7:47:00 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56)
+May 02, 2019 7:47:01 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:01 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:01 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:01 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:03 PM null
+INFO: The temporary file "/tmp/org.apache.openjpa.enhance.InstrumentationFactory4647793462443058277.jar" was created and it may not get cleaned up properly.
+May 02, 2019 7:47:03 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:04 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:05 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/7496c1fe-203a-4c10-b1f4-038216beae56
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.281 s - in fr.unice.polytech.si4.isa.devops.teami.entities.guests.VipTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.guests.StudentTest
+May 02, 2019 7:47:06 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b.war
+May 02, 2019 7:47:06 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b
+May 02, 2019 7:47:06 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:06 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /418a1790-5ca4-4794-9a84-0fd2aa845a6b
+May 02, 2019 7:47:06 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:06 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b
+May 02, 2019 7:47:06 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:06 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:06 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:06 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='418a1790-5ca4-4794-9a84-0fd2aa845a6b', contextRoot='418a1790-5ca4-4794-9a84-0fd2aa845a6b'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:06 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=418a1790-5ca4-4794-9a84-0fd2aa845a6b)
+May 02, 2019 7:47:06 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b" loaded.
+May 02, 2019 7:47:06 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b
+May 02, 2019 7:47:06 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:06 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 86ms
+May 02, 2019 7:47:06 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b)
+May 02, 2019 7:47:07 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:07 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:07 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:07 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:07 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:08 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:09 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/418a1790-5ca4-4794-9a84-0fd2aa845a6b
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.141 s - in fr.unice.polytech.si4.isa.devops.teami.entities.guests.StudentTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.guests.AttendantTest
+May 02, 2019 7:47:09 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202.war
+May 02, 2019 7:47:09 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202
+May 02, 2019 7:47:09 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:09 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202
+May 02, 2019 7:47:09 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:09 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202
+May 02, 2019 7:47:09 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:09 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:09 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:09 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202', contextRoot='afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:09 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202)
+May 02, 2019 7:47:09 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202" loaded.
+May 02, 2019 7:47:09 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202
+May 02, 2019 7:47:09 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:09 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 70ms
+May 02, 2019 7:47:10 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202)
+May 02, 2019 7:47:10 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:10 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:10 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:10 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:10 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:11 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:12 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/afbc7fff-43fe-4fe4-b3ea-f7d2c04ac202
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.716 s - in fr.unice.polytech.si4.isa.devops.teami.entities.guests.AttendantTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.school.SpecialityTest
+May 02, 2019 7:47:12 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2.war
+May 02, 2019 7:47:12 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2
+May 02, 2019 7:47:12 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:12 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /be4c965c-3d7a-4dfb-9483-2a08dd09c2b2
+May 02, 2019 7:47:12 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:12 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2
+May 02, 2019 7:47:12 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:12 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:12 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:12 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='be4c965c-3d7a-4dfb-9483-2a08dd09c2b2', contextRoot='be4c965c-3d7a-4dfb-9483-2a08dd09c2b2'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:12 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=be4c965c-3d7a-4dfb-9483-2a08dd09c2b2)
+May 02, 2019 7:47:12 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2" loaded.
+May 02, 2019 7:47:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2
+May 02, 2019 7:47:12 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:12 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 45ms
+May 02, 2019 7:47:12 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2)
+May 02, 2019 7:47:12 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:13 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:13 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:13 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:13 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:13 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:14 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/be4c965c-3d7a-4dfb-9483-2a08dd09c2b2
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.424 s - in fr.unice.polytech.si4.isa.devops.teami.entities.school.SpecialityTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.school.ClubTest
+May 02, 2019 7:47:14 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b.war
+May 02, 2019 7:47:14 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b
+May 02, 2019 7:47:14 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:14 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /1d944b5c-9072-4f2f-bfa1-b77644ce2d1b
+May 02, 2019 7:47:14 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:14 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b
+May 02, 2019 7:47:15 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:15 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:15 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:15 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='1d944b5c-9072-4f2f-bfa1-b77644ce2d1b', contextRoot='1d944b5c-9072-4f2f-bfa1-b77644ce2d1b'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:15 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=1d944b5c-9072-4f2f-bfa1-b77644ce2d1b)
+May 02, 2019 7:47:15 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b" loaded.
+May 02, 2019 7:47:15 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b
+May 02, 2019 7:47:15 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:15 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 41ms
+May 02, 2019 7:47:15 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b)
+May 02, 2019 7:47:15 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:15 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:15 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:15 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:15 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:16 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:16 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/1d944b5c-9072-4f2f-bfa1-b77644ce2d1b
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.248 s - in fr.unice.polytech.si4.isa.devops.teami.entities.school.ClubTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.school.BillTest
+May 02, 2019 7:47:17 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a.war
+May 02, 2019 7:47:17 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a
+May 02, 2019 7:47:17 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:17 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a
+May 02, 2019 7:47:17 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:17 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a
+May 02, 2019 7:47:17 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:17 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:17 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:17 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a', contextRoot='024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:17 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a)
+May 02, 2019 7:47:17 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a" loaded.
+May 02, 2019 7:47:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a
+May 02, 2019 7:47:17 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:17 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 45ms
+May 02, 2019 7:47:17 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a)
+May 02, 2019 7:47:17 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:17 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:17 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:17 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:17 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:18 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:19 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/024b3a01-7c2b-4bc8-9460-1fe88eb0aa0a
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.298 s - in fr.unice.polytech.si4.isa.devops.teami.entities.school.BillTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitationTest
+May 02, 2019 7:47:19 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2.war
+May 02, 2019 7:47:19 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2
+May 02, 2019 7:47:19 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:19 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /33fd48aa-3577-45c8-82dd-b9ec1db83ec2
+May 02, 2019 7:47:19 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:19 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2
+May 02, 2019 7:47:19 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:19 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:19 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:19 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='33fd48aa-3577-45c8-82dd-b9ec1db83ec2', contextRoot='33fd48aa-3577-45c8-82dd-b9ec1db83ec2'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:19 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=33fd48aa-3577-45c8-82dd-b9ec1db83ec2)
+May 02, 2019 7:47:19 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2" loaded.
+May 02, 2019 7:47:19 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2
+May 02, 2019 7:47:19 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:19 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 38ms
+May 02, 2019 7:47:19 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2)
+May 02, 2019 7:47:19 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:20 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:20 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:20 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:20 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:20 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:21 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/33fd48aa-3577-45c8-82dd-b9ec1db83ec2
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.177 s - in fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitationTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitationTest
+May 02, 2019 7:47:21 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed.war
+May 02, 2019 7:47:21 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed
+May 02, 2019 7:47:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:21 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /bf218c2a-0351-418c-b18b-c82f476838ed
+May 02, 2019 7:47:21 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:21 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed
+May 02, 2019 7:47:21 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:21 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:21 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:21 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='bf218c2a-0351-418c-b18b-c82f476838ed', contextRoot='bf218c2a-0351-418c-b18b-c82f476838ed'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:21 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=bf218c2a-0351-418c-b18b-c82f476838ed)
+May 02, 2019 7:47:21 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed" loaded.
+May 02, 2019 7:47:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed
+May 02, 2019 7:47:21 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:21 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 70ms
+May 02, 2019 7:47:21 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed)
+May 02, 2019 7:47:22 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:22 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:22 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:22 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:22 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:22 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:23 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/bf218c2a-0351-418c-b18b-c82f476838ed
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.302 s - in fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitationTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOfferTest
+May 02, 2019 7:47:23 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f.war
+May 02, 2019 7:47:23 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f
+May 02, 2019 7:47:23 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:23 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /4ada3f68-dc48-4114-b185-ee888746725f
+May 02, 2019 7:47:23 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:24 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f
+May 02, 2019 7:47:24 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:24 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:24 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:24 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='4ada3f68-dc48-4114-b185-ee888746725f', contextRoot='4ada3f68-dc48-4114-b185-ee888746725f'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:24 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=4ada3f68-dc48-4114-b185-ee888746725f)
+May 02, 2019 7:47:24 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f" loaded.
+May 02, 2019 7:47:24 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f
+May 02, 2019 7:47:24 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:24 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 45ms
+May 02, 2019 7:47:24 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f)
+May 02, 2019 7:47:24 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:24 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:24 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:24 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:24 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:25 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:26 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/4ada3f68-dc48-4114-b185-ee888746725f
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.964 s - in fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOfferTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEventTest
+May 02, 2019 7:47:26 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6.war
+May 02, 2019 7:47:26 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6
+May 02, 2019 7:47:26 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:26 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /0e130576-d94c-4cf2-9a57-fdbfc66fe0d6
+May 02, 2019 7:47:26 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:27 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6
+May 02, 2019 7:47:27 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:27 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:27 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:27 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='0e130576-d94c-4cf2-9a57-fdbfc66fe0d6', contextRoot='0e130576-d94c-4cf2-9a57-fdbfc66fe0d6'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:27 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=0e130576-d94c-4cf2-9a57-fdbfc66fe0d6)
+May 02, 2019 7:47:27 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6" loaded.
+May 02, 2019 7:47:27 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6
+May 02, 2019 7:47:27 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:27 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 32ms
+May 02, 2019 7:47:27 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6)
+May 02, 2019 7:47:27 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:27 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:27 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:27 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:27 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:28 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:28 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/0e130576-d94c-4cf2-9a57-fdbfc66fe0d6
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.186 s - in fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEventTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEventTest
+May 02, 2019 7:47:29 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b.war
+May 02, 2019 7:47:29 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b
+May 02, 2019 7:47:29 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:29 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /437eb948-e66a-4039-912c-f11294e5274b
+May 02, 2019 7:47:29 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:29 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b
+May 02, 2019 7:47:29 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:29 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:29 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:29 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='437eb948-e66a-4039-912c-f11294e5274b', contextRoot='437eb948-e66a-4039-912c-f11294e5274b'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:29 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=437eb948-e66a-4039-912c-f11294e5274b)
+May 02, 2019 7:47:29 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b" loaded.
+May 02, 2019 7:47:29 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b
+May 02, 2019 7:47:29 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:29 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 44ms
+May 02, 2019 7:47:29 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b)
+May 02, 2019 7:47:29 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:29 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:29 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:29 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:29 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:30 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:31 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/437eb948-e66a-4039-912c-f11294e5274b
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.455 s - in fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEventTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.events.VIPEventTest
+May 02, 2019 7:47:31 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091.war
+May 02, 2019 7:47:31 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091
+May 02, 2019 7:47:31 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:31 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /8272a0e2-b83f-4647-b106-00edc40d1091
+May 02, 2019 7:47:31 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:31 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091
+May 02, 2019 7:47:31 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:31 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:31 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:31 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='8272a0e2-b83f-4647-b106-00edc40d1091', contextRoot='8272a0e2-b83f-4647-b106-00edc40d1091'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:31 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=8272a0e2-b83f-4647-b106-00edc40d1091)
+May 02, 2019 7:47:31 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091" loaded.
+May 02, 2019 7:47:31 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091
+May 02, 2019 7:47:31 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:31 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 42ms
+May 02, 2019 7:47:31 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091)
+May 02, 2019 7:47:32 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:32 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:32 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:32 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:32 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:32 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:34 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/8272a0e2-b83f-4647-b106-00edc40d1091
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.629 s - in fr.unice.polytech.si4.isa.devops.teami.entities.events.VIPEventTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.CeremonyTest
+May 02, 2019 7:47:34 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f.war
+May 02, 2019 7:47:34 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f
+May 02, 2019 7:47:34 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:34 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /f42a470a-9959-41da-9dee-b80d658d0c2f
+May 02, 2019 7:47:34 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:34 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f
+May 02, 2019 7:47:34 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:34 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:34 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:34 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='f42a470a-9959-41da-9dee-b80d658d0c2f', contextRoot='f42a470a-9959-41da-9dee-b80d658d0c2f'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:34 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=f42a470a-9959-41da-9dee-b80d658d0c2f)
+May 02, 2019 7:47:34 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f" loaded.
+May 02, 2019 7:47:34 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f
+May 02, 2019 7:47:34 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:34 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 27ms
+May 02, 2019 7:47:34 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f)
+May 02, 2019 7:47:34 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:34 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:34 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:34 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:35 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:35 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:36 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/f42a470a-9959-41da-9dee-b80d658d0c2f
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.533 s - in fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.CeremonyTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.PlanningTest
+May 02, 2019 7:47:36 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73.war
+May 02, 2019 7:47:36 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73
+May 02, 2019 7:47:36 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+May 02, 2019 7:47:36 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /48aee917-4294-478b-a3ef-13bfc9ec6e73
+May 02, 2019 7:47:36 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+May 02, 2019 7:47:36 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73
+May 02, 2019 7:47:37 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=entities_persistence_unit)
+May 02, 2019 7:47:37 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <jta-data-source> to Resource ID 'Default JDBC Database' from 'PolydiplomaDataSource'
+May 02, 2019 7:47:37 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit entities_persistence_unit <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+May 02, 2019 7:47:37 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: WARN ... WebModule{moduleId='48aee917-4294-478b-a3ef-13bfc9ec6e73', contextRoot='48aee917-4294-478b-a3ef-13bfc9ec6e73'}:	Incorrect location of file file:/tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73/META-INF/beans.xml The file should be in WEB-INF directory
+May 02, 2019 7:47:37 PM org.apache.openejb.config.ReportValidationResults logResults
+WARNING: 1 warning for WebModule(path=48aee917-4294-478b-a3ef-13bfc9ec6e73)
+May 02, 2019 7:47:37 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73" loaded.
+May 02, 2019 7:47:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73
+May 02, 2019 7:47:37 PM null
+INFO: OpenJPA dynamically loaded a validation provider.
+May 02, 2019 7:47:37 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFO: PersistenceUnit(name=entities_persistence_unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 30ms
+May 02, 2019 7:47:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73)
+May 02, 2019 7:47:37 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 02, 2019 7:47:37 PM null
+INFO: Starting OpenJPA 2.4.1
+May 02, 2019 7:47:37 PM null
+INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+May 02, 2019 7:47:37 PM null
+INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+May 02, 2019 7:47:37 PM null
+INFO: Creating subclass and redefining methods for "[class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Person, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.StudentInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality, class fr.unice.polytech.si4.isa.devops.teami.entities.events.StudentEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student, class fr.unice.polytech.si4.isa.devops.teami.entities.events.ClubEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.events.VipEvent, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Attendant, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Bill, class fr.unice.polytech.si4.isa.devops.teami.entities.events.EventOffer, class fr.unice.polytech.si4.isa.devops.teami.entities.guests.Vip, class fr.unice.polytech.si4.isa.devops.teami.entities.events.Event, class fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Ceremony, class fr.unice.polytech.si4.isa.devops.teami.entities.invitations.VIPInvitation, class fr.unice.polytech.si4.isa.devops.teami.entities.school.Club]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+May 02, 2019 7:47:37 PM null
+WARNING: The identity field defined in the fr.unice.polytech.si4.isa.devops.teami.entities.events.Event Embeddable is not supported. 
+May 02, 2019 7:47:38 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /tmp/arquillian-tomee-app-working-dir/0/48aee917-4294-478b-a3ef-13bfc9ec6e73
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.303 s - in fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.PlanningTest
+May 02, 2019 7:47:39 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+May 02, 2019 7:47:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+May 02, 2019 7:47:39 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Tomcat
+May 02, 2019 7:47:39 PM org.apache.openejb.assembler.classic.Assembler doResourceDestruction
+INFO: Closing DataSource: Default JDBC Database
+May 02, 2019 7:47:39 PM org.apache.openejb.assembler.classic.Assembler doResourceDestruction
+INFO: Closing DataSource: Default Unmanaged JDBC Database
+May 02, 2019 7:47:39 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Results:
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-polydiploma-entities ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /var/jenkins_home/workspace/teami-polydiploma-entities/target/teami-polydiploma-entities-1.3.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ teami-polydiploma-entities ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/target/teami-polydiploma-entities-1.3.jar to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/pom.xml to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-polydiploma-entities/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Skipping execution of surefire because it has already been run for this configuration
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ teami-polydiploma-entities ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ teami-polydiploma-entities ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/target/teami-polydiploma-entities-1.3.jar to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-polydiploma-entities/pom.xml to /var/jenkins_home/workspace/teami-polydiploma-entities/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ teami-polydiploma-entities ---
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+Progress (1): 2.0/29 kBProgress (1): 4.1/29 kBProgress (1): 6.1/29 kBProgress (1): 8.2/29 kBProgress (1): 10/29 kB Progress (1): 12/29 kBProgress (1): 14/29 kBProgress (1): 16/29 kBProgress (1): 18/29 kBProgress (1): 20/29 kBProgress (1): 23/29 kBProgress (1): 25/29 kBProgress (1): 27/29 kBProgress (1): 29 kB                      Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar (29 kB at 46 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+Progress (1): 2.0/7.5 kBProgress (1): 4.1/7.5 kBProgress (1): 6.1/7.5 kBProgress (1): 7.5 kB                        Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom (7.5 kB at 61 kB/s)
+Downloading from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml
+Progress (1): 394 B                   [WARNING] Checksum validation failed, expected 5927d29b252b2187bc21d131789f1e69fb35e0f2 but is 3aaf3d9cb7f9469240050a449e1acf66ffbdb686 from teami for http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml
+Progress (1): 440 B                   Downloaded from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml (440 B at 1.3 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml
+Progress (1): 394 B                   Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/maven-metadata.xml (394 B at 5.9 kB/s)
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Saving Build Info to '/var/jenkins_home/workspace/teami-polydiploma-entities/target/build-info.json'
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: deploy artifacts set to false, artifacts will not be deployed...
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Deploying build info ...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Deploying build descriptor to: http://vps663090.ovh.net:8081/artifactory/api/build
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Build successfully deployed. Browse it in Artifactory under http://vps663090.ovh.net:8081/artifactory/webapp/builds/teami-polydiploma-entities/36
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  01:14 min
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-05-02T19:47:47Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Finished: SUCCESS

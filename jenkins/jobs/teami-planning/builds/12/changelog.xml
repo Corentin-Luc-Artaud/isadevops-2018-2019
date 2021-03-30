@@ -1,0 +1,14 @@
+commit 2ea8a2cabf03b91d888f64418903ea98aee45540
+tree 22a08112d133c5b7f7c2950b85aedc3ec182114b
+parent 45c20819484fd003ffeaf852c6c18f52a7202fa6
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-26 14:54:35 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-26 14:54:35 +0200
+
+    #33 first try (not really right)
+
+
+
+:100644 100644 4c68ee8b8a1ba294c49f00ac7c8636915735de11 97e1ed9731bc8110ed331c4cd74bd3d4ecf2d24b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java
+:100644 100644 1dab5edaddef8b0e412800fffd8f51ae1940d754 96c0bb19580b2cf795efb0d897851a6248fd7839 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerBean.java
+:100644 100644 85d79fbd2918fc9f21722bbaa5297d757f48d806 238cdd4531c7347a274efd830f6a709e1c49fb81 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAPImpl.java
+:100644 100644 96433181ba942cccf5797eb88b25b4bc53c30a4d 2c0a1cb21a0d6c5ab468f4ea079f5eb4cab44edd M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java

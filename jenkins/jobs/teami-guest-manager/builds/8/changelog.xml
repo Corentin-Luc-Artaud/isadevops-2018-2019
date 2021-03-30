@@ -1,0 +1,11 @@
+commit 3763c941f38eaae52fe3bf9e9fd587a7175bba3c
+tree dfa6b9c0bbfabae3eb0f96b0e3b2e65c8974a492
+parent 46a479eac59b86f4278909f07761240170d91e19
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-05 10:51:17 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-05 10:51:17 +0200
+
+    #6 fix persistence on guestManager specialities
+
+
+
+:100644 100644 481d0d77cb1af8f228e823ef84e2e0c4092c5366 597346d05c391804b8a062a3b69090ab3d1260ce M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java

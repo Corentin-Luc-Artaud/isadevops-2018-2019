@@ -1,0 +1,12 @@
+commit 06fba7a1f926de70a52ea1dbf5e19a87e2eb23bc
+tree 2b1da2459adf8faddb4d11a4704572fd39a64301
+parent cce090ac5071746a5bcdc192c910c85d11bc60ff
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 14:28:00 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-18 14:28:00 +0200
+
+    #32 the build of the image don't build the program any more (no more
+    waste of time) jenkins do it well
+
+
+
+:100644 100644 c665c54bc8b829133a349ea0f09ed79e520a8cda 7fb2581cb3c55d3241fd584c9b82c3fcafbc9d66 M	Dockerfile

@@ -1,0 +1,12 @@
+commit a7590210d4927cefa1270b6bd873b4c21dfa6c6b
+tree 815f635010e12cf27590939f4c3912aa0007a908
+parent f841ed9f722088777165d0aed3db7d5d23dfe5d9
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-30 19:45:58 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-30 19:45:58 +0200
+
+    #34 uncommented class
+
+
+
+:100644 100644 c9ee93af53362ee1867b13ccecd42a5d7a9b2118 5f8b13afab0c5ac415f678aee6dd3cdff72e4028 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAP.java
+:100644 100644 b0f6670c7a0350ccfaf6b22a6a53b3e512137f64 c0ff8c8b758b01443e745c7366faedd1fa8d74f4 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAPImpl.java

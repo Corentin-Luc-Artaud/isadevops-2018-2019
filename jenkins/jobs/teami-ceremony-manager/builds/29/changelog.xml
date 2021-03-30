@@ -1,0 +1,12 @@
+commit 36a239aedb7063d595873cc62b072139b67317a6
+tree 8382287f6e327b8735263322b66d05e8216dcef3
+parent cebc8a0ac9b019c56cad9e0aeb4783c1e276a3c4
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:28 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:28 +0200
+
+    Added commands to add vip and see them
+
+
+
+:100644 100644 7bd0d4492a1438a364c9deaa2cf8004d0fe2890f 306c52c5513ee608705e43a31544b1ba9a4a92e2 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManager.java
+:100644 100644 ce022d949d1da793879b0791690e1f2d6dd4e937 04b57dd8afbcce863ed04dd31029c4ba12346218 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java

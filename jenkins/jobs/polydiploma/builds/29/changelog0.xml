@@ -1,0 +1,11 @@
+commit a725a96500ebc17f8ee116f29bd97c16a80fc401
+tree 251ac7fd9457ca0ce6089c2c65d4edfa69683c41
+parent c74fd87f428bc41e0fe935ef91d528996b521e5c
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:02 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:02 +0200
+
+    #26 finished the register component
+
+
+
+:100644 100644 beb58bd3efd8136580bc4eeb191aaa87a1ae83fe beb58bd3efd8136580bc4eeb191aaa87a1ae83fe R100	src/test/resources/META-INF/persistence.xml	src/main/resources/META-INF/persistence.xml

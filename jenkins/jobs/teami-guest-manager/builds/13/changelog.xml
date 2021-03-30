@@ -1,0 +1,11 @@
+commit bdf299815d2b5626d5764a7e33b6e5efc1a95c7f
+tree e826cef224201ad0b828581ad17f82cf0bc1534f
+parent c890451a1de25cf11e3c32dee08a091edba4f0bb
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 15:38:12 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 15:38:12 +0200
+
+    #14 update all pom.xml + add some persistence on entities
+
+
+
+:100644 100644 767730000ad2e3564ccde0c95e073778c1eead00 4f2b2fbc9f7822a6e61f7f408f58d43649bb5237 M	pom.xml

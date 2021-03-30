@@ -1,0 +1,12 @@
+Started on Apr 12, 2019 9:50:43 AM
+Started by event from 192.30.252.34 ⇒ http://vps663090.ovh.net:8080/github-webhook/ on Fri Apr 12 09:50:43 GMT 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision a0b7482c304289ff87e7ec0ed07043d541f072f1 (refs/remotes/origin/master)
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/pns-isa-devops-1819/teami-notification.git # timeout=10
+Found 1 remote heads on https://github.com/pns-isa-devops-1819/teami-notification.git
+[poll] Latest remote head revision on refs/heads/master is: c4abce1b429b7963555eb0dc39a46408a7c2b7e2
+Done. Took 2 sec
+Changes found

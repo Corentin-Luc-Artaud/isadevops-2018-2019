@@ -1,0 +1,35 @@
+commit cb952717887afa9fc684af97ef396c783b277e8b
+tree a6cba06ee17b4ec4051e229e5928cbcbdad44ce0
+parent e4485c6adbc14c3301e0392b1fbec8bccb614801
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-03-29 17:37:19 +0100
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-03-29 17:37:19 +0100
+
+    #17 add date and place to a ceremony
+
+
+
+:100644 100644 f12657625ca714b557366c4bb4b7d45d62b4ab94 df7616c68bf0c7561af21277937099a3b78bebeb M	src/main/java/fr/polydiploma/Ceremony.java
+:100644 100644 d5fccbfc444b5b3fbef05624ed95d95545a4a012 cdcc985d4e7be8a463ca8ea842703f1a835a58c2 M	src/main/java/fr/polydiploma/CeremonyManagerService.java
+:100644 100644 cd6703b8c7b69b13bb055dcfe177378779c6a8da 36ac7302e95532f867fa59c7c2a939481f823bbc M	src/main/java/fr/polydiploma/CeremonyManagerServiceImplService.java
+:100644 100644 a3aa765bcdac241ad7820c4f0b5ebff141e3290c bf03a4088380845eae8933be800f86417a5204a0 M	src/main/java/fr/polydiploma/CreateNewRdd.java
+:100644 100644 9b3878b1a25c7370fc4dfa3c882d4d613ed0c379 787ce0c9752c6762e7bec0278aa8be0fdc0063ef M	src/main/java/fr/polydiploma/CreateNewRddResponse.java
+:100644 100644 4dd30ff8fb1e77f32d2018a9e99254f65b269f24 08c8e6f116ea2e9e63a97261f61daa6c204ded69 M	src/main/java/fr/polydiploma/GetCurrentCeremony.java
+:100644 100644 0df71153ac7711947464c83015f47b8c00e6e77c 4f93c39cf44c209cc86b892e617dd381ff24c3f8 M	src/main/java/fr/polydiploma/GetCurrentCeremonyResponse.java
+:100644 100644 ba8415ac104206cc4b250149bbe612c276afc58a 0c0a491905b3d0e4e29cf0f1094117846835e324 M	src/main/java/fr/polydiploma/LocalDateTime.java
+:100644 100644 e379c3916fc777165b33080d9c168f00f3d8500f f07f41c429da7d858fb8d9ee08549a0af13bb6fd M	src/main/java/fr/polydiploma/NotifyGuests.java
+:100644 100644 e1e91ef9387a0c031a0a52b3fc488c3d100cb3b9 bccf294160efcee743294d6ecf58605aee909e6a M	src/main/java/fr/polydiploma/NotifyGuestsResponse.java
+:100644 100644 e1623074c0795d0c54e03dbb238e306641c50dd0 6d07e12b322c050c414a0f7c27dc563b9e98e1a0 M	src/main/java/fr/polydiploma/ObjectFactory.java
+:000000 100644 0000000000000000000000000000000000000000 9f9fa3d9f8dc3e7389ecca2c1c2c49ee57761d19 A	src/main/java/fr/polydiploma/Ping.java
+:000000 100644 0000000000000000000000000000000000000000 339f1f914b8ecd75b8d0b3f2588bd18be50812dc A	src/main/java/fr/polydiploma/PingResponse.java
+:100644 100644 f661e6df402521bfcf22e7a6f9c4c1145fa285cb 7a22cdb609a75c5b592d45230688c18c46f4ad2a M	src/main/java/fr/polydiploma/SetDate.java
+:100644 100644 eb41a6960dbdf9131ad60c04a1c0f764c0681726 ba032c9ef1062c17dbf3ee15c850abee6eaa521d M	src/main/java/fr/polydiploma/SetDateResponse.java
+:100644 100644 82e649d7f7c2365c73dcc5b817cf11d9ae48e075 6bf5f0f3b196ae9727440d13dafb889e5fa97e68 M	src/main/java/fr/polydiploma/SetPlace.java
+:100644 100644 ad8f09eb3b77ab66113fc302f9b47f8c5c46269c 7c0268e5a942e98c04716a1dd321767a208d6fe5 M	src/main/java/fr/polydiploma/SetPlaceResponse.java
+:100644 100644 68158d20903d016d3d900efb75ad4a63fde9a222 a20cfad8ae2728612c91a7f1399bbc3dc4e28acb M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:100644 100644 cb867057ea47f83edd55dd9d70d813484887eae8 88f00a165508fd1a99d67edc5b84a4b8c2cb81ad M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/CeremonyManagerApi.java
+:000000 100644 0000000000000000000000000000000000000000 847f484eca9f71b03a01b51dd605def19b310254 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetCeremony.java
+:000000 100644 0000000000000000000000000000000000000000 bd8f441a69fd6914a1c459b91b3d91521e3a6974 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/Ping.java
+:100644 100644 72913c4063e0e8f3059d0160424afd160750e019 d07b0cff64ca450baad0f425b0d0e1f0ca5b5ba3 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/SetDate.java
+:000000 100644 0000000000000000000000000000000000000000 7fd8bd2697da35bad966d38dda2f022f9dbe0623 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/SetPlace.java
+:100644 100644 7e04816cb66a3b58ee6814c89b0651823ef9da44 c6d4ec731d2fbc40f2a32a79c5a44fd1de1a0ff2 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java
+:100644 100644 fe8d622746d93fc80516179381608074462bc2dd dd5db505a4d386505d93530d9d4e161bad5682e5 M	src/main/resources/ceremony-manager.wsdl

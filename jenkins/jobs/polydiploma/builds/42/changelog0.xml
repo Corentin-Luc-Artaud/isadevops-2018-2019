@@ -1,0 +1,13 @@
+commit 2085ee3d15e6c4bc7f4e64373e90fe3be58aa469
+tree 196cb8eb420520adfe3540c85bfa60d117db43f1
+parent 5204940823aa65bee507c2f8c62a3cdad4768206
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-01 11:46:06 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-01 11:46:06 +0200
+
+    trying to fix jenkins crashes with cucumber test
+
+
+
+:100644 100644 dfef49c2175b98376fc46f95fd5c7014b134d55d c589db5c14883ec750e137a17a8972059b088c0f M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAP.java
+:100644 100644 0ba544bc5e68cacf9868c9d5dc52a23f51d0b90c c52568d8c642ab78dff9a66667f8ee9a78a36907 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAPImpl.java
+:100644 100644 98b04e52998d0931d1d58eb537e82ad3eb7623fc 5b8f7f5261a17cc222dc69bfd033c8033cb08f54 M	src/test/java/features/ScenarioTest.java

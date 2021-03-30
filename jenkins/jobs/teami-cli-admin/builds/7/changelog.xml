@@ -1,0 +1,18 @@
+commit 662e2a9c6d6c99243ac549326ccc29af0b162be0
+tree 7eeae70718c3bab2f3e3755f0327d9fe2246b5f2
+parent f6ce2757a1a05306bbfc53e6ad82c96c78ba9dd6
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:08 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:08 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 42ef5ec300c8d9a0dbcbaaa021d7bca75aa774d0 3ea7e96739c3c14863e6f3b90eb80b0592bcfc7c M	src/main/java/fr/polydiploma/CeremonyManagerServiceImplService.java
+:100644 100644 7658712213af4f695fbe6a49d027bc252ea361c9 4f8868fd7641a60e91953a478984423e774ef74b M	src/main/java/fr/polydiploma/PlanningSOAPImplService.java
+:100644 100644 e09939cd30cff7af8226674a336a9fea97483a14 d9983bdf7cb047f1b27d7e379456c62d87633961 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/PlanningApi.java
+:100644 100644 2d43771632b89a58d096959cb345b241083c609a cfde0cff42fdbcded05885cd5ce18b888a8cfae5 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddStudentEvent.java
+:100644 100644 a642b32525b43c1a4bfbe530bb9915fbc4f937b2 8509c02dbbac6cc610d6eb0da4fb925fd54e7ca5 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetCeremony.java
+:100644 100644 ada808285864139f25e7418cc989674672367eb3 02944f69fec9bf39ad4a6c75457171fb8f823223 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/SetDate.java
+:100644 100644 786934147cd4aaeb7f39c99fd0edb0d8b5762090 667049e4c1b4f5e37542ad970ad92e0aa157fd55 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/SetPlace.java

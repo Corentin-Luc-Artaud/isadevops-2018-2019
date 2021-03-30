@@ -1,0 +1,14 @@
+commit 57997597ada25c76da0c7e91e519b9f9fda9ec14
+tree 946d8cbbdf6e9b3a2289744ea3eb29c808032b36
+parent 0f9e27a1edabdbe3b4352fca308788ca45dd6eb5
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 16:12:32 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 16:12:32 +0200
+
+    #26 fix persistence guest manager
+
+
+
+:100644 100644 0f71eabfbe7a6c8f3c7f30c7edc0d05a301a81fb 194b1a1a66ccaf0cd9461bd14113cff8caa6fcce M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManager.java
+:100644 100644 dd9d66ab565d300de1203dad792411277401e65c 42fb338e7c435b207ff502d559ad34a075bf2fd8 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 56565a0277d9732dd7610f6b1fcf381584e72014 864b2a9bf190a674957a709463af7cbdef208a42 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/GuestManagerTest.java
+:000000 100644 0000000000000000000000000000000000000000 e346c56f6775b0c858c1c2ca0baceab7070853f9 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/LoadStudentsTest.java

@@ -1,0 +1,12 @@
+commit 8d21660ac381434522016fa15aa7b1d11bfa9625
+tree a3aeabc3c3be4018d6c5032b4bb5eaab33a32b36
+parent c3bf28ed1ba16eb3cad320670a9e1724fecea288
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:13 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:13 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 f1daa225c85a277f787e59f55b471693e66a1f02 01c931fc49d44b3e792b4f96c376551db3be7c84 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java

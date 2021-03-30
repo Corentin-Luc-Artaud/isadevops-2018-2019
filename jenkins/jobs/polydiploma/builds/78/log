@@ -1,0 +1,532 @@
+Started by user [8mha:////4MygrPD6YFAvMi/E/S4M6nr1Fda8lIFAXCIKZCZoqYWgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4I7MvtDMgU+jiGKE9kRT8atBNzr3UiQq+6FXJrc5hap+AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IMMPIAazcC9rAVv8I769hdrIsJc6qTaIYiRiCbwJXr3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] stage
+[8mha:////4CSyvzpFtCmge6Rrx1QfoxVunAp/mTl6OHYJiB0pQWMfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4MRWXTF08i1w06YA0UxJ4dAZYaJY8PBZdM1tSKLl1MVpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Running on [8mha:////4L8h4xa0l4mqJO+HuvfFo+MUxATcF4RpQ1TEPHN6yWOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/polydiploma
+[8mha:////4HEEspXoGjA4lgbPJ3vDRss8SmN30DF3fSg4hC5CjWVmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PsNQTwPQuzoUUATv1EG+Sc08k7I/yC8UqFslMHYPdhaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
+[8mha:////4DPSFw7vo0s2NSrBZV5cd9TI6Nqno/HQ3HIC/OhfojFaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4AHfXNRIFiUeonc6j4tyTMv99e3Rr91+GMoRPNaI0XKLAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED9uwSoQvAAAAA==[0m[Pipeline] tool
+[8mha:////4C0Yi7CP/u3d4Tn1Dq+h5erKcw7R1gytImX+YTrphYlkAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoY+NY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbC/LdtvsAfEnCxL0AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4GP4CcKHqBylB+wLIW/Pa6W7T/7R5w0d4j5M+at/beMFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjNDSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oN0o4awsEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Jt8PxsVip1mjP5oUWdC7zcrGnu4X4LCWIsynJuJt7vSAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4HtoFnDXB8GySa6pgusqSfkt1sLtgxtt3Q5OnIJBHUViAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] sh
++ rm -r '?/.m2/repository/fr'
+[8mha:////4MSdcAmaRqGkh0yydpDglZoptUj/7z+KqPFFkdSdzwxMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] git
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-polydiploma-war.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-polydiploma-war.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-polydiploma-war.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 35e87fbe80164835e90791f93919e4440d736f7b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 35e87fbe80164835e90791f93919e4440d736f7b
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 35e87fbe80164835e90791f93919e4440d736f7b
+Commit message: "fix #21 Scenarios finished"
+ > git rev-list --no-walk 35e87fbe80164835e90791f93919e4440d736f7b # timeout=10
+[8mha:////4CHTlsu482+elLhXhLuy3wai3fUxxea9G8ysNHJdnwfHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NyZXKai+AAAA[0m[Pipeline] }
+[8mha:////4LhX3ji5r4ZOrBZsQDpp4o7PccGSrnmJhwVl71mvRGTsAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4F1FakwfUnBeBLsZ2O0C36cgYS8dP3OVFtdrr0VgBxXCAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDRSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPuZZrjr0AAAA=[0m[Pipeline] }
+[8mha:////4OCaHtNuZi+MpYkMohqm6Niyk4oRDhBdw2JuEPileggLAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA9JQMpW9AAAA[0m[Pipeline] // node
+[8mha:////4FZKTaU7UUhxc8jimY9NrYRbGvjmRQ+cY2RdwiBYHVTmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9APRJVd+9AAAA[0m[Pipeline] }
+[8mha:////4HW3buPv8KP/McrvidRl9vGV/LbCGSnLx06Rc/Z9yKI7AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T+IzLXKvQAAAA==[0m[Pipeline] // stage
+[8mha:////4C7bfD17S9ztAePF6Z7Uq+jkVfgqwQRMMq+p+Q3szto0AAAApR+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQj0iIqWssNLzCJMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oU4QDRSc7i73H1Hg5hNHlJieK/SXQJDs6y4YwUbBS20lTa48LamILS0QBKwVri02g5NExbFRn7qYKBl114pi3vYLCtzd4gFDZzCbyF+YI2+vYJsKf568A5oFB1AxFvfscyzfN5ytDwQAAAA==[0m[Pipeline] stage
+[8mha:////4AehV2j7sym/n7Goy9hlqMn0LIP+zrhOgRG48Tq0SPdpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (prepare maven)
+[8mha:////4AUJ5tzbEWnILR3TSIR3yOwqglT/zQTPN/0IdpFUGc8TAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] node
+Running on [8mha:////4L8h4xa0l4mqJO+HuvfFo+MUxATcF4RpQ1TEPHN6yWOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/polydiploma
+[8mha:////4N1v8CLwqKORPgFlk+erZqoUzCcyL5aOYXyb5E1ryU3VAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4Hj7YFwiv7u0QyZU2otFJmsJ6XGDo9CwNaV9t3gR27x7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] tool
+[8mha:////4HC1niJQsSfn88uFgr+C7hrE4QkL2KVaOT+ku72ChGhsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAG8UfaPvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4FmcgO7JseEnaXZJgQgTEgPcdfk+LJBggme7HsPcqQUXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q39YO2WvgAAAA==[0m[Pipeline] tool
+[8mha:////4AGx41Z8AnayiX5ZYRoRZZEg81qEaRxASYkCdWe+AgNGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0yfHURvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GvoxKtevHmPfkwn4JSh+hSDs4q0mIbKSK9iVbFo6pXwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQiwIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACDmEzGwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4PmRu7Rms2U8zOl1fSUXL+DHp31mpE6n2k6bo7jpH8XnAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4JRtSWM5jFqDCKEO9VMrLzag7TckYP9Me6E9UpmyCt7SAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] rtMavenResolver
+[8mha:////4G+rD9K8NQb0xNCauk9mIBxrAHksokmXdRUOSmktiEmsAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeAtq90r4AAAA=[0m[Pipeline] rtMavenDeployer
+[8mha:////4Jgz7SiLbvexvVipCfCEvm66nD7nTZBKNkE41gd7/Ms+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKClBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvKbXNb4AAAA=[0m[Pipeline] }
+[8mha:////4Ml7Huii+0RoowwCBP/Ba7M+ltJwOxDW2aeTYcJcxkWfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/hHxVIvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NqX6olKB/EcndXBwO+3zUvPHylPEJDDlWxvHNo5/mkxAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/5sPj9vgAAAA==[0m[Pipeline] }
+[8mha:////4MPzr8Av374PRayGHBTf6jAq94hFuhIU5IVXYRCkylySAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiESDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w/0VwjlvgAAAA==[0m[Pipeline] // node
+[8mha:////4AnWpJAHQvsLAN0bL39PRyWXoHdtFohldmiHjpnoH/hrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihYICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w/HtFNZvgAAAA==[0m[Pipeline] }
+[8mha:////4LPH1gL1t8gXjXLTOPMVrIQFakZrkXhKpn+ezSY4sU2yAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w+oVwwxvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ibl991Ks/VhqNkK5y9koTlZ6uJ/mQU2ckKLjZ8fCabuAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjQYUQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIDYMxXb3OZZvFG4PCcEAAAA=[0m[Pipeline] stage
+[8mha:////4KIkNUe6w0ROLPfQdNju24DqfGNeqMGAH2sj2rTWwUX0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4Jf0h744OSJp0lki61OKWqYKEp5fNz/kGXC68+hh5a4qAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] node
+Running on [8mha:////4L8h4xa0l4mqJO+HuvfFo+MUxATcF4RpQ1TEPHN6yWOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/polydiploma
+[8mha:////4LW2H9IMVUZLBGdnBqH1CN6qLFb+vgZvR/GkojlNVEHcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4LARNJSNbN3SLQCqfZsRchQrlWQ1tA9rdwtlJeTOk8ynAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] tool
+[8mha:////4NAxEb7/Ckc6L9iR8m97UX0Bqrw2ILljX5yz8VMT7FHlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BjFz8hy+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4C1iC1lrnKKdWKJdrFTozumxCR9rleKWtl/Y+tcE7VKlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN3BC6QW+AAAA[0m[Pipeline] tool
+[8mha:////4Cj9SuUT2FZ5HCUx59wxkcey0KU4E93iItr11GSMwRf9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAGzEcQuvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4IC+8gwBrUN8HJYWwpiwBw6lgKl7WsFEZe8SrVrfAxa2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQkgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+9mO8zP4gNqox6YwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4F6ZJDoXNq1rLhNTCSY5Eg46LsuKWr4XkMTUWYoz/E9WAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4IC1ynFx22mfk03a0cgGvcOHoD5/umBwjPtwDuFN/hthAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] rtMavenRun
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[polydiploma] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/polydiploma@tmp/artifactory/buildInfo8228482462655381157.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/polydiploma@tmp/artifactory/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/polydiploma@tmp/artifactory/classworlds1310826413429531282conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/polydiploma org.codehaus.plexus.classworlds.launcher.Launcher -f pom.xml clean install -DskipTests=true
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ----< fr.unice.polytech.si4.isa.devops.teami:teami-polydiploma-war >----
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-polydiploma-war 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ war ]---------------------------------
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom
+Progress (1): 4.1/4.4 kBProgress (1): 4.4 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.pom (4.4 kB at 11 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5/7.5 kBProgress (1): 7.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.pom (7.5 kB at 160 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom
+Progress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.pom (4.5 kB at 27 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.pom
+Progress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.pom (4.5 kB at 129 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.pom
+Progress (1): 4.1/5.0 kBProgress (1): 5.0 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.pom (5.0 kB at 118 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.pom
+Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.pom (4.2 kB at 84 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.pom (4.3 kB at 116 kB/s)
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.jar
+Progress (1): 4.1/5.4 kBProgress (1): 5.4 kB    Progress (2): 5.4 kB | 4.1/29 kBProgress (3): 5.4 kB | 4.1/29 kB | 4.1/8.3 kBProgress (3): 5.4 kB | 4.1/29 kB | 7.5/8.3 kBProgress (3): 5.4 kB | 4.1/29 kB | 8.3 kB    Progress (4): 5.4 kB | 4.1/29 kB | 8.3 kB | 4.1/6.0 kBProgress (5): 5.4 kB | 4.1/29 kB | 8.3 kB | 4.1/6.0 kB | 4.1/13 kBProgress (5): 5.4 kB | 4.1/29 kB | 8.3 kB | 4.1/6.0 kB | 7.5/13 kBProgress (5): 5.4 kB | 7.5/29 kB | 8.3 kB | 4.1/6.0 kB | 7.5/13 kBProgress (5): 5.4 kB | 12/29 kB | 8.3 kB | 4.1/6.0 kB | 7.5/13 kB Progress (5): 5.4 kB | 16/29 kB | 8.3 kB | 4.1/6.0 kB | 7.5/13 kBProgress (5): 5.4 kB | 20/29 kB | 8.3 kB | 4.1/6.0 kB | 7.5/13 kBProgress (5): 5.4 kB | 24/29 kB | 8.3 kB | 4.1/6.0 kB | 7.5/13 kBProgress (5): 5.4 kB | 28/29 kB | 8.3 kB | 4.1/6.0 kB | 7.5/13 kB                                                                 Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-notification/1.1/teami-notification-1.1.jar (5.4 kB at 37 kB/s)
+Progress (4): 28/29 kB | 8.3 kB | 6.0 kB | 7.5/13 kBProgress (4): 29 kB | 8.3 kB | 6.0 kB | 7.5/13 kB                                                    Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-register/1.0/teami-register-1.0.jar (8.3 kB at 54 kB/s)
+Progress (3): 29 kB | 6.0 kB | 12/13 kBProgress (3): 29 kB | 6.0 kB | 13 kB                                       Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.jar
+Downloading from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.jar
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-guest-manager/1.0/teami-guest-manager-1.0.jar (13 kB at 73 kB/s)
+Progress (3): 29 kB | 6.0 kB | 4.1/6.4 kB                                         Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-ceremony-manager/1.2/teami-ceremony-manager-1.2.jar (6.0 kB at 36 kB/s)
+Progress (2): 29 kB | 6.4 kB                            Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-entities/1.3/teami-polydiploma-entities-1.3.jar (29 kB at 154 kB/s)
+Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-planning/1.0/teami-planning-1.0.jar (6.4 kB at 32 kB/s)
+Progress (1): 4.1/8.1 kBProgress (1): 7.5/8.1 kBProgress (1): 8.1 kB                        Downloaded from artifactory-release: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-interlude-manager/1.0/teami-interlude-manager-1.0.jar (8.1 kB at 38 kB/s)
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/polydiploma/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 13 source files to /var/jenkins_home/workspace/polydiploma/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /var/jenkins_home/workspace/polydiploma/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests are skipped.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-war-plugin:3.2.0:war (default-war) @ teami-polydiploma-war ---
+[main] INFO org.apache.maven.plugins.war.WarMojo - Packaging webapp
+[main] INFO org.apache.maven.plugins.war.WarMojo - Assembling webapp [teami-polydiploma-war] in [/var/jenkins_home/workspace/polydiploma/target/teami-polydiploma]
+[main] INFO org.apache.maven.plugins.war.WarMojo - Processing war project
+[main] INFO org.apache.maven.plugins.war.WarMojo - Copying webapp resources [/var/jenkins_home/workspace/polydiploma/src/main/webapp]
+[main] INFO org.apache.maven.plugins.war.WarMojo - Webapp assembled in [443 msecs]
+[main] INFO org.codehaus.plexus.archiver.war.WarArchiver - Building war: /var/jenkins_home/workspace/polydiploma/target/teami-polydiploma.war
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ teami-polydiploma-war ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/polydiploma/target/teami-polydiploma.war to /var/jenkins_home/workspace/polydiploma/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-war/1.0/teami-polydiploma-war-1.0.war
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/polydiploma/pom.xml to /var/jenkins_home/workspace/polydiploma/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-war/1.0/teami-polydiploma-war-1.0.pom
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Deploying artifact: http://vps663090.ovh.net:8081/artifactory/libs-release-local/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-war/1.0/teami-polydiploma-war-1.0.war
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Deploying artifact: http://vps663090.ovh.net:8081/artifactory/libs-release-local/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-war/1.0/teami-polydiploma-war-1.0.pom
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: publish build info set to false, build info will not be published...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  50.024 s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-05-11T13:13:31Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[8mha:////4HAfN5Ea5W/72tn9epe6H1ER+wQtjR53VoxzdDmdCVE6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4EnlkrBy9eTJ23zk2JNN79gqB3lY9mbs6LbdfLXKoseeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4B4+5xLMMAhPUXBwg/uxwEhReDGwe7GB/0aJ2Lngg+wiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRVAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHItxQ8vgAAAA==[0m[Pipeline] }
+[8mha:////4AsOeuVvsg88wFqtPVB9UBLFIf5dVyzXiF4RoWxh6oJoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wHXNUFuvgAAAA==[0m[Pipeline] // node
+[8mha:////4JtvNF+GiBn3w/ZVeR689W61crEhvVOjxl14Ck+qHAOEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP/k1QwS+AAAA[0m[Pipeline] }
+[8mha:////4Nuan2r5PNDiQuclGTBOoNLdONIcftqIJtE8V9DvwzO6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpUAqEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw8/yIL5vgAAAA==[0m[Pipeline] // stage
+[8mha:////4IIG0qUp/YGtQ1J2Q2KYR66V0i1TPs+itYabmQabujeMAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUGDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFhKLa7z7F8A/vpiZvBAAAA[0m[Pipeline] stage
+[8mha:////4L9xJQYOxdHjd/Pb/SKQXQN/59Gvw2uWmsJjNoGVGmpCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (Docker build)
+[8mha:////4KTV+h+bN5iGaM2vdifO9enKZl0XPrYfi7wFpHfb4V51AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] node
+Running on [8mha:////4L8h4xa0l4mqJO+HuvfFo+MUxATcF4RpQ1TEPHN6yWOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/polydiploma
+[8mha:////4If0tXTIwmNY/XdYWDNwZsJhPDh80mrbfZ6EB/aceSr/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] {
+[8mha:////4Hl2HeaOFl5iDAIwqMCi4AdsE62NKflNNRYjDssK61XtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] tool
+[8mha:////4KJIu/N9fOxhT9zSrUhQk/RJaL2ZQGxlB4CFo7wqY+b+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAfgesrL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4AOZDW4VKBFNKyCFZKPpdeh7WjaH6Lz+DxO3FBiFsEJGAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpiFDuDrn22+EDvVSBh74AAAA=[0m[Pipeline] tool
+[8mha:////4GuGc7b7oDu6cTcx+zdWn10/68N7vp3h7NMS3L7U9L8NAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wA/GWanr4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4OOU2Y1xxcrN5MNImA0LGguJVflM1RFJ6VEPsji27CkLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ASSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3GC5ExwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DQC7vuQu3zYnTJprSrZErNwaQqy/JhU6HMm1rBi2cetAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] {
+[8mha:////4B8NyR2CjkWF8b+DI7S34gFfv9sVY+6Z+dAU7C6jyOvNAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] script
+[8mha:////4P0nrbNDiy2D5+fFGS3tkrlB5JyiqgaGDdvbqivRoWWRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] {
+[8mha:////4Ju3rqjgv9ZYES7Z70AQRcvUAUQeV1wLjBUiuSFQdh8/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBonA3qO+AAAA[0m[Pipeline] sh
++ docker build -t rockduatra/polydiploma .
+Sending build context to Docker daemon  443.5MB
+Step 1/11 : FROM tomee:8-jdk-7.0.1-plus
+ ---> e452dbca47d5
+Step 2/11 : MAINTAINER corentin artaud (corentin.luc.artaud@gmail.com)
+ ---> Using cache
+ ---> d8ee5e3e1ab2
+Step 3/11 : WORKDIR /usr/local/tomee/
+ ---> Using cache
+ ---> 36fb8b1ddb66
+Step 4/11 : COPY target/teami-polydiploma.war ./webapps/.
+ ---> cd784b8cc28f
+Step 5/11 : COPY ./dockerresources/tomcat-user.xml ./conf/tomcat-users.xml
+ ---> d4e9b80b067b
+Step 6/11 : COPY ./dockerresources/manager-context.xml ./webapps/manager/META-INF/context.xml
+ ---> 406bfbfcb3dc
+Step 7/11 : ENV hyperplanning_host=localhost
+ ---> Running in 3df3c1c69c2a
+Removing intermediate container 3df3c1c69c2a
+ ---> 0d49d6876daa
+Step 8/11 : ENV hyperplanning_port=9090
+ ---> Running in 4cf38f3ee3f2
+Removing intermediate container 4cf38f3ee3f2
+ ---> 89ae27dacf1f
+Step 9/11 : HEALTHCHECK --interval=5s CMD curl --fail http://localhost:8080/ || exit 1
+ ---> Running in d0e795a8da55
+Removing intermediate container d0e795a8da55
+ ---> b390b4e96cec
+Step 10/11 : EXPOSE 8080
+ ---> Running in 2c7560da6445
+Removing intermediate container 2c7560da6445
+ ---> dcfdf2d59af1
+Step 11/11 : ENTRYPOINT ["catalina.sh", "run"]
+ ---> Running in bcc134c6b1b5
+Removing intermediate container bcc134c6b1b5
+ ---> 7dfef7e6b221
+Successfully built 7dfef7e6b221
+Successfully tagged rockduatra/polydiploma:latest
+[8mha:////4DDbJKepFij6tGxDEJGlmFEk+jTdeYLjUIaRrbtg/uE/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBsjxxbq+AAAA[0m[Pipeline] dockerFingerprintFrom
+[8mha:////4DtczOs/NeQM3veOF48Y2xtnizTzCqspqmLUN/+kfDz1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP+eRH6S+AAAA[0m[Pipeline] }
+[8mha:////4AcDf2leePG9xnmwd8j+xwjPSwZZXbRuOZumYG0+1AapAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRTSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QHUckQYvgAAAA==[0m[Pipeline] // script
+[8mha:////4Oq6oNAJGqYf+4vtSAl0YhYbpMjs1KmeYH7G0WpWmNvwAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQEFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AwFHZB74AAAA=[0m[Pipeline] }
+[8mha:////4CseCyBwbw9YYslbCyp95zmRkk0DP1mMks/LrcqQEfKuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw/zsoK7vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EdZjwLNtAeYATEhr3AuhSiRsPLnIsJz2rDNYFYxLwuzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw81rRvzvgAAAA==[0m[Pipeline] }
+[8mha:////4MOCWI1H4OywM6PWxn5jZtSbQu6V3w7c0y4YM3vlqqBtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRSAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEGTkBPvgAAAA==[0m[Pipeline] // node
+[8mha:////4FVklaO8OG8YU9y0NywuA1VFDfVQRSD9KTqopfjqpvw9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGV9yLWvPzkha1m+AAAA[0m[Pipeline] }
+[8mha:////4EZXXc7AxKUCQeMUJoKLhsuYpWgZn4VssRr0XRA9IAueAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd59ofPgrCMOW+AAAA[0m[Pipeline] // stage
+[8mha:////4FyKRoBvXn0l/Ms9/hxDrpyRQ1eqn2RSHrp1czPmFNRVAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQj0YCEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFhKLa7z7F8A6KZHDbBAAAA[0m[Pipeline] stage
+[8mha:////4MtHASgXLrKSBaxgh6Ys762QKWrkZRxdghUdSteVeIX8AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] { (Docker test)
+[8mha:////4NWNpQVVSOzibCrYJpZD+2hkGuEP1ASZEGvny14zuxDFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDRDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNxKsBBbCAAAA[0m[Pipeline] node
+Running on [8mha:////4L8h4xa0l4mqJO+HuvfFo+MUxATcF4RpQ1TEPHN6yWOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/polydiploma
+[8mha:////4DjigIE0hqW0tLkFbuAWgBT1zoKiukNOwhnEBwwYRrbCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUNiTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAUPegdTCAAAA[0m[Pipeline] {
+[8mha:////4NMu7H4wdr1LVogNAI1fuHkcccvFKi0B3jzA8Op+kTJLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNwEi9SW+AAAA[0m[Pipeline] tool
+[8mha:////4KX/jPX347BA+soiomnzv4mf1F9bgQjv2G7xeZ0M6+M2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFAE+48vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MgNynBRd06yraghbetLsfPBndS3QXAkm3poIz3zWVVpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q2Hha9zvgAAAA==[0m[Pipeline] tool
+[8mha:////4FcJCbU+tdVZI/LWceZcDJ3zRsVyk962MZNiQ0La5S84AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q3GtLRqvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4NAIs9xarrBgNwl3OnMLFUfpKXppuTJhCGloiwuJl+NXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULAgJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAA7MQoIwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4O5vPV117k92BPqQfTfoY6RmmzrPmcqV52sAtBmhXZrmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] {
+[8mha:////4P8H/kxUcRJEYQpynLAMwB7EgVQw6+VO6ZB2Vax8jVE1AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSEglR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fsf/KvL4AAAA=[0m[Pipeline] sh
++ docker run --rm -d --name polydiplomatest --network jenkins-network rockduatra/polydiploma
+c5246160ddc6bf0e6fa60689d337bea39b7ad91d93fd27f224b5bb28ad1161a1
++ sleep 20
++ curl --fail http://polydiplomatest:8080/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Apache Tomcat (TomEE)/8.5.3 (7.0.1)</title>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="tomcat.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="curved container">
+                <span id="nav-home"><a href="http://tomcat.apache.org/">Home</a></span>
+                <span id="nav-hosts"><a href="/docs/">Documentation</a></span>
+                <span id="nav-config"><a href="/docs/config/">Configuration</a></span>
+                <span id="nav-examples"><a href="/examples/">Examples</a></span>
+                <span id="nav-wiki"><a href="http://wiki.apache.org/tomcat/FrontPage">Wiki</a></span>
+                <span id="nav-lists"><a href="http://tomcat.apache.org/lists.html">Mailing Lists</a></span>
+                <span id="nav-help"><a href="http://tomcat.apache.org/findhelp.html">Find Help</a></span>
+                <br class="separator" />
+            </div>
+            <div id="asf-box">
+                <h1>Apache Tomcat (TomEE)/8.5.3 (7.0.1)</h1>
+            </div>
+            <div id="upper" class="curved container">
+                <div id="congrats" class="curved container">
+                    <h2>If you're seeing this, you've successfully installed Tomcat. Congratulations!</h2>
+                </div>
+                <div id="notice">
+                    <img src="tomcat.png" alt="[tomcat logo]" />
+                    <div id="tasks">
+                        <h3>Recommended Reading:</h3>
+                        <h4><a href="/docs/security-howto.html">Security Considerations HOW-TO</a></h4>
+                        <h4><a href="/docs/manager-howto.html">Manager Application HOW-TO</a></h4>
+                        <h4><a href="/docs/cluster-howto.html">Clustering/Session Replication HOW-TO</a></h4>
+                    </div>
+                </div>
+                <div id="actions">
+                    <div class="button">
+                        <a class="container shadow" href="/tomee"><span>TomEE Gui</span></a>
+                    </div>
+                    <div class="button">
+                        <a class="container shadow" href="/manager/status"><span>Server Status</span></a>
+                    </div>
+                    <div class="button">
+                        <a class="container shadow" href="/manager/html"><span>Manager App</span></a>
+                    </div>
+                    <div class="button">
+                        <a class="container shadow" href="/host-manager/html"><span>Host Manager</span></a>
+                    </div>
+                </div>
+                <!--
+                <br class="separator" />
+                -->
+                <br class="separator" />
+            </div>
+            <div id="middle" class="curved container">
+                <h3>Developer Quick Start</h3>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="/docs/setup.html">Tomcat Setup</a></p>
+                        <p><a href="/docs/appdev/">First Web Application</a></p>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="/docs/realm-howto.html">Realms &amp; AAA</a></p>
+                        <p><a href="/docs/jndi-datasource-examples-howto.html">JDBC DataSources</a></p>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="/examples/">Examples</a></p>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="http://wiki.apache.org/tomcat/Specifications">Servlet Specifications</a></p>
+                        <p><a href="http://wiki.apache.org/tomcat/TomcatVersions">Tomcat Versions</a></p>
+                    </div>
+                </div>
+                <br class="separator" />
+            </div>
+            <div id="lower">
+                <div id="low-manage" class="">
+                    <div class="curved container">
+                        <h3>Managing Tomcat</h3>
+                        <p>For security, access to the <a href="/manager/html">manager webapp</a> is restricted.
+                        Users are defined in:</p>
+                        <pre>$CATALINA_HOME/conf/tomcat-users.xml</pre>
+                        <p>In Tomcat 8.5 access to the manager application is split between
+                           different users. &nbsp; <a href="/docs/manager-howto.html">Read more...</a></p>
+                        <br />
+                        <h4><a href="/docs/RELEASE-NOTES.txt">Release Notes</a></h4>
+                        <h4><a href="/docs/changelog.html">Changelog</a></h4>
+                        <h4><a href="http://tomcat.apache.org/migration.html">Migration Guide</a></h4>
+                        <h4><a href="http://tomcat.apache.org/security.html">Security Notices</a></h4>
+                    </div>
+                </div>
+                <div id="low-docs" class="">
+                    <div class="curved container">
+                        <h3>Documentation</h3>
+                        <h4><a href="/docs/">Tomcat 8.5 Documentation</a></h4>
+                        <h4><a href="/docs/config/">Tomcat 8.5 Configuration</a></h4>
+                        <h4><a href="http://wiki.apache.org/tomcat/FrontPage">Tomcat Wiki</a></h4>
+                        <p>Find additional important configuration information in:</p>
+                        <pre>$CATALINA_HOME/RUNNING.txt</pre>
+                        <p>Developers may be interested in:</p>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/bugreport.html">Tomcat 8.5 Bug Database</a></li>
+                            <li><a href="/docs/api/index.html">Tomcat 8.5 JavaDocs</a></li>
+                            <li><a href="http://svn.apache.org/repos/asf/tomcat/tc8.5.x/">Tomcat 8.5 SVN Repository</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="low-help" class="">
+                    <div class="curved container">
+                        <h3>Getting Help</h3>
+                        <h4><a href="http://tomcat.apache.org/faq/">FAQ</a> and <a href="http://tomcat.apache.org/lists.html">Mailing Lists</a></h4>
+                        <p>The following mailing lists are available:</p>
+                        <ul>
+                            <li id="list-announce"><strong><a href="http://tomcat.apache.org/lists.html#tomcat-announce">tomcat-announce</a><br />
+                                Important announcements, releases, security vulnerability notifications. (Low volume).</strong>
+                            </li>
+                            <li><a href="http://tomcat.apache.org/lists.html#tomcat-users">tomcat-users</a><br />
+                                User support and discussion
+                            </li>
+                            <li><a href="http://tomcat.apache.org/lists.html#taglibs-user">taglibs-user</a><br />
+                                User support and discussion for <a href="http://tomcat.apache.org/taglibs/">Apache Taglibs</a>
+                            </li>
+                            <li><a href="http://tomcat.apache.org/lists.html#tomcat-dev">tomcat-dev</a><br />
+                                Development mailing list, including commit messages
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br class="separator" />
+            </div>
+            <div id="footer" class="curved container">
+                <div class="col20">
+                    <div class="container">
+                        <h4>Other Downloads</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/download-connectors.cgi">Tomcat Connectors</a></li>
+                            <li><a href="http://tomcat.apache.org/download-native.cgi">Tomcat Native</a></li>
+                            <li><a href="http://tomcat.apache.org/taglibs/">Taglibs</a></li>
+                            <li><a href="/docs/deployer-howto.html">Deployer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Other Documentation</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/connectors-doc/">Tomcat Connectors</a></li>
+                            <li><a href="http://tomcat.apache.org/connectors-doc/">mod_jk Documentation</a></li>
+                            <li><a href="http://tomcat.apache.org/native-doc/">Tomcat Native</a></li>
+                            <li><a href="/docs/deployer-howto.html">Deployer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Get Involved</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/getinvolved.html">Overview</a></li>
+                            <li><a href="http://tomcat.apache.org/svn.html">SVN Repositories</a></li>
+                            <li><a href="http://tomcat.apache.org/lists.html">Mailing Lists</a></li>
+                            <li><a href="http://wiki.apache.org/tomcat/FrontPage">Wiki</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Miscellaneous</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/contact.html">Contact</a></li>
+                            <li><a href="http://tomcat.apache.org/legal.html">Legal</a></li>
+                            <li><a href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                            <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Apache Software Foundation</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/whoweare.html">Who We Are</a></li>
+                            <li><a href="http://tomcat.apache.org/heritage.html">Heritage</a></li>
+                            <li><a href="http://www.apache.org">Apache Home</a></li>
+                            <li><a href="http://tomcat.apache.org/resources.html">Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <br class="separator" />
+            </div>
+            <p class="copyright">Copyright &copy;1999-2019 Apache Software Foundation.  All Rights Reserved</p>
+        </div>
+    </body>
+
+</html>
+100 11623    0 11623    0     0   186k      0 --:--:-- --:--:-- --:--:--  186k
++ docker stop polydiplomatest
+polydiplomatest
+[8mha:////4Dhn7lz1lLJeukmM7ClD/cqTVKGW4maSlgL4TbQSMPupAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSJ3b674AAAA=[0m[Pipeline] }
+[8mha:////4G6KJEqkVxP9pcp+TSmywsFYpA6p9dMuM4T0HSyYhJX0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChUAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wGi96QdvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4IvAQt5pt7xOtPJRs9Cnl80BXbrIrFjvYsCNSrh6Kj2sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKidCBEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP6SxnEi+AAAA[0m[Pipeline] }
+[8mha:////4P0qEt9U/keizx/A6KGGuMXB1Lh0XgeEbeDzfLDehGbRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqEAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wGc8w+5vgAAAA==[0m[Pipeline] // node
+[8mha:////4AyVY1spVNqccwKfntVAQx4bkfPO9x3OUAOoyUPnWBoJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUKAIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g9ShBeMvgAAAA==[0m[Pipeline] }
+[8mha:////4Fi8916ZIepq0laBTBMVTgt4cqnzxjDhVTQ2tghZZ0ptAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIAFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrl2+w98hBXmvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Cjo4V43pmLlx1+sG2635CDPoXhh0K8mCg+Cud5ZReG9AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIVEgREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgNQ7Hbfo7lGyHxvdrBAAAA[0m[Pipeline] stage
+[8mha:////4HxkxObNZF1bl78dzy5aq6uPRuy5GZUjCFpk19H68fJVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0Agkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2IFAYXCAAAA[0m[Pipeline] { (Docker publish)
+[8mha:////4DbfE2krMlik1n4mVpjd7PTN/fKrITfiU8wQ0+mlPr2pAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAcawv9fCAAAA[0m[Pipeline] node
+Running on [8mha:////4L8h4xa0l4mqJO+HuvfFo+MUxATcF4RpQ1TEPHN6yWOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/polydiploma
+[8mha:////4MtN+ME4Ps0LxPTUjpOkKRVu61rjNIGYFkeGEIXD/rBPAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+091n58IAAAA=[0m[Pipeline] {
+[8mha:////4PbU3SOLMD4W7qwb+t63Ci6026wojSSRx+PJwFv5dXVKAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSEiEqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bsNTxnr4AAAA=[0m[Pipeline] tool
+[8mha:////4GzGTumFOUS2hZWxUprxis6wiWh/h0ZO73qWNDl02+FSAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGw03GobDM0niCGGAOZXUwWofJEXs07mJEZK3/132ve6w2rGKCmYEVnsHcYtRODH216YqLQXz1NoqOL0ISRvBGNmRpqzWnBhtjAsiyHQsLaoPYUHVqGjezUQ5VeoS3PHJI7Sshde4cnZDKVWQX+whxgexvbSPjr/A3APDDkhz1Dsauq4QM8qYROvwAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4G5/WYSQZGigxMmcTt+3qo1Ow2UXb7iMzFhF/m0bdZrvAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGk03GobDM0niCSGAOZXUwWofJEXs07mJEZK3/132ve6w2rGKCmYEVnsHcYWycGP9r0xEShv3qaREcX0RJG8kY0ZmpIm9OCDbGBZVkOhYS1wdZTdGgZNrJTD1V6hbY8c0juKCF3+g5PyGQqswr8hTnA9jbqSPjr/A3APDDkhz1DUe2q4QN9mJ9XvwAAAA==[0m[Pipeline] tool
+[8mha:////4H6DcUikcc9JbPI5DadRwbnFsBhix9DRioNXT+cl5hSoAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHUSoexss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzcsYoAjBStag53D2DjR+8GmJ0YK3dXTKFq6iIYwkjeiNmNN2pxmrIkNzMtyKCQsDTaeokPLsJKteqjSK7TlmUNylYTc6Ts8IZOpzCrwF6YA69ugI+Gv8zcAU8+QH/YMxXaz6z++y7J8vwAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4AhvDuw0RoG+p+nnZ5LC1vo9AqoQqDPA9/iXoRXm0JhpAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JoXDTEybVh8Qsq1Fpo3sP2YZn8In/NfxAlcfJO99zk5jxfkAcPB/JGtBo7i6G2oneDmZqI5LuLoyhaOouaMJDTotKxokYfZ6yINcxJUsgkLDTWjoJFw7CUrbqrwik0xYn9tJUSUtvc4AGJnMysPH9h9LC6Dk0g/Hn+CmDsGdL9jiHbrLefa/4G+SVqFsMAAAA=[0m[Pipeline] withEnv
+[8mha:////4EVkJcDuDp89LECnQjz7UeitFPU7+Dp1NsfK7rp3D6H8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApCDbUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/ABmL9OZxAAAAA==[0m[Pipeline] {
+[8mha:////4BgdFU20g6rJZQOE1C7D3ICUtMuccBuJ1y8wB3AfBgvvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApSDChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QdMFRcmxAAAAA==[0m[Pipeline] script
+[8mha:////4LhItZ9pR9a2YeZaisBdVVy/H6dG0ka0WqNiK7sIZyMzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApDLCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QeNKyY7xAAAAA==[0m[Pipeline] {
+[8mha:////4IPh3ZFzRtOHWxvDWSL8ryKEhOmqM4L3H9L0Qy4tEUVFAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApLDCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QfYKuSHxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4LbasnrLxIDYgdfDzke1p0CTJxfa/Jz4nduvfnYduWSsAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTCChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdi1BftxAAAAA==[0m[Pipeline] {
+[8mha:////4It2ijeVQyNuQP+KRGdfXHrJkzfOx9BBknmrVZ9PVUkXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApbCDUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/AC2mN9UxAAAAA==[0m[Pipeline] withDockerRegistry
+$ docker login -u rockduatra -p ******** https://registry.hub.docker.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/polydiploma@tmp/d01f3f10-15d6-4dc5-8b91-544d7a92cc57/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4IGRz/DcsludZkXTorEPnEulswSgP32VZVQJP9PyfEwLAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB0Rgn14bFJ6htrYXm/7Etlskn8tV8B0ESJ2+43F1y+V5vKIOHI3nDOo29xSAtG9xo5sQS+f7qKLGOLkwSBnKatTq1pPRprS1FDauyHAoOG43SUbBoImx5Jx6icgJNdY5+3g4ccqvu8ISMz+QofPyWycPuNqpA+OP8BcA0RCiaer94Uy/f8gOljgJOxAAAAA==[0m[Pipeline] {
+[8mha:////4LV9Sghg2aUu429IqAjsgmRwfp8rrFzFpaU9gKM5idChAAAAox+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDakRFa6XhBcY+jBPrztgOScWL+Bp/IEokKrZY7Wwz7w9sUoQTRys6pN5R0k4EP9h5iZFjf/M8io6vQjMl9ihaHFs2eF6x5YywpiihkrBF0p6TI5thJzv1VLVXZOtLjvN3lFA684AXFHI2ZxXzAlOE/X0wienn+SuAKWSomuawdBO+gZ1Fa8AAAAA=[0m[Pipeline] sh
++ docker tag rockduatra/polydiploma registry.hub.docker.com/rockduatra/polydiploma:latest
+[8mha:////4JoQY0ZWFgkljBExvZiRVz6NFTevAl/+S1wNYcdZ+JnwAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU5+gqKrD0sf+C0LOaEDAAAAA[0m[Pipeline] sh
++ docker push registry.hub.docker.com/rockduatra/polydiploma:latest
+The push refers to repository [registry.hub.docker.com/rockduatra/polydiploma]
+d716ea268f21: Preparing
+e74690f6af6c: Preparing
+550e995c8180: Preparing
+e87796463b9e: Preparing
+011c54584e5e: Preparing
+cf59b66d00e7: Preparing
+1af14ac896ef: Preparing
+a7afeb77f416: Preparing
+cef349a9d76f: Preparing
+1d16eb83eef5: Preparing
+dfe1af64a72d: Preparing
+9f17712cba0b: Preparing
+223c0d04a137: Preparing
+fe4c16cbf7a4: Preparing
+1af14ac896ef: Waiting
+a7afeb77f416: Waiting
+cef349a9d76f: Waiting
+1d16eb83eef5: Waiting
+dfe1af64a72d: Waiting
+9f17712cba0b: Waiting
+223c0d04a137: Waiting
+fe4c16cbf7a4: Waiting
+cf59b66d00e7: Waiting
+011c54584e5e: Layer already exists
+e87796463b9e: Layer already exists
+cf59b66d00e7: Layer already exists
+1af14ac896ef: Layer already exists
+a7afeb77f416: Layer already exists
+cef349a9d76f: Layer already exists
+1d16eb83eef5: Layer already exists
+dfe1af64a72d: Layer already exists
+e74690f6af6c: Pushed
+d716ea268f21: Pushed
+223c0d04a137: Layer already exists
+9f17712cba0b: Layer already exists
+fe4c16cbf7a4: Layer already exists
+550e995c8180: Pushed
+latest: digest: sha256:aa2e46864c01354ec9a275d7cb39e8c2cc717da08a3966daeb97fe79248d6815 size: 3254
+[8mha:////4C5anulbg1ecMgFq1kb6Di57qHerTlT32OR4rm+SozpJAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7HIWDpWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPV9gqKqjksfvkx2v8/AAAAA[0m[Pipeline] }
+[8mha:////4J6JUTvYKgGDoU0QAAbXPNeGDdl3ehzH5nsDkAsQ2Mz5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJBqEqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzeJ8HfasAAAAA=[0m[Pipeline] // withDockerRegistry
+[8mha:////4AjAtjwiFqsmLpH8L0yGLR0a5bEzKwz5m2+EYyQGovHJAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCiQkREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUVbX99Gb3BgX6r7vAAAAA[0m[Pipeline] }
+[8mha:////4CSvQXFO8H8WxZOtQLkJVbHqr2jvWZU4fcEkBnZjBO8SAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGk0cKxss3QeIIIMSZkdmOyCJUn8mreQZQZK3/x57/fvOcLFinCgaIRTmNnMTVWBN+baYmBYnfxNAhHZ9EQJvJa1HqoqdXHGWtiDXOyHAoJS42Np2TRMKykU3dVeoWmPHGcvr2E3LY3eEAmJzOryF8YI6yvfZsIf56/AhhDYCiqavvpze4NCf34GsAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4PyZqpi60a4XIY9dcfuJeuCrzYSVUqzeOm3ButEXp1DTAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGk0cKxss3QeIIIMSZkdmOyCJUn8mreQZQZK3/x57/fvOcLFinCgaIRTmNnMTVWBN+baYmBYnfxNAhHZ9EQJvJa1HqoqdXHGWtiDXOyHAoJS42Np2TRMKykU3dVeoWmPHGcvr2E3LY3eEAmJzOryF8YI6yvfZsIf56/AhhDYCiqavfpzfYNK8aIy8AAAAA=[0m[Pipeline] }
+[8mha:////4FXr2zp+O0x5+DVDVB4RB7ftD2h4Xx8gOUx4ANL6i7cnAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCiQkREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUVbX79Gb7BnjnyaTAAAAA[0m[Pipeline] // script
+[8mha:////4BgIHXM6VguHCaqdxoLMMm7heCYFuyQql5KKqZAwtmhqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJBqEqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqnaf3mzfWty5dcAAAAA=[0m[Pipeline] }
+[8mha:////4EjwGdwDQ8z1Gc4eq8+4tNXwbTsrRJ5YHlrIrM/Ogjh0AAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BAkaulY2TI0ngABkYT5PwKRVJ7Iq3kHo5mxcoudfdu85wsWMcCBgmWtwc5hVI71frDTYplCd/GUWUtnpggjecOEyYK0Oc4oKBmYU5RQcVgaVJ6iQ5tgxVt5l7WXaOtTCtO351A6fYMHFHwyJxnSF8YA6+ugI+HP81cAY98nqDbb5tPN7g3JC8rwwAAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Arih6wzWxu6RhmLsM6pQswTtZl58B1oMwr22Z7hWrvlAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGKx2HyjZD4wliiDGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHUTsx+NGmJyYK/dXTJDq6CE0YyRvRmKmh1pwWbIgNLMtyKCSsDWpP0aFl2MhOPVTpFdryzCG5o4TctXd4QiZTmVXgL8wBtrexjYS/zt8AzMPAUFS7iiE/7D8tRm7GvwAAAA==[0m[Pipeline] }
+[8mha:////4Pt+2TPqSzS5hncyZi7x7SlRSvGVVtyKGnwaMLrIU+4xAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JEFmMMk2vD4hdUWmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jK0Tgx9temKi0F89TaKji2gJI3kjGjM1pM1pwYbYwLIsh0LC2mDrKTq0DBvZqYcqvUJbnjkkd5SQO32HJ2QylVkF/sIcYHsbdST8df4GYB4GhmJXVQz5Yf8BEilF0L8AAAA=[0m[Pipeline] // node
+[8mha:////4LZYtsHqBxrhTjbWDzNyPb9GBN/hNx84CMvMfgkhhYZrAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQEJCERWtlYYXmNgYJ9ZdsC8kFS/ia/wBi0hUbLUzzbzesIgBjhSsaA12DmPjRO8Hm54YKXRXT6No6SIawkjeiNqMNWlzmrEmNjAvy6GQsDTYeIoOLcNKtuqhSq/QlmcOyVUScqfv8IRMpjKrwF+YAqxvg46Ev87fAEx9z1BstjuG/LD/ACHKHmy/AAAA[0m[Pipeline] }
+[8mha:////4BpTprB06J1GgSbW8vZCDOFdCHglv7WQha5y5TBVn+FQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEBQooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrNdseQH/YfI6sS6L8AAAA=[0m[Pipeline] // stage
+[8mha:////4IBlkqjaoo6GQiwQpzuDrXm+3pPLVHT6vW+isuHMHOfUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIlEhKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHbNnqFoPq/DiiS+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

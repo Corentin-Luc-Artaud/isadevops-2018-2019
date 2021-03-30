@@ -1,0 +1,12 @@
+commit d635c188ad9bb4cf936d77100e52c07b55b11ffa
+tree 3f1ac8f04f94fe48b39a14c4321df69470178529
+parent 662e2a9c6d6c99243ac549326ccc29af0b162be0
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:44 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:44 +0200
+
+    #27 clean up code + improve notification
+
+
+
+:100644 100644 e77e05065fde29523b97c298b2f151137293f29b cb07d321d2d4c9165d27ca00db8d189b3472ef1c M	src/main/resources/ceremony-manager.wsdl
+:100644 100644 bc4e25eef9a6a9e7f88c834bc322358be433253f f73d0d4d4803b3b3c86c24590479a02875417f54 M	src/main/resources/planning.wsdl

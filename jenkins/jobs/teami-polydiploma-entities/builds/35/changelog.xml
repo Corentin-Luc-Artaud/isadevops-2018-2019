@@ -1,0 +1,12 @@
+commit 940309daab00193ac7f077dfdbaaafe789a4f6d0
+tree c3f9b8d68653dd86cd516d09fc9bc006273f61fa
+parent 0df1d8b150d0afa76ff8cf5fe6b46229e73b0a20
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:21 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 20:20:21 +0200
+
+    #26 add register + guest manager interface
+
+
+
+:100644 100644 6402c54c8d74558ba7358e4c191590a02fa9873a a925044f5e8386d4102a8dc923d47e47d2154955 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Vip.java
+:100644 100644 b969c71e284e02ea5cbca1a6d3b62c5b94ad97c1 3c9af93d8486de57250bb3213dd120727cb3304d M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/VIPEventTest.java

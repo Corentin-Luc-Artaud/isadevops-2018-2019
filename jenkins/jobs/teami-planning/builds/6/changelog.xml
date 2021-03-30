@@ -1,0 +1,14 @@
+commit 1cef159f6943eed4c39e6e891f61564ddd67095e
+tree f6ee61be239d92397f152376ccb04abab05047e3
+parent 3b614840b56d9690b0f57a51ecfd78efcd8bb67d
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-16 18:46:21 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-16 18:46:21 +0200
+
+    Added commands to manage events on the admin cli
+
+
+
+:100644 100644 1fcaccbf246f231d6da215a54286468aa4e7fb52 ec84a13299ef144e1c5d82ba3800549d286021bc M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java
+:100644 100644 36f5a82a05a63da0776a4be1538e89b04646717d 30e6c59c1b040a96a0237e73dc60e7b3e79afb6b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAP.java
+:100644 100644 1cedf0b2b39e0a83b7f7e4b605a9deffcaf460ae b8668bf89164cc40bf4b969b7bc9e3041b4c16ee M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAPImpl.java
+:100644 100644 409ee16fb8836bc218ba3926e730b994a3a8a0b5 4b3c1369e159d6efee6b11ba82b3034af3989ff8 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerTest.java

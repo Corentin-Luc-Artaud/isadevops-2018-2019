@@ -1,0 +1,21 @@
+commit 94ba9effafe6b9d35b7976f9bff4c3ad773c6d0e
+tree ef3fcf2ea902829609600586b3f2f5bd44e2a4ee
+parent adeb6efe522e11214f356381a4fda96aeb5e1552
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 17:02:21 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 17:02:21 +0200
+
+    #6 add persistence in Club, Bill, Ceremony, VIPInvitation
+
+
+
+:100644 100644 0ff422a9580f98f9a01d466f5694ddc47bd25a55 466dd30cab727430a722c90b9ed14bc386e19f23 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/VIPInvitation.java
+:100644 100644 dfd680d9d6681e23dac607fef2f254b26c7d5e5a 6033cf8243bd793ecfb31f44feb03b51aeb16f05 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Bill.java
+:100644 100644 e81768ac7f6b3f3d252e574a321b53046e5e54da c6416ee4546fd6b99b788908b8f3d8e77f718695 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Club.java
+:000000 100644 0000000000000000000000000000000000000000 4b8d909e2ea356dfc1815100f910d13a1cab0c70 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/CeremonyTest.java
+:000000 100644 0000000000000000000000000000000000000000 90859629a0a5d8633739ab76e4ba392e0ef7b4c9 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitationTest.java
+:000000 100644 0000000000000000000000000000000000000000 e3954fb03f9fdfd3be2d15be048ac9d7bf93ac9b A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/VIPInvitationTest.java
+:000000 100644 0000000000000000000000000000000000000000 e7a02979028247806f256ca281a951a4033810b5 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/BillTest.java
+:000000 100644 0000000000000000000000000000000000000000 5dddfb81549370aa119d48072776c4196a5bf3be A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/ClubTest.java
+:000000 100644 0000000000000000000000000000000000000000 153ff8343c1a8264d95a9e59f3f788b024af26af A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/SpecialityTest.java
+:000000 100644 0000000000000000000000000000000000000000 26f9dd4bff4092afa9f5fb9ac97432bad50b3bcc A	src/test/resources/META-INF/persistence.xml
+:000000 100644 0000000000000000000000000000000000000000 63322385ae123a08d7288972efe660342a497b28 A	src/test/resources/arquillian.xml

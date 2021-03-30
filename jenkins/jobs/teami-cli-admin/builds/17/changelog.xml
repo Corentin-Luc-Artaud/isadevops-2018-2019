@@ -1,0 +1,14 @@
+commit b95e152a37f2d2316869aec8ae1c7c2c1f738e2e
+tree 478fccdd07fc0e3672c7e9d338f087e42e261b57
+parent ccfcf1640705c037216671e861de30605e97bd05
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-01 20:18:33 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-01 20:18:33 +0200
+
+    #34 Added commands to getoffers, postulate, registerclub in public cli
+    and added corresponding api and webservices
+
+
+
+:100644 100644 316c9cad1f9de80bc1f5b92e7082359b96f20aca 27d629eaeb5f32d6aa51573deb38a286cc18009d M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddStudentEvent.java
+:100644 100644 68c0ce3c85e5835ddcc4021614729eee3730d79b 05c05d3da0f0ad67ba2eec756e2770d5cea26987 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetOffers.java
+:100644 100644 48ad0d43fe182d8cc6b989084ab2ab127b15fc21 c2e0997155c906fb347083ef911b599833b0a10f M	src/main/resources/admin-interlude.wsdl

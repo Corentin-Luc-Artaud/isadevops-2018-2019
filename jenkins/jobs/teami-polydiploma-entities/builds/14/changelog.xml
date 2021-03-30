@@ -1,0 +1,11 @@
+commit eefbb3b4626daca1b0c1818ea893ff92afeb1262
+tree 0fbcadf9d8821425e4b345d368ca3a0432aa049a
+parent c82a84f6ba5052369f805311765ab5adc55c6a76
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:46 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:46 +0200
+
+    #10 Added wsdl and planning webservice stubs
+
+
+
+:100644 100644 97a171e0b743b38848a9e52a2d9c4cf40f90df75 d20f8881e921dbe9b0477b64e6f5085cb15c87c4 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Student.java

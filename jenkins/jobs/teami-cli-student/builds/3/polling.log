@@ -1,0 +1,12 @@
+Started on Apr 9, 2019 8:28:28 AM
+Started by event from 192.30.252.38 ⇒ http://vps663090.ovh.net:8080/github-webhook/ on Tue Apr 09 08:28:28 GMT 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 1740b5060d2a54475e569002093fdd1e044abd15 (refs/remotes/origin/master)
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/pns-isa-devops-1819/teami-cli-student.git # timeout=10
+Found 1 remote heads on https://github.com/pns-isa-devops-1819/teami-cli-student.git
+[poll] Latest remote head revision on refs/heads/master is: 94783c0b52643c41abc383e0efd303125a5c5756
+Done. Took 0.77 sec
+Changes found

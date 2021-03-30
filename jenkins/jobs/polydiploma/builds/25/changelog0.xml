@@ -1,0 +1,15 @@
+commit c74fd87f428bc41e0fe935ef91d528996b521e5c
+tree cbb4f1c2c326cdaed6553ffeee455f7125e28861
+parent ead6b665f72f7afc492317b7cf02350144d56712
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 17:11:32 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 17:11:32 +0200
+
+    #29 moved webServices Planning and Student in war
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 8c1bd793dc8104c23c2625527fdbfebcaae9d364 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAP.java
+:000000 100644 0000000000000000000000000000000000000000 953df92c1197cc79c173b5883260bf89944cdbb3 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAPImpl.java
+:000000 100644 0000000000000000000000000000000000000000 7320c47879ac468c6339d70ed720d8540010d724 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAP.java
+:000000 100644 0000000000000000000000000000000000000000 b891ed77ceec49f84938d488be5eb9b0c8de44e8 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAPImpl.java
+:100644 100644 015912b22f840d7a7b4850209512ec69a4e20b55 c6052b1f034749b0b2b9710a5d43de2c6bb95071 M	src/test/java/features/Scenario.java

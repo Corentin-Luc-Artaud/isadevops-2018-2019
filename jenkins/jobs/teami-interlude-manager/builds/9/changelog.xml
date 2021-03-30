@@ -1,0 +1,14 @@
+commit 345c9ac146432d7737528e08b27fb0efda15a0c0
+tree 10b6aa15e83f5f55cdab8d8f3126307f1958647c
+parent aab7fd40bed616610f76fcef95a14dbca9f7073f
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:02 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:02 +0200
+
+    #26 fix price
+
+
+
+:100644 100644 f43376a7ef8849e70f741fa86d6277ebc5fb1356 6ca9d7eff71b86babec8e6789c9a3d6805bba2df M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManager.java
+:100644 100644 39d2146014a8db1d5a5f5431c42b3207cf16c332 d33c6dcf9a556a738b43d15094274977630dd45e M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManagerBean.java
+:100644 100644 4768662c26b0c7416bebaa70bd406c2a8a35f607 d8d2e99fd18f0ba0e1a33895a9c0d064f6c9c55b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeManager.java
+:100644 100644 a10e86814298a3043a89b217fa1b4a1f7daa3cff b7fe9ea44c60343b65032657a581520bfc5311a6 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/AdminInterludeTest.java

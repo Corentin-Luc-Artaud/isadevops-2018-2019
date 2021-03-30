@@ -1,0 +1,12 @@
+commit cebc8a0ac9b019c56cad9e0aeb4783c1e276a3c4
+tree 1f173c36143c162e23c4c67a75634ae245f77f03
+parent 8848727be2f8bfce31e1edd0cbce45302741b721
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:05 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:05 +0200
+
+    #26 fix price
+
+
+
+:100644 100644 7f42d6bbf26aceb62479561d77833de6b0aa8478 ce022d949d1da793879b0791690e1f2d6dd4e937 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java
+:100644 100644 750f7cf4637997b7005ae663dbdb808093df0835 3bd1b76bcce1b4ca9c7cf6aebf7caa9407b353cd M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java

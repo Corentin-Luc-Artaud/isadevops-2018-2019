@@ -1,0 +1,16 @@
+commit 5e7c2b77e0e07c074427b19f17b315fffb323108
+tree f30f10a94f60d53dec9c41d7b6d268735a2566b8
+parent 3763c941f38eaae52fe3bf9e9fd587a7175bba3c
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-08 22:41:46 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-08 22:41:46 +0200
+
+    #19 Guest manager as ejb stateless
+
+
+
+:100644 100644 597346d05c391804b8a062a3b69090ab3d1260ce 49187f0ab17346ee5ea38e4e8ecf83cbfc0f17ce M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:000000 100644 0000000000000000000000000000000000000000 fb625ed93b576a8db3855ffcfa86c941b3d802b4 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/utils/IStudentAPI.java
+:100644 100644 9c12a44976e13326e861bcf9942876c41f9350a4 efdfdc17677f99320ac0f2e80c17490976a747c8 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/utils/StudentAPI.java
+:100644 100644 50b4ebae9bb5284102e07997032881f407fe54eb 4c732ed9d06a1763f7e9c822199900179f7dc21d M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/GuestManagerTest.java
+:100644 100644 6ce5a0b838b098202d162d31897f62e9bd637fe2 592bf995ac85385856ee581e2bed74c993da4782 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/StorageTest.java
+:000000 100644 0000000000000000000000000000000000000000 dbe868da2ae3f864a6f343da96dcbabc30c051ec A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/mock/StudentApiMock.java

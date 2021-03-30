@@ -1,0 +1,11 @@
+commit 75338389e1ac76c02187ec273da48966dd06a87a
+tree af66bddf3b5e48f8dd7585f3d654d201db329483
+parent 3628120df6cee5e7ebafb57b085888e1b627497e
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-28 12:59:32 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-28 12:59:32 +0200
+
+    Correcting a bug
+
+
+
+:100644 100644 abaeeb9e82311d87f3e24a89621d661bf0bd8b22 345c8a23612f44f0f221d1ece4ba261e39a65d2a M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java

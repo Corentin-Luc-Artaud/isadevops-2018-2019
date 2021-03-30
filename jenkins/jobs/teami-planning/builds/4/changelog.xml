@@ -1,0 +1,12 @@
+commit 47756cb0a7777f0aac054bf576940e4b97d808ad
+tree bbfc25d210123d4810f57c1ca7bf7dccb8b11e00
+parent 636b131503ed286acccda07f69b80846fb518bd4
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:50 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:50 +0200
+
+    #10 Added wsdl and planning webservice stubs
+
+
+
+:100644 100644 48b9b387bb4b8559b9be80cafe5d56072d3f5475 36f5a82a05a63da0776a4be1538e89b04646717d M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAP.java
+:100644 100644 a931786b24c787410b1d9924f888ec5a0a781d94 1cedf0b2b39e0a83b7f7e4b605a9deffcaf460ae M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAPImpl.java

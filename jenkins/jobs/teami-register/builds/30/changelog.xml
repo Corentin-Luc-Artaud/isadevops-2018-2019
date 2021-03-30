@@ -1,0 +1,12 @@
+commit 5db41c2f858151e2d86a98c4c91fcf774d9252de
+tree c8d7a48423bb4874bc4db57fed36f0bd14c9b24e
+parent 99e0ec835c8c3458ddbc68a3ff5b46970a94ee75
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:07 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 21:46:07 +0200
+
+    #26 fix price
+
+
+
+:100644 100644 790cc23c69aa8bcc3802b2fa15dd993b92f92387 f89524c1f90d956898998d80f20f29215e863649 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterBean.java
+:100644 100644 803211772d70f42bd8e1162a29f59ecfcbb986fa 2f2d8a967c4692e864accfff0ea31ddb1bd48f1b M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java

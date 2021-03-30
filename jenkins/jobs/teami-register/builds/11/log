@@ -1,0 +1,115 @@
+Started by user [8mha:////4MygrPD6YFAvMi/E/S4M6nr1Fda8lIFAXCIKZCZoqYWgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/teami-register
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-register.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-register.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-register.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 72d8ae6143ce90febc867cf91c3b48f9f263eaee (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 72d8ae6143ce90febc867cf91c3b48f9f263eaee
+Commit message: "#6 add persistence in StudentRegisterBean"
+ > git rev-list --no-walk 72d8ae6143ce90febc867cf91c3b48f9f263eaee # timeout=10
+Jenkins Artifactory Plugin version: 3.2.1
+Artifactory integration is enabled
+[teami-register] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-register@tmp/artifactory/buildInfo3122614741927414486.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-register/cache/artifactory-plugin/3.2.1 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-register/classworlds8597873867537315401conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-register org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - -------< fr.unice.polytech.si4.isa.devops.teami:teami-register >--------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-register 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-register ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-register/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-register ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-register/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-register ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 4 source files to /var/jenkins_home/workspace/teami-register/target/classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-register ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-register ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /var/jenkins_home/workspace/teami-register/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ teami-register ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin -  T E S T S
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running fr.unice.polytech.si4.isa.devops.teami.registers.StudentRegisterTest
+[ThreadedStreamConsumer] WARNING org.apache.maven.plugin.surefire.SurefirePlugin - Corrupted STDOUT by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file /var/jenkins_home/workspace/teami-register/target/surefire-reports/2019-04-05T14-01-46_189-jvmRun1.dumpstream
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Results:
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  01:02 min
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-05T14:02:11Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test (default-test) on project teami-register: There are test failures.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - Please refer to /var/jenkins_home/workspace/teami-register/target/surefire-reports for the individual test results.
+[main] ERROR org.apache.maven.cli.MavenCli - Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[main] ERROR org.apache.maven.cli.MavenCli - The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[main] ERROR org.apache.maven.cli.MavenCli - Command was /bin/sh -c cd /var/jenkins_home/workspace/teami-register && /usr/lib/jvm/java-1.8-openjdk/jre/bin/java -jar /var/jenkins_home/workspace/teami-register/target/surefire/surefirebooter8099423929219030711.jar /var/jenkins_home/workspace/teami-register/target/surefire 2019-04-05T14-01-46_189-jvmRun1 surefire1616969014762501660tmp surefire_08064439569843205598tmp
+[main] ERROR org.apache.maven.cli.MavenCli - Error occurred in starting fork, check output in log
+[main] ERROR org.apache.maven.cli.MavenCli - Process Exit Code: 1
+[main] ERROR org.apache.maven.cli.MavenCli - org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[main] ERROR org.apache.maven.cli.MavenCli - Command was /bin/sh -c cd /var/jenkins_home/workspace/teami-register && /usr/lib/jvm/java-1.8-openjdk/jre/bin/java -jar /var/jenkins_home/workspace/teami-register/target/surefire/surefirebooter8099423929219030711.jar /var/jenkins_home/workspace/teami-register/target/surefire 2019-04-05T14-01-46_189-jvmRun1 surefire1616969014762501660tmp surefire_08064439569843205598tmp
+[main] ERROR org.apache.maven.cli.MavenCli - Error occurred in starting fork, check output in log
+[main] ERROR org.apache.maven.cli.MavenCli - Process Exit Code: 1
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:669)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:282)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:245)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1183)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1011)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:857)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:192)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+[main] ERROR org.apache.maven.cli.MavenCli - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

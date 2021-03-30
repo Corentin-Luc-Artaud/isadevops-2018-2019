@@ -1,0 +1,11 @@
+commit 982d5b146f47675e8a9d8e9c6de71c077792a3b2
+tree 977d960dfedc17f28a8773ba500fa76e65d0b63f
+parent 2ea8a2cabf03b91d888f64418903ea98aee45540
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:49 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:49 +0200
+
+    #34 Added interlude module Added bean AdminInterludeManager
+
+
+
+:100644 100644 238cdd4531c7347a274efd830f6a709e1c49fb81 953df92c1197cc79c173b5883260bf89944cdbb3 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/PlanningSOAPImpl.java

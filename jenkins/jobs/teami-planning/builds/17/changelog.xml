@@ -1,0 +1,12 @@
+commit 8c30430c1706f9590c2d5d5d7bc920cb224bf1a6
+tree 057e72a29b5c0155b826d73096859751f8473118
+parent 872e81d5813873bae2cd0f53bf672573a1a10ab8
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:31 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:31 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:100644 100644 0aa11cc8da004e9df3c69245a063c2e1b6b26daa a5e8dde351198084412546831cdd1a9ed619a868 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java

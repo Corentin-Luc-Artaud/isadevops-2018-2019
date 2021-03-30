@@ -1,0 +1,18 @@
+commit 050fc5898bae367924b69c0c7249bfc7630d416d
+tree 08cc0cd50ff2a9b01a22d7858780299573b7c50b
+parent bbf8d1e5a25148a51597b3e0b9f01091d1479d67
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:47 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:47 +0200
+
+    #34 Added interlude module Added bean AdminInterludeManager
+
+
+
+:100644 100644 5ad3bfa2c99523defbcbf6ae4f38d5ab808f621b 452fd8971f675fa3be757f945a8847e395118997 M	pom.xml
+:100644 100644 2eff347989bd24c1bc1419c463b727430afefba5 86af1e8b29e986cce41fa5833e061800970ecf62 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:000000 100644 0000000000000000000000000000000000000000 fc77a71495f95ec2be67a368c5255a4e126cc795 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/AdminInterludeApi.java
+:100644 100644 27d629eaeb5f32d6aa51573deb38a286cc18009d 316c9cad1f9de80bc1f5b92e7082359b96f20aca M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddStudentEvent.java
+:000000 100644 0000000000000000000000000000000000000000 a3b27e451db4f52e1a65d8c0d46eb95dec281059 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/CreateOffer.java
+:000000 100644 0000000000000000000000000000000000000000 6db36afccb152ef06ebd9775e49e7afe065659cd A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetOffers.java
+:100644 100644 58f209c70a918c1de403ff36b3e0f5f93919cdb3 dd59ab83d7ed11944b20444864d4d3b8f35cecdc M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java
+:000000 100644 0000000000000000000000000000000000000000 75a2ea6d4020158f6c18ef42873e83272bdaa6b1 A	src/main/resources/admin-interlude.wsdl

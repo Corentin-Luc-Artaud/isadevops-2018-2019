@@ -1,0 +1,17 @@
+commit 5c37dd4402e8be093b69715b20afb0f1f47f3b6a
+tree 7c13072e2401ef21863e16986277618f37c381fb
+parent 1d845de78c212d6a7902192775fc65e972699992
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-12 10:11:19 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-12 10:11:19 +0200
+
+    #14 More persistence and change the TransactionMode to RollBack
+
+
+
+:100644 100644 23142bd98ceba9c02e2748b16554006a76526660 29a5c7005f6aa18c0abea4dc1ee37027569bd871 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitation.java
+:100644 100644 1016c5d32b4446a6a6183e428b17c4237a48038e d31552eab38071548f85950f7323a5e1ac2feda9 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/CeremonyTest.java
+:000000 100644 0000000000000000000000000000000000000000 4aec63f92a8c9ad2dc69c7466860fde4190092e0 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/PlanningTest.java
+:100644 100644 da93ee7b1abaef792fc6bee69e86aee580eaab5a 148b858511f8e5bb22c39cac360f084059af40df M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitationTest.java
+:100644 100644 53b83dcb806ee252698e2ccae0485c4cbdbdcbbe 79b323591c5c9d9ff0f144bc85f14179b523807b M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/VIPInvitationTest.java
+:100644 100644 bc90f38b9466a90f19057a9397641e7e22f31e95 3df9981a7b4e5ba7a20471b6e0d9254cd729015b M	src/test/resources/META-INF/persistence.xml
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	src/test/resources/arquilian.xml

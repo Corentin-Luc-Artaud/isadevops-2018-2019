@@ -1,0 +1,13 @@
+commit 1d845de78c212d6a7902192775fc65e972699992
+tree c9dbcc78b851de94ae2e13deaf5efb7dd08f0642
+parent b31b1d01af9bca67c8885aaee4fd84db7b04117e
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-10 23:36:24 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-10 23:36:24 +0200
+
+    Added PlanningManager to manage events in planning Added small test
+    PlanningManager
+
+
+
+:100644 100644 a84a3148b0366bf0a66fcadf787accaebda474e9 4cedf01accbb49f4f5788d38ef02d840bceb644b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	src/test/resources/arquilian.xml

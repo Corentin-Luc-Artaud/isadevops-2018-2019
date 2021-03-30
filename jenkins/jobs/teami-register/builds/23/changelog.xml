@@ -1,0 +1,11 @@
+commit 77bef3dc229324eba3ea79d2ccdbc7f0bf525cc6
+tree 0bf7cf0083e11b737a17f06c4da43089e7d14aa0
+parent 2bd0a0bca4198f0ad521d546acedc00ad20f83fb
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 16:12:33 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 16:12:33 +0200
+
+    #26 fix persistence guest manager
+
+
+
+:100644 100644 722db010048ef6b329bb031648f3d64ddb224824 6613dfdeded009cdd18599d2bdc4aa4e5620d946 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java

@@ -1,0 +1,12 @@
+commit df7a03f6228c8a402d6fbdef2af68b5a0703b742
+tree 70788d1635af53250f5358bbd4be717b669c2aa9
+parent d0932f5123e7f557c4a17b34d2115320de910a8e
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 15:36:30 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 15:36:30 +0200
+
+    #10 Completed webservice stubs, modified shell to use 2 wsdl, added
+    command AddStudentEvent
+
+
+
+:100644 100644 d97c4bc30bf56f764cc66286443da953ebcd56bb c667dc9999ae6278abcc64d6feaddb2297372064 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java

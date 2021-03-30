@@ -1,0 +1,17 @@
+commit 88dfee66b48236c8cf98fda5f8aa8e328d73bc46
+tree 04d7bb602ff2423b59fda6036ea6c35796e5c2ff
+parent 72be92799e622e151ec81a627c61487d782f14fe
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-01 20:18:28 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-01 20:18:28 +0200
+
+    #34 Added commands to getoffers, postulate, registerclub in public cli
+    and added corresponding api and webservices
+
+
+
+:100644 100644 b7f6c7a4cfe7511e79ac681ba69301b3a2b0a8e7 bc7d0002b21a9494dc6856feb8baf1d84355d1e2 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManager.java
+:100644 100644 9cf0efce07f5ce799efe762bd0eaf417e63f43f7 fa1ce2233ba6dd85b3bd1b100a38d6d6873dad92 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/admin/AdminInterludeManagerBean.java
+:100644 100644 893027cbf1e58131f61cde73dea6ccbbbb1a9e36 4768662c26b0c7416bebaa70bd406c2a8a35f607 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeManager.java
+:100644 100644 00c6d960944301df76148b29ee2b55c93341061a 62ed689a7f92c71a593e3bfcca94cf433cc5bf8c M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeManagerBean.java
+:100644 000000 b71fd13732f1d674d71f77d6f5409948710eb8fc 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/publicutils/PublicInterludeSOAP.java
+:100644 100644 00e465165f52b6b982078a4cd273a823bad1bb82 d6e95e27b514f7784d63d77be7d83eb2b95943a2 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/AdminInterludeTest.java

@@ -1,0 +1,12 @@
+commit ac429d17a47928cf55c40eef7a4a09a5b352366f
+tree ab4bf717c65bfd987702469562ee4cb258192a55
+parent 34b6d2a4b0abd6a3a15c54670091cbc49857bb7d
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:13 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:13 +0200
+
+    #26 features cucumber
+
+
+
+:100644 100644 5936dbd76b6a5decef19cc7e7492276ba0814f59 9ee22e0be5e63fd8403a3fc75c6387cfe292e172 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegister.java
+:100644 100644 eaca6985179cc43e77860df7b8cdf419bf73262a 9596c0c89862413da465261660ae7cbdb467addd M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterBean.java

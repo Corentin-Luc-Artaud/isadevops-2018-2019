@@ -1,0 +1,12 @@
+Started on May 2, 2019 5:29:37 PM
+Started by event from 140.82.115.69 ⇒ http://vps663090.ovh.net:8080/github-webhook/ on Thu May 02 17:29:37 GMT 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 88dfee66b48236c8cf98fda5f8aa8e328d73bc46 (refs/remotes/origin/master)
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/pns-isa-devops-1819/teami-interlude-manager.git # timeout=10
+Found 1 remote heads on https://github.com/pns-isa-devops-1819/teami-interlude-manager.git
+[poll] Latest remote head revision on refs/heads/master is: aab7fd40bed616610f76fcef95a14dbca9f7073f
+Done. Took 0.79 sec
+Changes found

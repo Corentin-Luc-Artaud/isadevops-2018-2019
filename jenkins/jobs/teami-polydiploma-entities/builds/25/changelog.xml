@@ -1,0 +1,11 @@
+commit 0554862c748bb6b74beca9ceab86a25551ed68e7
+tree f7bc6a5bef7ec8d63eb6ef80fd4b93e754e0fda0
+parent 25c72ace246a68be8833a01befdbc136f7deef11
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-26 11:14:30 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-04-26 11:14:30 +0200
+
+    #33 add and remove events
+
+
+
+:100644 100644 e76992ae76470b23b17bf10f74409865084ef64f 01286ba55aaefacaee9ed148e7c127c3bc89d49f M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java

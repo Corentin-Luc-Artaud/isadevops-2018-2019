@@ -1,0 +1,40 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.2">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.65">
+    <parentIds>
+      <string>47</string>
+    </parentIds>
+    <id>48</id>
+    <descriptorId>org.jfrog.hudson.pipeline.declarative.steps.generic.UploadStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.65">
+      <arguments>
+        <entry>
+          <string>serverId</string>
+          <string>Artifactory</string>
+        </entry>
+        <entry>
+          <string>spec</string>
+          <string>{
+                          &quot;files&quot;: [
+                            {
+                                &quot;pattern&quot;: &quot;target/*.war&quot;,
+                                &quot;target&quot;: &quot;libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-war/&quot;
+                            },
+                            {
+                                &quot;pattern&quot;: &quot;pom.xml&quot;,
+                                &quot;target&quot;: &quot;libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-polydiploma-war/&quot;
+                            }
+                         ]
+                        }</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.33">
+      <startTime>1555516104082</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

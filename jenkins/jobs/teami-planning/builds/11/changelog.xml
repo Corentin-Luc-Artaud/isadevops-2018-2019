@@ -1,0 +1,11 @@
+commit 45c20819484fd003ffeaf852c6c18f52a7202fa6
+tree a4128a85a9767d2ab52c014cce92e80548e6ecb3
+parent 38808f66f51a6120fd8c3b0896346647574dd9d5
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 09:19:53 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 09:19:53 +0200
+
+    fix bug persistance
+
+
+
+:100644 000000 5100e175702400d5166e78c381e2d2062c8e0c26 0000000000000000000000000000000000000000 D	src/main/resources/META-INF/persistence.xml

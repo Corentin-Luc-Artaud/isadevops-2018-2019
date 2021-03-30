@@ -1,0 +1,11 @@
+commit 0579891f971a4096a154ef8c2c6f561aa2df4809
+tree b438a8adae51a79141f3ae1fbe5b5737bf91dd7b
+parent 75338389e1ac76c02187ec273da48966dd06a87a
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:00 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:00 +0200
+
+    #26 finished the register component
+
+
+
+:100644 100644 345c8a23612f44f0f221d1ece4ba261e39a65d2a 697bcf64ecb8d6ff2b80b64b15cadf915e7b5506 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java

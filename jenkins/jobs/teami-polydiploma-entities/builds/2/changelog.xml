@@ -1,0 +1,13 @@
+commit 2b5289b31b886c0bf5e2e14c56241660bbb77826
+tree f83b227a779e6145a09eb8fe83ccdb688ec273bd
+parent f4f4a50f0e1e4c5d7a538b870219f04502db505e
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 11:49:43 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 11:49:43 +0200
+
+    #6 try to add persistance
+
+
+
+:100644 100644 36e59d75b59ef6b6b013df98577cac670622b75f 0b7722ead2f5a84dec3f250f797386059c1eec05 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Person.java
+:100644 100644 dc77990a97d27638d96688355cba580425885ba6 d7eacedc360ffc94195c3b38ba52d6c610ecfec3 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Student.java
+:100644 100644 78982b153d189bd68ed3d1e0160974451fd5c1d4 dce4d508185df950ad1d1cf3feb29631294dc3d9 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Speciality.java

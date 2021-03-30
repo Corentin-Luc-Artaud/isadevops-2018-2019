@@ -1,0 +1,33 @@
+commit b31b1d01af9bca67c8885aaee4fd84db7b04117e
+tree 5b867be60e90c57cc67cef4744b04b4347f7da73
+parent 0af922218b845bdef7506af7b0f99df3222ad6ba
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 15:38:09 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 15:38:09 +0200
+
+    #14 update all pom.xml + add some persistence on entities
+
+
+
+:100644 100644 7719a4348b508bc1a8cd580f2079723072930938 344495ec5ba54a371cd2bc9598d4003d1da53d32 M	pom.xml
+:100644 100644 50bab453e603e52b79b49ce3e50bed6b40b8cd4b 5c6155773dd55a571a8688e14d4ac30b6c3b5319 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Ceremony.java
+:100644 100644 96d8d3c8fe3073da8e7c076a83166b067713b568 325a8f89f8a03ef213d0ba71f12a6c8459f8e569 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/Event.java
+:100644 100644 ec35d17f0c0e7e91a57b5c1ee0304cc3e542e9ef dea020697e531e916841e8b5aa0ce15729bd6845 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/StudentEvent.java
+:100644 100644 9b93ac39913f85702359f38546e6dc927f98fe14 877fb53072d274018902ce6e032fba7c64425d6e M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Attendant.java
+:100644 100644 dd927260a7743cf7b9ed97ec74da74230a574779 d4bb62df17ba4ac731548ab6842f817955099e48 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Person.java
+:100644 100644 14ce2652223629855d47e90d3d6606763c74418d 97a171e0b743b38848a9e52a2d9c4cf40f90df75 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Student.java
+:100644 100644 b64432df852e93d139e14f9864304f701dc9fa40 8859bbc9591c880504048207b468fa902a863c0e M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Vip.java
+:100644 100644 fbab4415cc3bba0c832a28e073aad0312f11ed82 23142bd98ceba9c02e2748b16554006a76526660 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitation.java
+:100644 100644 b0b81b1e5fd5b6b4cb263530c9aabbfacd0eaa6d 3fe73efe4e8f793cf1b55bec95eec87e50ee75d7 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/VIPInvitation.java
+:100644 100644 db809efb82447de13dd88cf9a5c757370b471bfd 8d07c3965e513d2b12e4ba14eeae116b732ffea1 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Bill.java
+:100644 100644 c6416ee4546fd6b99b788908b8f3d8e77f718695 f68385be9f3066971b83be4f36ca7e35734a7896 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Club.java
+:000000 100644 0000000000000000000000000000000000000000 62d5720453a193bf465d87b1d072706fe7401b99 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/AbstractDeployment.java
+:100644 100644 3ec890cb5f44c2a3bccff939734f2780f831207a 1016c5d32b4446a6a6183e428b17c4237a48038e M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/CeremonyTest.java
+:000000 100644 0000000000000000000000000000000000000000 b15b3ea29aeb299e5b8b7c207fe07544d069eb2e A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/TestStudentEvent.java
+:100644 100644 e03c236c75ded51173cf2d635f997da3830a5787 a9b3f2a20e87234eda08c12fb7641864aae5b6b4 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/AttendantTest.java
+:100644 100644 386ab36d64155750c0946387f0c271f89dc6684c 5ce3180757f5d137754ae6cf4dcb8a6fd21bb2e0 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/StudentTest.java
+:100644 100644 c2ecb09b98328d8eba4535a9d0634e2913e9da6e 5f90c02da79db0b083fec45455a5c483b206341d M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/VipTest.java
+:100644 100644 6d2be70fe09eda92b609913532d3575c12cee563 da93ee7b1abaef792fc6bee69e86aee580eaab5a M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitationTest.java
+:100644 100644 8edcfacda64b651d9358a5c33ceb5119c2cf7465 53b83dcb806ee252698e2ccae0485c4cbdbdcbbe M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/VIPInvitationTest.java
+:100644 100644 000edfdeeb8d3b3a7e4febdbce2a2b6fb7c9985c 9862a79921343bd2108d9b8603649762f12c5fe0 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/BillTest.java
+:100644 100644 7ba1bbf92a820289313c89dd45fdebd35c0ce83e 1bea48faaaa907a87d64b4f602175e6df2a894d3 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/ClubTest.java
+:100644 100644 cc9ffc7495815d7bc02042aaed43ce75fe41fbf0 d269baca6dadfea7b0ee181f1483ae429ef6db2d M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/SpecialityTest.java

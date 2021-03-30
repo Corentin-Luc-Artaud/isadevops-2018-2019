@@ -1,0 +1,15 @@
+commit 5827257b7587a79dc738da22391678ba7ba7d9a2
+tree 5c13e8b58487c4573e57439637878004b84ca7c5
+parent ee93e185032d1e44d99a9d20f921bce13b84a750
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:37:59 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:37:59 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 ec8bf9fc581c06f168239bc20da78e9edfeb4664 abae111015530b619f10b6446bd94d14ffbb1da3 M	pom.xml
+:100644 100644 f7adf7303d73ec8102d95e8d7781ff64cf794028 872cf7012c4932d4245927ce01b3b14e6400a708 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/webservice/CeremonyManagerServiceImpl.java
+:100644 100644 58cbea08ca5e4aad14ebae0cbbfc5e0a0ab572ea cefbf4ccfc959f227e311de04419cd531f4dc034 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/AppTest.java
+:000000 100644 0000000000000000000000000000000000000000 699cb9cf33d04f3c46b6ed7ef9676a02c048cf43 A	src/test/resources/META-INF/persistence.xml

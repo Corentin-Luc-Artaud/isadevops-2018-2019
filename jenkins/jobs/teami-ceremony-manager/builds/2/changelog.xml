@@ -1,0 +1,11 @@
+commit e83ca99aa99ff60fe3cfcc321ca4a4df5a9ff4f7
+tree 11f69641f67684de86a10c7dd1badfed68231eb5
+parent 6b75a301c4850d7ab870e896120b8a9469b9e6b1
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:30 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:30 +0200
+
+    #6 war AND persistence working :)
+
+
+
+:100644 100644 77aa2a46e1897642b0a77549860dfdb6af055907 63322385ae123a08d7288972efe660342a497b28 M	src/test/resources/arquillian.xml

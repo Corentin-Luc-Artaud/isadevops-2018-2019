@@ -1,0 +1,12 @@
+commit 40ab6c0abf5a9597b8845f40836847aa920b1799
+tree 84696a792924155beaab23cfda0c0dce4dfe589f
+parent 89941da2abfc1bc628a4f53eb158f76e0403d0aa
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 16:31:07 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-11 16:31:07 +0200
+
+    add components.pdf + update architecture.pdf + fix a bug on planning
+
+
+
+:100644 100644 b1be08276d5529f826a40b0c4f17cabe3e17d4be 6ca5694a1f91b3656048c9f46b17d6d6a3435537 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java
+:100644 100644 c2a1bed07d457a5849b6308e4dfe0663d4240cae 1f8dfebf44398a2c38b60e808a9dbbfa3062cbc8 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/Event.java

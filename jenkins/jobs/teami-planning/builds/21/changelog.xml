@@ -1,0 +1,11 @@
+commit a7eb5fe0f1959a5e0d2c57a16dbe5da1ad87bbd5
+tree 057e72a29b5c0155b826d73096859751f8473118
+parent 05fbd59ab04e8c2f594513a8416fdff2b38a5c04
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 23:10:39 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 23:10:39 +0200
+
+    #26 fix entities
+
+
+
+:100644 100644 f9a0f79c3f57df31ed07789b96c400552333f111 29dd5d6241377fc2266b65e74be755a146012763 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManagerBean.java

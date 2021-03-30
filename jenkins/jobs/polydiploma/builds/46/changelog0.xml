@@ -1,0 +1,12 @@
+commit 4795a3e5b40a5e9d1903d6249abf772dfb2853c1
+tree 0f9adec41c1bd28e2b3a78a260b8c807cc4827a9
+parent d0213ef816174abf28a27451f086582084f41c44
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-05-01 23:44:35 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-05-01 23:44:35 +0200
+
+    #37 logger for ejb calls
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 4ea16e44a03c62b3707a84c1053e2b11d633299e A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/interceptor/InterceptorLogger.java
+:000000 100644 0000000000000000000000000000000000000000 68b2faaf2310c1c4e7654d8368d1094795b5d421 A	src/main/webapp/WEB-INF/ejb-jar.xml

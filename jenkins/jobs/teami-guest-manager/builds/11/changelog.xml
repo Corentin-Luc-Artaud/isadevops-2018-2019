@@ -1,0 +1,11 @@
+commit 6bbf5c3409a402f24db89de6d653f059a3259859
+tree e36ec6d15910e1a26f57940a4a5880380a8d8d97
+parent 43a2ae43756ed9267f21a92659ab51fbfde3f1ba
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 17:06:55 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 17:06:55 +0200
+
+    Moved test for Ceremony in Entities instead of guest-manager
+
+
+
+:100644 100644 a0a73ca8b2ae0c8fcd3db17057294b10b1f66beb e6112181642183babdcd2770ecfae0ba65e8f6b6 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/StorageTest.java

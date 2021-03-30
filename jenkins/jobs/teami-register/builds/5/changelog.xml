@@ -1,0 +1,23 @@
+commit ab2543ac911468aee58cf9bb660d31e0cd64b7e5
+tree aac201094ca56e537f8d2c7a02cc0a66b03a7d90
+parent 0979ec7445c494d3939d202c0e771acad36f7fa6
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:35 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:35 +0200
+
+    #6 war AND persistence working :)
+
+
+
+:100644 100644 4eba3ce7d14d2021f188c169d8a8ba04d6b5f37a fd99cacb22d4da73db650580238803b4b9675b70 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java
+:100644 100644 77aa2a46e1897642b0a77549860dfdb6af055907 63322385ae123a08d7288972efe660342a497b28 M	src/test/resources/arquillian.xml
+commit 0979ec7445c494d3939d202c0e771acad36f7fa6
+tree 2e7e062e7874ab6d724d03a3dd0052f9e94c3945
+parent 46a959ef70d5abb3a9e2e27576fcc0422723a21f
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 12:26:09 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 12:26:09 +0200
+
+    #6 register test not working.. the problem is in the deployemnt
+
+
+
+:100644 100644 68fc80409dbeabfbf71b3f08de8d64a8665691a8 4eba3ce7d14d2021f188c169d8a8ba04d6b5f37a M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java

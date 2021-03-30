@@ -1,0 +1,119 @@
+Started by user [8mha:////4MygrPD6YFAvMi/E/S4M6nr1Fda8lIFAXCIKZCZoqYWgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/teami-cli-admin
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-cli-admin.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-cli-admin.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-cli-admin.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 487ddc5871304355ef47ced8adbb5aa47bc31250 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 487ddc5871304355ef47ced8adbb5aa47bc31250
+Commit message: "fix jenkins build"
+ > git rev-list --no-walk 487ddc5871304355ef47ced8adbb5aa47bc31250 # timeout=10
+[teami-cli-admin] $ /bin/sh -xe /tmp/jenkins6161910512963762439.sh
++ rm -r '?/.m2/repository/fr'
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-cli-admin] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-cli-admin@tmp/artifactory/buildInfo4097126416468982441.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-cli-admin/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-cli-admin/classworlds1073886817563403191conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-cli-admin org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - -------< fr.unice.polytech.si4.isa.devops.teami:teami-cli-admin >-------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-cli-admin 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ teami-cli-admin ---
+[main] INFO org.apache.maven.plugin.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-cli-admin/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- cxf-codegen-plugin:3.1.10:wsdl2java (generate-sources) @ teami-cli-admin ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ teami-cli-admin ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 3 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ teami-cli-admin ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 76 source files to /var/jenkins_home/workspace/teami-cli-admin/target/classes
+[main] WARNING org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-admin/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java: /var/jenkins_home/workspace/teami-cli-admin/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java uses unchecked or unsafe operations.
+[main] WARNING org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-cli-admin/src/main/java/fr/unice/polytech/si4/isa/devops/teami/framework/Shell.java: Recompile with -Xlint:unchecked for details.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ teami-cli-admin ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-cli-admin/src/test/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ teami-cli-admin ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /var/jenkins_home/workspace/teami-cli-admin/target/test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ teami-cli-admin ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Surefire report directory: /var/jenkins_home/workspace/teami-cli-admin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running fr.unice.polytech.si4.isa.devops.teami.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ teami-cli-admin ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /var/jenkins_home/workspace/teami-cli-admin/target/teami-cli-admin-1.0.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ teami-cli-admin ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-admin/target/teami-cli-admin-1.0.jar to /var/jenkins_home/workspace/teami-cli-admin/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-admin/pom.xml to /var/jenkins_home/workspace/teami-cli-admin/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- cxf-codegen-plugin:3.1.10:wsdl2java (generate-sources) @ teami-cli-admin ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ teami-cli-admin ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 3 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ teami-cli-admin ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ teami-cli-admin ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-cli-admin/src/test/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ teami-cli-admin ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Nothing to compile - all classes are up to date
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ teami-cli-admin ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Skipping execution of surefire because it has already been run for this configuration
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ teami-cli-admin ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ teami-cli-admin ---
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-admin/target/teami-cli-admin-1.0.jar to /var/jenkins_home/workspace/teami-cli-admin/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.jar
+[main] INFO org.codehaus.plexus.PlexusContainer - Installing /var/jenkins_home/workspace/teami-cli-admin/pom.xml to /var/jenkins_home/workspace/teami-cli-admin/?/.m2/repository/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ teami-cli-admin ---
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.jar
+Progress (1): 2.0/69 kBProgress (1): 4.1/69 kBProgress (1): 6.1/69 kBProgress (1): 8.2/69 kBProgress (1): 10/69 kB Progress (1): 12/69 kBProgress (1): 14/69 kBProgress (1): 16/69 kBProgress (1): 18/69 kBProgress (1): 20/69 kBProgress (1): 23/69 kBProgress (1): 25/69 kBProgress (1): 27/69 kBProgress (1): 29/69 kBProgress (1): 31/69 kBProgress (1): 33/69 kBProgress (1): 35/69 kBProgress (1): 37/69 kBProgress (1): 39/69 kBProgress (1): 41/69 kBProgress (1): 43/69 kBProgress (1): 45/69 kBProgress (1): 47/69 kBProgress (1): 49/69 kBProgress (1): 51/69 kBProgress (1): 53/69 kBProgress (1): 55/69 kBProgress (1): 57/69 kBProgress (1): 59/69 kBProgress (1): 61/69 kBProgress (1): 63/69 kBProgress (1): 66/69 kBProgress (1): 68/69 kBProgress (1): 69 kB                      Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.jar (69 kB at 122 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.pom
+Progress (1): 2.0/4.8 kBProgress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/1.0/teami-cli-admin-1.0.pom (4.8 kB at 489 B/s)
+Downloading from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/maven-metadata.xml
+Progress (1): 400 B                   Downloaded from teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/maven-metadata.xml (400 B at 1.7 kB/s)
+Uploading to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/maven-metadata.xml
+Progress (1): 354 B                   Uploaded to teami: http://vps663090.ovh.net:8081/artifactory/libs-release/fr/unice/polytech/si4/isa/devops/teami/teami-cli-admin/maven-metadata.xml (354 B at 2.9 kB/s)
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Saving Build Info to '/var/jenkins_home/workspace/teami-cli-admin/target/build-info.json'
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: deploy artifacts set to false, artifacts will not be deployed...
+[main] INFO org.jfrog.build.extractor.maven.BuildDeploymentHelper - Artifactory Build Info Recorder: Deploying build info ...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Deploying build descriptor to: http://vps663090.ovh.net:8081/artifactory/api/build
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoClientBuilder - Build successfully deployed. Browse it in Artifactory under http://vps663090.ovh.net:8081/artifactory/webapp/builds/teami-cli-admin/25
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  01:17 min
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-05-11T16:24:14Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Finished: SUCCESS

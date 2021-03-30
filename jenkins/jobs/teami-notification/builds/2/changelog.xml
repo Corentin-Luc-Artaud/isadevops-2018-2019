@@ -1,0 +1,12 @@
+commit 7044ede8e9d82f4c8baf6a344870c88c840801d1
+tree 38fa58f41f963948d7a3c9aeda312869b164630e
+parent 5865d95cd9df9a646e6a56419b236292b4b7e6df
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:33 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-03 19:07:33 +0200
+
+    #6 war AND persistence working :)
+
+
+
+:100644 100644 2443f8372fa2151eac96998533806356cd163cd5 345ff05484002c7f580348055eac8116bf8b3747 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java
+:100644 100644 77aa2a46e1897642b0a77549860dfdb6af055907 63322385ae123a08d7288972efe660342a497b28 M	src/test/resources/arquillian.xml

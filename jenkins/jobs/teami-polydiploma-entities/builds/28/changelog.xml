@@ -1,0 +1,13 @@
+commit c0968e7c2ac16b6fa48a38a1c19f77ac0f846ead
+tree 372ed8ef70a7d2c8bb7933dabad244e9fa570699
+parent 875e7cfa28e362c32cbbf678f7dc26d49a35055a
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:41 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-26 17:52:41 +0200
+
+    #34 Added interlude module Added bean AdminInterludeManager
+
+
+
+:100644 100644 c2fba34946a46f56e1cf28b65f00a9365f1dbcfb 934ebd22c5c1b07ad4e92857de518df47c36bf51 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/EventOffer.java
+:100644 100644 f2e2a131ae84e11495e913dd1c923776e34ba49c ee24c86e1a8d710307062f4ed4e95471f21b3889 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Attendant.java
+:100644 100644 b284d69eacea63a556ea648e4320ce66364e6925 c984c01ed915b4c877fc58fccb2fe51962a3d218 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitation.java

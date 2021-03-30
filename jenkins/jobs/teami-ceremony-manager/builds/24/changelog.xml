@@ -1,0 +1,14 @@
+commit cc937eb613b0ced6bb483f950da7927f6ce9f8cc
+tree 64430b86a1cf955c6230339f153e0d771fe738d7
+parent 6f4c9be74938c2ba4d46a5e27387a4df80b136ea
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:27 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:27 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:100644 100644 8d5876b37cabed2d2f75588f45bb3c8354afd03d 7f42d6bbf26aceb62479561d77833de6b0aa8478 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java
+:100644 100644 df0da06be661151b915ff874c54787d6d923f77a 43694c8906f8c5cf81305ed0c8bed9a2adf7e884 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/AppTest.java
+:100644 100644 77e5d25ce35aff2fab4c9f282d27aa7bb3d565c5 750f7cf4637997b7005ae663dbdb808093df0835 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java

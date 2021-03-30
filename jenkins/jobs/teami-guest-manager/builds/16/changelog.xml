@@ -1,0 +1,12 @@
+commit a92cec9f4e7c710fd090f8c8fcee063b33908352
+tree 900200c33db11219d21e33d917e4a39374605ed7
+parent bdf299815d2b5626d5764a7e33b6e5efc1a95c7f
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 14:32:21 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-12 14:32:21 +0200
+
+    #27 use persistence on notification
+
+
+
+:100644 100644 4cfe429bf02166af94b4409498540ec6a0d66985 c008ffd3fc05250e02adc4628b072ada089725ad M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/StorageTest.java
+:100644 100644 60521ca9561313f0109876f6917899e25f68c1ad 787c70bb060a085d224dd18bd347e9eb3e4bea55 M	src/test/resources/META-INF/persistence.xml

@@ -1,0 +1,22 @@
+commit 8d773c84dc74f132c3e8855f692924ec9bda721b
+tree d0af996143f57998d27287a11c594ccce3767276
+parent cc6654fe9f6533380b27c4301d748484639a2182
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:38 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:38 +0200
+
+    #27 clean up code + improve notification
+
+
+
+:100644 100644 699cb9cf33d04f3c46b6ed7ef9676a02c048cf43 de398b09af9b00ab8cea586d418cf94022ed1d31 M	src/test/resources/META-INF/persistence.xml
+commit 9bb6444f2f1cdc665f9c79f5f38fe8bf40ada765
+tree 8498a3c478acf674abfb3b562ed3eacf078db0e2
+parent b861e53d51869a2cd325df476660f5a6d65fcd15
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 16:07:34 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-09 16:07:34 +0200
+
+    #14 fix some bugs
+
+
+
+:100644 100644 6ac1137b5a82f996dbd1445bde8cf77db45eb197 7bd0d4492a1438a364c9deaa2cf8004d0fe2890f M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManager.java

@@ -1,0 +1,16 @@
+commit ccfcf1640705c037216671e861de30605e97bd05
+tree 53f9eed9aa53ec8d7c61de0945876fc214bf461b
+parent 050fc5898bae367924b69c0c7249bfc7630d416d
+author KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:30 +0200
+committer KienanBachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-28 22:53:30 +0200
+
+    removed all useless imports #35 fixed bug nullpointerexception with
+    createoffer and getoffers (api null) moved webservices into war
+
+
+
+:100644 100644 86af1e8b29e986cce41fa5833e061800970ecf62 ccad27ea185ce6f4637d7de52399fe547267a1aa M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:100644 100644 fc77a71495f95ec2be67a368c5255a4e126cc795 a65f802ccd1e2f0bec85e98c21a83ccf9b0727d5 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/AdminInterludeApi.java
+:100644 100644 a3b27e451db4f52e1a65d8c0d46eb95dec281059 cb2cb170a39eb83147d974b6ddb8fcfdeaaaf886 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/CreateOffer.java
+:100644 100644 6db36afccb152ef06ebd9775e49e7afe065659cd 68c0ce3c85e5835ddcc4021614729eee3730d79b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetOffers.java
+:100644 100644 75a2ea6d4020158f6c18ef42873e83272bdaa6b1 48ad0d43fe182d8cc6b989084ab2ab127b15fc21 M	src/main/resources/admin-interlude.wsdl

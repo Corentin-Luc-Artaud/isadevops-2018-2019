@@ -1,0 +1,22 @@
+commit e44ce6b7ba519f4bc3e5d513d04da8934ebd8ff6
+tree fb48d28193fcbbf68c36ecf0425c69b787d80730
+parent eefbb3b4626daca1b0c1818ea893ff92afeb1262
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:37:57 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:37:57 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 344495ec5ba54a371cd2bc9598d4003d1da53d32 74b17816f1a020471525fcaef957b6ce51bc054c M	pom.xml
+:100644 100644 81b0b693e7eb4d1737d0ec498f68aa64da736049 0def62fd4f45c8938e3a7f9931e2b99098c7f157 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Ceremony.java
+:100644 100644 6df37ecb9302ab8c254aa577c133ca9eac9e4ccb c41a55a0bea1e566be6b3a973f1c6447081e8dd2 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Planning.java
+:100644 100644 877fb53072d274018902ce6e032fba7c64425d6e c4840e61437c3f7b8e1855c7d0baf229e0790d16 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Attendant.java
+:100644 100644 d20f8881e921dbe9b0477b64e6f5085cb15c87c4 c4d69dba93d6d02ead60e09dad6346291d07c594 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Student.java
+:100644 100644 8859bbc9591c880504048207b468fa902a863c0e 012ee41427311e5f130dddeb6198853db700ac23 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Vip.java
+:100644 100644 8d07c3965e513d2b12e4ba14eeae116b732ffea1 0149366cb6dc0a233090332d5d90f8be35401c66 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Bill.java
+:100644 100644 f68385be9f3066971b83be4f36ca7e35734a7896 1a151aa02a56a0f965a62a320fb91495cb131b5b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Club.java
+:100644 100644 68636f05cd5fbf083e0e67daa10eb90465bf0348 f2446423fe48264c3ecb95512a6a02ac7fadb5a3 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Speciality.java
+:100644 100644 c537b6777ed43233a97fdcc646909103b92b3e5f 856f22f72dba3f77f81ba7f528be0594a69b1c02 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/StudentEventTest.java
+:100644 100644 47aae9eced39132471cdaec5192a248720712456 cee9ef5f3ffa0d44c04794c08e8817de632d5527 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/SpecialityTest.java

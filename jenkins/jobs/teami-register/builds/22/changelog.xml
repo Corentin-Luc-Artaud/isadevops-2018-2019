@@ -1,0 +1,17 @@
+commit 2bd0a0bca4198f0ad521d546acedc00ad20f83fb
+tree 81f6c971cbf9add852206a574f55473d56ce436e
+parent a99f8a55944b2f3d710878a54877ed7a8ee5df70
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 14:04:07 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 14:04:07 +0200
+
+    #26 add persistence on register
+
+
+
+:100644 100644 38acf1b8fb3f7e3aa498e500372941cc92c97d54 40e284f50740d74a208379e28e1626760db66bdd M	pom.xml
+:100644 100644 f56b62cea86a09e4893e0d76719eb51e396d3254 85abb78a9faf73448deb66471c363a1a763fa49c M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegister.java
+:100644 100644 2eba8e458686c9e26a16b9abdf2e2b1e8262452a c46fffda450b5a31b2a619c5dac4cb8b70eef094 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterBean.java
+:100644 100644 9c28c28cd08a8694f7f1c743cb17f5282b614016 38349eb882c55d00c8fc9870295bffb9f4680ff6 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAP.java
+:100644 100644 44c7adf1ff8d426d61e1729925d64d62b30b536b e0df58438decc0888a84a6ecff8ebc5de5c4594f M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAPImpl.java
+:100644 100644 01c931fc49d44b3e792b4f96c376551db3be7c84 722db010048ef6b329bb031648f3d64ddb224824 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java
+:100644 100644 74e2e2160f0b684cae1c248cb98e7a4d62cda253 82eeae732e8d8cde01439816d57d29a310736c32 M	src/test/resources/META-INF/persistence.xml

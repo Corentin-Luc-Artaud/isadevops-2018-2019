@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<wsdl:definitions name="AdminInterludeSOAPImplService" targetNamespace="www.polydiploma.fr"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="www.polydiploma.fr">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="www.polydiploma.fr"
+                   targetNamespace="www.polydiploma.fr" version="1.0">
+            <xs:element name="chooseCandidateForOffer" type="tns:chooseCandidateForOffer"/>
+            <xs:element name="chooseCandidateForOfferResponse" type="tns:chooseCandidateForOfferResponse"/>
+            <xs:element name="createOffer" type="tns:createOffer"/>
+            <xs:element name="createOfferResponse" type="tns:createOfferResponse"/>
+            <xs:element name="getCandidatesListForOffer" type="tns:getCandidatesListForOffer"/>
+            <xs:element name="getCandidatesListForOfferResponse" type="tns:getCandidatesListForOfferResponse"/>
+            <xs:element name="getOffers" type="tns:getOffers"/>
+            <xs:element name="getOffersResponse" type="tns:getOffersResponse"/>
+            <xs:complexType name="getOffers">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getOffersResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="offers" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="chooseCandidateForOffer">
+                <xs:sequence>
+                    <xs:element name="index" type="xs:int"/>
+                    <xs:element minOccurs="0" name="clubName" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="chooseCandidateForOfferResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="createOffer">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="startTimeString" type="xs:string"/>
+                    <xs:element name="duration" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="createOfferResponse">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="getCandidatesListForOffer">
+                <xs:sequence>
+                    <xs:element name="index" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="getCandidatesListForOfferResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="clubs" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="chooseCandidateForOffer">
+        <wsdl:part element="tns:chooseCandidateForOffer" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createOfferResponse">
+        <wsdl:part element="tns:createOfferResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="chooseCandidateForOfferResponse">
+        <wsdl:part element="tns:chooseCandidateForOfferResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getCandidatesListForOfferResponse">
+        <wsdl:part element="tns:getCandidatesListForOfferResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createOffer">
+        <wsdl:part element="tns:createOffer" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getOffers">
+        <wsdl:part element="tns:getOffers" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getOffersResponse">
+        <wsdl:part element="tns:getOffersResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getCandidatesListForOffer">
+        <wsdl:part element="tns:getCandidatesListForOffer" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="AdminInterludeSOAP">
+        <wsdl:operation name="getOffers">
+            <wsdl:input message="tns:getOffers" name="getOffers">
+            </wsdl:input>
+            <wsdl:output message="tns:getOffersResponse" name="getOffersResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="chooseCandidateForOffer">
+            <wsdl:input message="tns:chooseCandidateForOffer" name="chooseCandidateForOffer">
+            </wsdl:input>
+            <wsdl:output message="tns:chooseCandidateForOfferResponse" name="chooseCandidateForOfferResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createOffer">
+            <wsdl:input message="tns:createOffer" name="createOffer">
+            </wsdl:input>
+            <wsdl:output message="tns:createOfferResponse" name="createOfferResponse">
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCandidatesListForOffer">
+            <wsdl:input message="tns:getCandidatesListForOffer" name="getCandidatesListForOffer">
+            </wsdl:input>
+            <wsdl:output message="tns:getCandidatesListForOfferResponse" name="getCandidatesListForOfferResponse">
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="AdminInterludeSOAPImplServiceSoapBinding" type="tns:AdminInterludeSOAP">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="getOffers">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getOffers">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getOffersResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="chooseCandidateForOffer">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="chooseCandidateForOffer">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="chooseCandidateForOfferResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createOffer">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="createOffer">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createOfferResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCandidatesListForOffer">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="getCandidatesListForOffer">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getCandidatesListForOfferResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="AdminInterludeSOAPImplService">
+        <wsdl:port binding="tns:AdminInterludeSOAPImplServiceSoapBinding" name="AdminInterludeSOAPImplPort">
+            <soap:address location="http://localhost:8080/teami-polydiploma/webservices/admin-interlude"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

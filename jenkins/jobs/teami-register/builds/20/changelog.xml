@@ -1,0 +1,11 @@
+commit a99f8a55944b2f3d710878a54877ed7a8ee5df70
+tree 92ff6612d3c457261e167869cf90d1b337cceedf
+parent 8d21660ac381434522016fa15aa7b1d11bfa9625
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:46 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:46 +0200
+
+    #27 clean up code + improve notification
+
+
+
+:100644 100644 c3afcdeb4d59790340f3d8ec92ae00492be897ae 74e2e2160f0b684cae1c248cb98e7a4d62cda253 M	src/test/resources/META-INF/persistence.xml

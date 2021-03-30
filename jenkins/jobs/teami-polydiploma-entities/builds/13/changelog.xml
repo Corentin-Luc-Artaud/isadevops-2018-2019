@@ -1,0 +1,41 @@
+commit c82a84f6ba5052369f805311765ab5adc55c6a76
+tree d494d4bb6e7bbb61343898d1105f041445101725
+parent e322f10d9a54ef1aa300596fd353ab6a208a1abd
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-12 11:42:04 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-12 11:42:04 +0200
+
+    #14 Persistence finished in Entities
+
+
+
+:100644 100644 5c6155773dd55a571a8688e14d4ac30b6c3b5319 81b0b693e7eb4d1737d0ec498f68aa64da736049 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/Ceremony.java
+:100644 100644 e4003410371547d39cdde4c1f1d544d952d230be bb37a3c516d18a8eaf615bc775b3f6448bf6d66f M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/ClubEvent.java
+:100644 100644 d5be9b225d9381054f83fe510160026053cda260 1a01696d42d83daa2575421ab259bfab08723eb5 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/VipEvent.java
+:100644 100644 e225966c4ab7cc3fc5fc62d9543c85b60d70ca43 68636f05cd5fbf083e0e67daa10eb90465bf0348 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/Speciality.java
+:000000 100644 0000000000000000000000000000000000000000 443ea2a5547dfc084cc0f1b0e413ee6f64ce5587 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/ClubEventTest.java
+:100644 100644 f822a76ee89f7ef62cc8e59e20deff6a5f76287a c537b6777ed43233a97fdcc646909103b92b3e5f R057	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/TestStudentEvent.java	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/StudentEventTest.java
+:000000 100644 0000000000000000000000000000000000000000 b969c71e284e02ea5cbca1a6d3b62c5b94ad97c1 A	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/VIPEventTest.java
+:100644 100644 11f400f3dbde66eba567ffabfd298f7f134d75c2 fd53c3c16767322bf3059bf1ea40c53fffe0312d M	src/test/resources/META-INF/persistence.xml
+commit e322f10d9a54ef1aa300596fd353ab6a208a1abd
+tree 6593934324a7f7c69ea5177b0c02aa359d461cfd
+parent 92f9b7ce7a69bb68db6a872d99d84c96e0df8d61
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-12 10:46:57 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-12 10:46:57 +0200
+
+    #14 Persistence in StudentEvent
+
+
+
+:100644 100644 62d5720453a193bf465d87b1d072706fe7401b99 edbc47c0877f168f61234ee5a0da5452c6dd053c M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/AbstractDeployment.java
+:100644 100644 d31552eab38071548f85950f7323a5e1ac2feda9 363ada79b4265a086be30122b57bb0a8e1f9114c M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/CeremonyTest.java
+:100644 100644 4aec63f92a8c9ad2dc69c7466860fde4190092e0 5cbace4d7424070c0c9f3efdca6c83bde73dfd42 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/PlanningTest.java
+:100644 100644 b15b3ea29aeb299e5b8b7c207fe07544d069eb2e f822a76ee89f7ef62cc8e59e20deff6a5f76287a M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/events/TestStudentEvent.java
+:100644 100644 57ce097286edc6f8e74bd01a386bc3b9e4f40370 4ee0fa786e032dd19379cf6a7f8eaf7eed526c18 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/AttendantTest.java
+:100644 100644 78b57bbf2f9f54973cca5bf73c3f5956f49aa520 e149acd63bc8d20936d6703543244b3f43e6f092 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/StudentTest.java
+:100644 100644 1ddcf77ef7b355dd7815ed612df4074137e6bc2c 86e8afe790d645b01637e704bdfed896a0e3c5a4 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/VipTest.java
+:100644 100644 148b858511f8e5bb22c39cac360f084059af40df f24e2b6c5fac86c07523f91fa6442b9d43fe1c23 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitationTest.java
+:100644 100644 79b323591c5c9d9ff0f144bc85f14179b523807b c1ee23965d7d081464f051ffcc3d4ea4e05a7a45 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/VIPInvitationTest.java
+:100644 100644 dbffe9f13067b9ca8977a4d8c809c2684b72bfe8 be5784b7ee335cbb611eee9baabd2edef61d7cda M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/BillTest.java
+:100644 100644 1ab1195e784842f0ad62f4a2514f26103b12e04a ffb86bbf63cec1b0643456b98bdc99cfab1a0756 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/ClubTest.java
+:100644 100644 407627f3d1c1d7db4604eb391be08e9d5ab213ed 47aae9eced39132471cdaec5192a248720712456 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/school/SpecialityTest.java
+:100644 100644 3df9981a7b4e5ba7a20471b6e0d9254cd729015b 11f400f3dbde66eba567ffabfd298f7f134d75c2 M	src/test/resources/META-INF/persistence.xml

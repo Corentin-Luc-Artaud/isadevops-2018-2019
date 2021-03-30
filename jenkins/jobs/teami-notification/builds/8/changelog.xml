@@ -1,0 +1,14 @@
+commit 9c7b7376bceed786e006147615c014f70249c42c
+tree 4406a4084764e1bfb40f015865b412e82c8b6b30
+parent 4d36de7e34e6bd895e2c319ea0af5594e0f7c22d
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:43 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-15 18:39:43 +0200
+
+    #27 clean up code + improve notification
+
+
+
+:100644 100644 54563121600c79039f726f9db44b7787d9870b52 2688950de02322b7b2e83ae11a29abf2e184bf9b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotification.java
+:100644 100644 db52bf7ecb672f9c022e2cc08615707db9d35983 33505eb4854aae691fd283839489165c53ee721a M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java
+:100644 100644 9e885c65afa3575e67139083b07feae593032018 d77a28b1207ac1981dedb595d2125a31dc5e616b M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java
+:100644 100644 699cb9cf33d04f3c46b6ed7ef9676a02c048cf43 330f4e24518c335c9fbd27982f126be68df49183 M	src/test/resources/META-INF/persistence.xml

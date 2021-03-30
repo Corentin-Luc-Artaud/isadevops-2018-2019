@@ -1,0 +1,11 @@
+commit 3628120df6cee5e7ebafb57b085888e1b627497e
+tree 89d632f8ce00475f8f658606e3a026695e5e9a08
+parent 5d54c2f90547c1e38ce228d0d1111c238a09618b
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 17:13:11 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 17:13:11 +0200
+
+    #29 moved webServices Planning and Student in war
+
+
+
+:100644 100644 b56b9bfef1430d620a7ccc3de78e3df661e5c088 abaeeb9e82311d87f3e24a89621d661bf0bd8b22 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java

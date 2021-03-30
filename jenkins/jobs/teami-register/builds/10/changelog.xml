@@ -1,0 +1,23 @@
+commit 72d8ae6143ce90febc867cf91c3b48f9f263eaee
+tree e369c046c21e889e6e2e0a1b844b64b52f204b11
+parent a1da24c635e0ee9ad73d5014d2f8ae5f02671fd1
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 09:44:29 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 09:44:29 +0200
+
+    #6 add persistence in StudentRegisterBean
+
+
+
+:100644 100644 ab0ab0b888e5fc992e0824014b70c2f9eca5770a 70108d199e149d0727018e64937081aec61ea55b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterBean.java
+commit a1da24c635e0ee9ad73d5014d2f8ae5f02671fd1
+tree ac04d2d874af7d89f0d0e0ecff94610bcaebdc91
+parent ab2543ac911468aee58cf9bb660d31e0cd64b7e5
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 09:36:23 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-05 09:36:23 +0200
+
+    #6 correct test error because of persistence
+
+
+
+:100644 100644 fd99cacb22d4da73db650580238803b4b9675b70 82f7a343d9b263396ba1e00d99d85333f8c63266 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterTest.java
+:000000 100644 0000000000000000000000000000000000000000 a042d32f6723c27a6e06de0e2772088c0999d2eb A	src/test/resources/META-INF/persistence.xml

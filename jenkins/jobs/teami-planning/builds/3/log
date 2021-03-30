@@ -1,0 +1,101 @@
+Started by GitHub push by KienanBachwa
+Building in workspace /var/jenkins_home/workspace/teami-planning
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-planning.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-planning.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-planning.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 636b131503ed286acccda07f69b80846fb518bd4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 636b131503ed286acccda07f69b80846fb518bd4
+Commit message: "Modified planning webservice and planning manager"
+ > git rev-list --no-walk ca13cf1cd6652edb8c40edfa4a1cbfc9feff9eff # timeout=10
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-planning] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-planning@tmp/artifactory/buildInfo4221521409430766972.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-planning/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-planning/classworlds3153110434634768854conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-planning org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - -------< fr.unice.polytech.si4.isa.devops.teami:teami-planning >--------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-planning 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-planning ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-planning/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-planning ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-planning/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-planning ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 3 source files to /var/jenkins_home/workspace/teami-planning/target/classes
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[20,38] cannot find symbol
+  symbol:   method getEvents()
+  location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[30,17] cannot find symbol
+  symbol:   method getEvents()
+  location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[35,17] cannot find symbol
+  symbol:   method getEvents()
+  location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[44,38] cannot find symbol
+  symbol:   method getEvents()
+  location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[65,36] cannot find symbol
+  symbol:   method getEvents()
+  location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[74,24] cannot find symbol
+  symbol:   method getEvents()
+  location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[79,36] cannot find symbol
+  symbol:   method getEvents()
+  location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - 7 errors 
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  35.865 s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-12T08:30:35Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile) on project teami-planning: Compilation failure: Compilation failure: 
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[20,38] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   method getEvents()
+[main] ERROR org.apache.maven.cli.MavenCli -   location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[30,17] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   method getEvents()
+[main] ERROR org.apache.maven.cli.MavenCli -   location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[35,17] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   method getEvents()
+[main] ERROR org.apache.maven.cli.MavenCli -   location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[44,38] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   method getEvents()
+[main] ERROR org.apache.maven.cli.MavenCli -   location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[65,36] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   method getEvents()
+[main] ERROR org.apache.maven.cli.MavenCli -   location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[74,24] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   method getEvents()
+[main] ERROR org.apache.maven.cli.MavenCli -   location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-planning/src/main/java/fr/unice/polytech/si4/isa/devops/teami/utils/PlanningManager.java:[79,36] cannot find symbol
+[main] ERROR org.apache.maven.cli.MavenCli -   symbol:   method getEvents()
+[main] ERROR org.apache.maven.cli.MavenCli -   location: variable planning of type fr.unice.polytech.si4.isa.devops.teami.entities.ceremony.Planning
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

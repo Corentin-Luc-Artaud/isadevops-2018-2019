@@ -1,0 +1,16 @@
+commit 66bbf1a5cf9014b5bda709cdd570685fbe02f36c
+tree c8734e7668ca682eedd6f5c03c30c8e2a1a0d568
+parent 06897cbbd5e808a38ed7e8587122229f6d8fdcf1
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:04 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:04 +0200
+
+    #26 finished the register component
+
+
+
+:100644 100644 a6fa3ce3f87169e2f114ed47e2957366eaf1014d 44a27fc6ee7ddef2ce10586d7c83dbcdaeca36fe M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManager.java
+:100644 100644 42fb338e7c435b207ff502d559ad34a075bf2fd8 1b14257dc70065ee245801600d7c5b344b8fa253 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/GuestManagerBean.java
+:100644 100644 265f0908a229101ab8c2764992a67534faf388fb f1a17a1efded6095c029c71c70641655489e5f04 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/PrintingServiceMock/IPrintingService.java
+:100644 100644 edcf153542dff120df191ec092bd7bfbbb5352a0 3af806668cd72ed666f4513948c0b3b43b794615 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/api/utils/StudentAPI.java
+:100644 100644 7f0c93724fcf44b4695ad4e1a9906765450d2c69 41001009b4bc0eb08a20b4264d8062826ac0d6ee M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/GuestManagerTest.java
+:100644 100644 7b5d95ed226f94d80e316f66d6453902c967895d 88f4e4c5ceee3a67fc9a0a53c4dcfb9f8951b2bb M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/mock/StudentApiMock.java

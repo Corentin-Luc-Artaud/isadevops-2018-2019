@@ -1,0 +1,11 @@
+commit edfb4859103516b93673ea2993a95fcc8cd69b47
+tree 2a32dad5e7b161104bec5f9acfaf4bbb49e2ad16
+parent d32f397dfd1262e6992f1c71be37a673651d78e4
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 09:19:52 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-26 09:19:52 +0200
+
+    fix bug persistance
+
+
+
+:100644 100644 6dcd6cd869129e7252fa64425ac8b8b0015ea829 93a957a2f597b7eab179ff8f501f0f31e3093206 M	pom.xml

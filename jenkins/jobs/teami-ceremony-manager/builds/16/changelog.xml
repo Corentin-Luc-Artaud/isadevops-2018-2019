@@ -1,0 +1,11 @@
+commit a5a39047003cfdb99d54f16c8fafb2fa369a9833
+tree 60fd7937ee51659c572f688e36f29edc9c7daf3b
+parent 3f0b2fba58057c293b3a0834e1408e1bd4ea2088
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-19 17:59:45 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-19 17:59:45 +0200
+
+    #36 try to fix the last bug
+
+
+
+:100644 100644 1b731d97e66781d0487a18fab2f92d79587121c8 e134fac118047551504716274953ff4777a63dc6 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java

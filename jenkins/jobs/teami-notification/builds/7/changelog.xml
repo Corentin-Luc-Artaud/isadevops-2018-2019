@@ -1,0 +1,15 @@
+commit 4d36de7e34e6bd895e2c319ea0af5594e0f7c22d
+tree 99341fe9015fcfa1894640f9eed0cd4fa9b1f49f
+parent 1c5b1ecfcc2c4c0f8c3fa428953b70b8a5b0577b
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:04 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 17:38:04 +0200
+
+    Added persistence to ceremony-manager Modified pom for sonarqube Removed
+    all useless imports
+
+
+
+:100644 100644 450098f66a7d58f8a4f234bfb81e9d7e1144d08a bb688fa90ce7b57355c142cad27661bc68dbc632 M	pom.xml
+:100644 100644 403b0c97bfc8e0c46cd6404d2009e44e31a9e1f4 54563121600c79039f726f9db44b7787d9870b52 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotification.java
+:100644 100644 f8735c36ae579692ee0542bd1991e5f75934e85e db52bf7ecb672f9c022e2cc08615707db9d35983 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java
+:100644 100644 fe3ffbbac279be8960ef1deb9947e0b994732169 9e885c65afa3575e67139083b07feae593032018 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java

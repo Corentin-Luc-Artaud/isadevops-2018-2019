@@ -1,0 +1,11 @@
+commit ba55a05eadaa4dfba57146b4212c10f5686cfef3
+tree e9d1400c27078d859e3521cb48f3ed1352624024
+parent 487ddc5871304355ef47ced8adbb5aa47bc31250
+author Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-05-11 19:35:20 +0200
+committer Corentin Artaud <corentin.artaud@etu.unice.fr> 2019-05-11 19:35:20 +0200
+
+    mistake
+
+
+
+:100644 100644 82af26225c1960ce905b2d081168b3e0d6407d33 09400c5562edb12b752dcff256b329e417c11bb9 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetOffers.java

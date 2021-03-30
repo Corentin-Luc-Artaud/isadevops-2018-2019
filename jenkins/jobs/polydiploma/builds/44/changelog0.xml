@@ -1,0 +1,12 @@
+commit 3c41b988b285a2f2766745a098767bd38c62c0ec
+tree fa8745a4fbb51d97061489509f912713a755d582
+parent 2085ee3d15e6c4bc7f4e64373e90fe3be58aa469
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-05-01 18:10:51 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-05-01 18:10:51 +0200
+
+    #21 first scenario for cukespace
+
+
+
+:100644 100644 5b8f7f5261a17cc222dc69bfd033c8033cb08f54 2b05c2001cd15724e8989872d7e4eedf81fa0e28 M	src/test/java/features/ScenarioTest.java
+:100644 100644 9c93772cc6c77b78dbadc913020a8ef3486de9b7 e6b8723ca5dfb95af1dd98523aafe7c1dce90d3e M	src/test/resources/features/ScenarioTest.feature

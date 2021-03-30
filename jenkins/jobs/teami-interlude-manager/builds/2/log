@@ -1,0 +1,22 @@
+Started by user [8mha:////4MygrPD6YFAvMi/E/S4M6nr1Fda8lIFAXCIKZCZoqYWgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/teami-interlude-manager
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-interlude-manager.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-interlude-manager.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-interlude-manager.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 98b1ca91f4dcf4b17a422fc0c67475804ef4c576 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 98b1ca91f4dcf4b17a422fc0c67475804ef4c576
+Commit message: "#35 Ajout de EventOffer Ajout module interlude-manager Webservice permettant de créer des offres commencé"
+ > git rev-list --no-walk 98b1ca91f4dcf4b17a422fc0c67475804ef4c576 # timeout=10
+[teami-interlude-manager] $ /bin/sh -xe /tmp/jenkins805733492592692220.sh
++ rm -r '?/.m2/repository/fr'
+rm: cannot remove '?/.m2/repository/fr': No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

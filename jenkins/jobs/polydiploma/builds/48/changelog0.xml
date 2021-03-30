@@ -1,0 +1,15 @@
+commit 987edf83bf3feca021cabbd38a4da716e3c3835b
+tree e49f7623587a8bf356e179bc665110f4ded1c6d2
+parent 36d3e0afbb0f75cac11c0589baffb98992b674d0
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:55 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 19:28:55 +0200
+
+    #35 Added commands to choose candidate et get the candidates of an offer
+    and corresponding webservices
+
+
+
+:100644 100644 a36da9a7fb91670a896c774f51c5442f8f719e0e 0f50c6ee1392e06b54d5cac9b6560cf47943f3b1 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAP.java
+:100644 100644 e7e468803e95f2499a34cb100682537512607219 77ddd3ef5af0cdf0edae0902db053a243b60246b M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/AdminInterludeSOAPImpl.java
+:100644 100644 7320c47879ac468c6339d70ed720d8540010d724 199f84c9933a272dac2f8d1aa6b66ca010ab3757 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAP.java
+:100644 100644 b891ed77ceec49f84938d488be5eb9b0c8de44e8 3da9e9074408c13875d099e4b275ba4f5b36ebb3 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAPImpl.java

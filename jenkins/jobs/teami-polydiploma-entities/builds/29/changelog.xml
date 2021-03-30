@@ -1,0 +1,16 @@
+commit 12b70c68da764b60ced3504cc06c330b2759fe82
+tree 313fa5635d6b856f4cad8371880794be60255252
+parent c0968e7c2ac16b6fa48a38a1c19f77ac0f846ead
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:36:59 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:36:59 +0200
+
+    #26 finished the register component
+
+
+
+:100644 100644 d85c582328cb0eae6c4f8a363b38345817b6178e 54abd14327ca3c61244557cf08b60de53ad62912 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Person.java
+:100644 100644 4392a79f3035b830df37babc05b51eb18e0e67f5 04b2fcb5b7a81fd7bcd26d7e5b34e4de2a134c82 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/Student.java
+:100644 100644 c984c01ed915b4c877fc58fccb2fe51962a3d218 730b2ca7fd0f5ef75967bb6792452b334d7b93aa M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitation.java
+:100644 100644 4ee0fa786e032dd19379cf6a7f8eaf7eed526c18 c1a41d24cf202eb14c03e241ab256f2e8fa522b9 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/AttendantTest.java
+:100644 100644 e149acd63bc8d20936d6703543244b3f43e6f092 0e10ea17f466507e4ab63bf3286159124463a230 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/guests/StudentTest.java
+:100644 100644 f24e2b6c5fac86c07523f91fa6442b9d43fe1c23 251029308fa5f0c11b7754d29807afcab1fdae7a M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/invitations/StudentInvitationTest.java

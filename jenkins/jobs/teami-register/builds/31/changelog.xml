@@ -1,0 +1,11 @@
+commit e70177233e226fd51a529a3bb1a296088f2ffa8c
+tree 040a5407634c3516945c90e74429f53b1d9fa480
+parent 5db41c2f858151e2d86a98c4c91fcf774d9252de
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-03 00:33:59 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-03 00:33:59 +0200
+
+    #33 fix nbr of guests
+
+
+
+:100644 100644 f89524c1f90d956898998d80f20f29215e863649 2af148c37e1c2bc55a4a5f4b8a7c9f3c6418eea0 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/registers/StudentRegisterBean.java

@@ -1,0 +1,14 @@
+commit 36d3e0afbb0f75cac11c0589baffb98992b674d0
+tree 38c0cfd093dd785bb26c8351a7b61a1bc5bb446c
+parent 4795a3e5b40a5e9d1903d6249abf772dfb2853c1
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:11 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:11 +0200
+
+    #26 features cucumber
+
+
+
+:100644 100644 beb58bd3efd8136580bc4eeb191aaa87a1ae83fe 93e2a3e539b71eba1a351623eeae950ab6531dd3 M	src/main/resources/META-INF/persistence.xml
+:100644 100644 2b05c2001cd15724e8989872d7e4eedf81fa0e28 3a164e38bc32c50d4671e0d7d4a0a1ac37a33a29 M	src/test/java/features/ScenarioTest.java
+:100644 100644 0e0c003afc0b2d631b1649e560dde69f493da572 a0384ad9d7f0eb7bc033663031af6c0524127736 M	src/test/resources/arquillian.xml
+:100644 100644 e6b8723ca5dfb95af1dd98523aafe7c1dce90d3e 294dacde42300565ae161828d528b2ce51a0a97d M	src/test/resources/features/ScenarioTest.feature

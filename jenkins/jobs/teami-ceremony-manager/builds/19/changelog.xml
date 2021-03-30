@@ -1,0 +1,13 @@
+commit 5d54c2f90547c1e38ce228d0d1111c238a09618b
+tree 4a1de7a75af3947296b2fcba8114835859c3f807
+parent 9c4657d983c7c94eb8151559ba553e7f3b2a6e30
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-24 14:10:30 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-24 14:10:30 +0200
+
+    #30 add print request + deadline delivered
+
+
+
+:100644 100644 e134fac118047551504716274953ff4777a63dc6 52bc93d815082ab0a23eb52953871e1362ede527 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java
+:100644 100644 14db5214f58b08142e4d658c7df52c59589af0c8 df0da06be661151b915ff874c54787d6d923f77a M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/AppTest.java
+:100644 100644 1e7a81d8d790b1587b7a4b8309a4301f1d6cde98 b56b9bfef1430d620a7ccc3de78e3df661e5c088 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/MockGuestManager.java

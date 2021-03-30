@@ -1,0 +1,12 @@
+commit bc66201922fec3ffe6ace55745792f8393a22099
+tree b432ed17cea484eca59dbfcfb87c42bdb86c4d34
+parent c50a65f818c1c8229fb1309c05190813184c0c1b
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:57 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-23 10:46:57 +0200
+
+    clean up code
+
+
+
+:100644 100644 933c04e688eb2453ac5f691f51c2e943074fda83 27d629eaeb5f32d6aa51573deb38a286cc18009d M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddStudentEvent.java
+:100644 100644 a3071add4df72df751ad7e6990784c0e1d6f90ef 2f9adc2042a7bce2236a40f03dd5550c7bdd1620 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/DisplayPlanning.java

@@ -1,0 +1,11 @@
+commit ee93e185032d1e44d99a9d20f921bce13b84a750
+tree 51e539fa3eb26c97cdee55bb65ec25f9b4f8b32a
+parent e86555fcf43af64035aa0497f044ff02dca057ce
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:47 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-04-12 12:03:47 +0200
+
+    #10 Added wsdl and planning webservice stubs
+
+
+
+:100644 100644 8658792808b8fafc2571b064a77492e7e465f44d 50c85fb444ee5a2e1fd351e2e47626c155e9e100 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/ceremony/manager/CeremonyManagerBean.java

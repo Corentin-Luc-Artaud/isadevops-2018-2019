@@ -1,0 +1,11 @@
+commit af0f32f70137675ec17c8753191b88abba07dfbe
+tree 0ce3108a48678c484b4922cc69251376d66d1709
+parent d4125ba6b3b47cfe2c40486cf7f81c26c550bab4
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:05 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-04-28 20:37:05 +0200
+
+    #26 finished the register component
+
+
+
+:100644 100644 d77a28b1207ac1981dedb595d2125a31dc5e616b a67dbf22adc578054ff025b5baab5ed6da8b0845 M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java

@@ -1,0 +1,11 @@
+commit ead6b665f72f7afc492317b7cf02350144d56712
+tree bc0305533557c4bd92ff3f28e363bbaffd2a760d
+parent 3b4277522a9123c706bd68d2053408cc33ef9b9a
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 16:48:35 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 16:48:35 +0200
+
+    #21 Correcting a bug
+
+
+
+:100644 100644 d1c46cc1de68ff7a1fd2edee931bbfac50353d43 015912b22f840d7a7b4850209512ec69a4e20b55 M	src/test/java/features/Scenario.java

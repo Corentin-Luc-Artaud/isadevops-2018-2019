@@ -1,0 +1,89 @@
+Started by GitHub push by AlexisDefranoux
+Building in workspace /var/jenkins_home/workspace/teami-notification
+using credential 97fbda0c-87a0-475d-b85b-e27c7e4a8d2a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pns-isa-devops-1819/teami-notification.git # timeout=10
+Fetching upstream changes from https://github.com/pns-isa-devops-1819/teami-notification.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress https://github.com/pns-isa-devops-1819/teami-notification.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision af0f32f70137675ec17c8753191b88abba07dfbe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f af0f32f70137675ec17c8753191b88abba07dfbe
+Commit message: "#26 finished the register component"
+ > git rev-list --no-walk d4125ba6b3b47cfe2c40486cf7f81c26c550bab4 # timeout=10
+Jenkins Artifactory Plugin version: 3.2.2
+Artifactory integration is enabled
+[teami-notification] $ /usr/lib/jvm/java-1.8-openjdk/bin/java -classpath /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/* -Dmaven.home=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3 -Dmaven.conf=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/M3/conf -DbuildInfoConfig.propertiesFile=/var/jenkins_home/workspace/teami-notification@tmp/artifactory/buildInfo3655144513267531264.properties -DbuildInfoConfig.artifactoryResolutionEnabled=true -Dm3plugin.lib=/var/jenkins_home/workspace/teami-notification/cache/artifactory-plugin/3.2.2 -Dclassworlds.conf=/var/jenkins_home/workspace/teami-notification/classworlds6453807869861261966conf -Dmaven.multiModuleProjectDirectory=/var/jenkins_home/workspace/teami-notification org.codehaus.plexus.classworlds.launcher.Launcher clean install deploy
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.jfrog.build.extractor.maven.BuildInfoRecorder - Initializing Artifactory Build-Info Recording
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - -----< fr.unice.polytech.si4.isa.devops.teami:teami-notification >------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building teami-notification 1.1
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --------------------------------[ jar ]---------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ teami-notification ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting /var/jenkins_home/workspace/teami-notification/target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ teami-notification ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /var/jenkins_home/workspace/teami-notification/src/main/resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ teami-notification ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /var/jenkins_home/workspace/teami-notification/target/classes
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-notification/src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java: /var/jenkins_home/workspace/teami-notification/src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java uses unchecked or unsafe operations.
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - /var/jenkins_home/workspace/teami-notification/src/main/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationBean.java: Recompile with -Xlint:unchecked for details.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ teami-notification ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ teami-notification ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /var/jenkins_home/workspace/teami-notification/target/test-classes
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - COMPILATION ERROR : 
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - /var/jenkins_home/workspace/teami-notification/src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java:[48,31] no suitable constructor found for Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality,int)
+    constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student() is not applicable
+      (actual and formal argument lists differ in length)
+[main] ERROR org.apache.maven.plugin.compiler.TestCompilerMojo - /var/jenkins_home/workspace/teami-notification/src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java:[49,31] no suitable constructor found for Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality,int)
+    constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student() is not applicable
+      (actual and formal argument lists differ in length)
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - 2 errors 
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time:  51.236 s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-04-28T18:45:00Z
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project teami-notification: Compilation failure: Compilation failure: 
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-notification/src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java:[48,31] no suitable constructor found for Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality,int)
+[main] ERROR org.apache.maven.cli.MavenCli -     constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality) is not applicable
+[main] ERROR org.apache.maven.cli.MavenCli -       (actual and formal argument lists differ in length)
+[main] ERROR org.apache.maven.cli.MavenCli -     constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student() is not applicable
+[main] ERROR org.apache.maven.cli.MavenCli -       (actual and formal argument lists differ in length)
+[main] ERROR org.apache.maven.cli.MavenCli - /var/jenkins_home/workspace/teami-notification/src/test/java/fr/unice/polytech/si4/isa/devops/teami/notification/StudentNotificationTest.java:[49,31] no suitable constructor found for Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality,int)
+[main] ERROR org.apache.maven.cli.MavenCli -     constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student(java.lang.String,java.lang.String,java.lang.String,int,fr.unice.polytech.si4.isa.devops.teami.entities.school.Speciality) is not applicable
+[main] ERROR org.apache.maven.cli.MavenCli -       (actual and formal argument lists differ in length)
+[main] ERROR org.apache.maven.cli.MavenCli -     constructor fr.unice.polytech.si4.isa.devops.teami.entities.guests.Student.Student() is not applicable
+[main] ERROR org.apache.maven.cli.MavenCli -       (actual and formal argument lists differ in length)
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke Artifactory Maven 3' changed build result to FAILURE
+Build step 'Invoke Artifactory Maven 3' marked build as failure
+Finished: FAILURE

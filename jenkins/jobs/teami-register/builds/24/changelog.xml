@@ -1,0 +1,12 @@
+commit c71cb7d9c18b670d2ba871f2e80ede48f8704188
+tree edfbaeb14864f4dd08cc980ab9859b149c671d27
+parent 77bef3dc229324eba3ea79d2ccdbc7f0bf525cc6
+author François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 17:13:33 +0200
+committer François Nespoulous <francois.nespoulous@etu.unice.fr> 2019-04-27 17:13:33 +0200
+
+    #29 moved webServices Planning and Student in war
+
+
+
+:100644 000000 38349eb882c55d00c8fc9870295bffb9f4680ff6 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAP.java
+:100644 000000 e0df58438decc0888a84a6ecff8ebc5de5c4594f 0000000000000000000000000000000000000000 D	src/main/java/fr/unice/polytech/si4/isa/devops/teami/webservice/StudentSOAPImpl.java

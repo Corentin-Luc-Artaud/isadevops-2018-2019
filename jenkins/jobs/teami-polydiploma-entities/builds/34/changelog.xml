@@ -1,0 +1,11 @@
+commit 0df1d8b150d0afa76ff8cf5fe6b46229e73b0a20
+tree 108c42fab069aa230df5062233b24d34253522d6
+parent 619ac5d4367ba64e140c8fa2dda332bfddb428ec
+author Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:09 +0200
+committer Alexis Defranoux <alexis.defranoux@etu.univ-cotedazur.fr> 2019-05-02 15:16:09 +0200
+
+    #26 features cucumber
+
+
+
+:100644 100644 5cbace4d7424070c0c9f3efdca6c83bde73dfd42 543fbd8c7cc5e7a7b637fef02b3d8ab40bd9fb5d M	src/test/java/fr/unice/polytech/si4/isa/devops/teami/entities/ceremony/PlanningTest.java

@@ -1,0 +1,15 @@
+commit b7c4fe990e7d917874ce29f9ddcebea1c71884a1
+tree bddc9986ca5c701e34dbc1ae6538d07ca7aab0d9
+parent 6e8de56d9aec84f475717182d26f08c226277d9e
+author Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:38 +0200
+committer Kienan Bachwa <kienan.bachwa@etu.univ-cotedazur.fr> 2019-05-02 23:38:38 +0200
+
+    Added commands to add vip and see them
+
+
+
+:100644 100644 d58dab05171b228f731572f492f12944060c2478 019f60a650e5437259638eeb472744835c3d5962 M	src/main/java/fr/unice/polytech/si4/isa/devops/teami/Main.java
+:000000 100644 0000000000000000000000000000000000000000 fb8feb1bf6bf8002e2a54cb6c3358178472d2cba A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/AddVip.java
+:000000 100644 0000000000000000000000000000000000000000 26032a784de5b4287ae890d1a164163d11230007 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/GetVips.java
+:000000 100644 0000000000000000000000000000000000000000 d5e82e83d8509907941bca2045d67a59352b7a64 A	src/main/java/fr/unice/polytech/si4/isa/devops/teami/commands/RemoveVip.java
+:100644 100644 cb07d321d2d4c9165d27ca00db8d189b3472ef1c 99e8c0ba657f6bbda70f891b9f98586c8f83384b M	src/main/resources/ceremony-manager.wsdl
